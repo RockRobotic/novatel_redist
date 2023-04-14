@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LLMSettings>
+    <FlexNetOperationsLicenseServer>
+        <Address>https://license.novatel.com</Address>
+        <Port>443</Port>
+    </FlexNetOperationsLicenseServer>
+</LLMSettings>

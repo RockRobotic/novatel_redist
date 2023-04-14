@@ -1,0 +1,1148 @@
+ConvertIMU { Name: "DMARS-i_200Hz"
+	X: 3
+	Y: 1
+	Z: 6
+	ByteOrder: 0
+	GyroScale: 9000.00000000
+	GyroFlag: 0
+	AccelScale: 29585.79880000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	Decoder: StdIMU.dll
+	IMU: "DMARS-i 200Hz"
+	}
+
+ConvertIMU { Name: "iMAR_FJI_0-x_1-y_2-z_1000Hz"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 360000.00000000
+	GyroFlag: 1
+	AccelScale: 1000000.00000000
+	AccelFlag: 1
+	DataRate: 1000.000000
+	TimeTagFormat: 1
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	Decoder: imardll.dll
+	}
+
+ConvertIMU { Name: "iMAR_FMS_0-x_1-y_2-z_200Hz"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 360000.00000000
+	GyroFlag: 1
+	AccelScale: 1000000.00000000
+	AccelFlag: 1
+	DataRate: 200.000000
+	TimeTagFormat: 1
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	Decoder: imardll.dll
+	}
+
+ConvertIMU { Name: "iMAR_FMS_0-x_1-y_2-z_400Hz"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 360000.00000000
+	GyroFlag: 1
+	AccelScale: 1000000.00000000
+	AccelFlag: 1
+	DataRate: 400.000000
+	TimeTagFormat: 1
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	Decoder: imardll.dll
+	}
+
+ConvertIMU { Name: "iMAR_RQH_2000Hz_0-x_1-y_2-z"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 360000.00000000
+	GyroFlag: 1
+	AccelScale: 1000000.00000000
+	AccelFlag: 1
+	DataRate: 2000.000000
+	TimeTagFormat: 1
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	Decoder: imardll.dll
+	}
+
+ConvertIMU { Name: "iMAR_VRU_20deg/h"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 360000.00000000
+	GyroFlag: 1
+	AccelScale: 1000000.00000000
+	AccelFlag: 1
+	DataRate: 150.000000
+	TimeTagFormat: 1
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	Decoder: imardll.dll
+	}
+
+ConvertIMU { Name: "Ln200_100Hz"
+	X: 3
+	Y: 1
+	Z: 6
+	ByteOrder: 0
+	GyroScale: 2287.637957
+	GyroFlag: 0
+	AccelScale: 8192.000000
+	AccelFlag: 0
+	DataRate: 100.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	Decoder: StdIMU.dll
+	IMU: "LN200"
+	}
+
+ConvertIMU { Name: "Ln200_200Hz"
+	X: 3
+	Y: 1
+	Z: 6
+	ByteOrder: 0
+	GyroScale: 4575.275914
+	GyroFlag: 0
+	AccelScale: 16384.000000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	Decoder: StdIMU.dll
+	IMU: "LN200"
+	}
+
+ConvertIMU { Name: "Ln200_400Hz"
+	X: 3
+	Y: 1
+	Z: 6
+	ByteOrder: 0
+	GyroScale: 9150.551829
+	GyroFlag: 0
+	AccelScale: 16384.000000
+	AccelFlag: 0
+	DataRate: 400.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	Decoder: StdIMU.dll
+	IMU: "LN200"
+	}
+	
+ConvertIMU { Name: "Ln200_100Hz(UTC)"
+	X: 3
+	Y: 1
+	Z: 6
+	ByteOrder: 0
+	GyroScale: 2287.637957
+	GyroFlag: 0
+	AccelScale: 8192.000000
+	AccelFlag: 0
+	DataRate: 100.000000
+	TimeTagFormat: 1
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	Decoder: StdIMU.dll
+	IMU: "LN200"
+	}
+
+ConvertIMU { Name: "Ln200_200Hz(UTC)"
+	X: 3
+	Y: 1
+	Z: 6
+	ByteOrder: 0
+	GyroScale: 4575.275914
+	GyroFlag: 0
+	AccelScale: 16384.000000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 1
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	Decoder: StdIMU.dll
+	IMU: "LN200"
+	}
+
+ConvertIMU { Name: "Ln200_400Hz(UTC)"
+	X: 3
+	Y: 1
+	Z: 6
+	ByteOrder: 0
+	GyroScale: 9150.551829
+	GyroFlag: 0
+	AccelScale: 16384.000000
+	AccelFlag: 0
+	DataRate: 400.000000
+	TimeTagFormat: 1
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	Decoder: StdIMU.dll
+	IMU: "LN200"
+	}
+
+ConvertIMU { Name: "Crista"
+	X: 3
+	Y: 1
+	Z: 6
+	ByteOrder: 1
+	GyroScale: 109.22666667
+	GyroFlag: 1
+	AccelScale: 334.19683835
+	AccelFlag: 1
+	DataRate: 100.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	Decoder: StdIMU.dll
+	IMU: "Crista"
+	}
+
+ConvertIMU { Name: "ETSPI"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 1
+	GyroScale: 2235.76653100
+	GyroFlag: 0
+	AccelScale: 3435.71772100
+	AccelFlag: 0
+	DataRate: 100.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	Decoder: StdIMU.dll
+	IMU: "ETSPI"
+	}
+
+ConvertIMU { Name: "SiIMU"
+	X: 4
+	Y: 1
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 349065.85039887
+	GyroFlag: 0
+	AccelScale: 40000000.00000000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	Decoder: StdIMU.dll
+	IMU: "SiIMU"
+	}
+
+ConvertIMU { Name: "HG1900"
+	X: 5
+	Y: 1
+	Z: 3
+	ByteOrder: 1
+	GyroScale: 149922641.16100001
+	GyroFlag: 0
+	AccelScale: 220173438.32100001
+	AccelFlag: 0
+	DataRate: 100.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	Decoder: StdIMU.dll
+	IMU: "HG1900"
+	}
+ConvertIMU { Name: "SPAN AG58"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 149922641.16135576
+	GyroFlag: 0
+	AccelScale: 440346876.64041990
+	AccelFlag: 0
+	DataRate: 100.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "NovAtel SPAN AG58"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "SPAN AG62"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 149922641.16135576
+	GyroFlag: 0
+	AccelScale: 220173438.32020995
+	AccelFlag: 0
+	DataRate: 100.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "NovAtel SPAN AG62"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "SPAN FSAS"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 9216000.00000000
+	GyroFlag: 0
+	AccelScale: 655360.00000000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "NovAtel SPAN FSAS"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "SPAN iTrace 400 Hz"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 9216000.00000000
+	GyroFlag: 0
+	AccelScale: 655360.00000000
+	AccelFlag: 0
+	DataRate: 400.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "NovAtel SPAN iTrace 400 Hz"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "SPAN iTrace 200 Hz"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 9216000.00000000
+	GyroFlag: 0
+	AccelScale: 655360.00000000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "NovAtel SPAN iTrace 200 Hz"
+	Decoder: StdIMU.dll
+	}	
+ConvertIMU { Name: "SPAN LN200"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 9150.55182870
+	GyroFlag: 0
+	AccelScale: 16384.00000000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "NovAtel SPAN LN200"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "SPAN CPT"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 160849.54386300
+	GyroFlag: 0
+	AccelScale: 655360.00000000
+	AccelFlag: 0
+	DataRate: 100.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "NovAtel SPAN CPT"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "SPAN CPT7-HG4930"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 149922641.16135576
+	GyroFlag: 0
+	AccelScale: 536870912.00000000
+	AccelFlag: 0
+	DataRate: 100.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	Manufact: 1
+	IMU: "NovAtel SPAN CPT7-HG4930"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "SPAN 400Hz CPT7-HG4930"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 149922641.16135576
+	GyroFlag: 0
+	AccelScale: 536870912.00000000
+	AccelFlag: 0
+	DataRate: 400.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	Manufact: 1
+	IMU: "NovAtel SPAN 400Hz CPT7-HG4930"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "SPAN LCI"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 536870912.00000000
+	GyroFlag: 0
+	AccelScale: 1073741824.00000000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	Decoder: StdIMU.dll
+	IMU: "NovAtel SPAN LCI"
+	}
+ConvertIMU { Name: "SPAN uIRS"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 4685082.53629237
+	GyroFlag: 0
+	AccelScale: 6880419.94750656
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	Decoder: StdIMU.dll
+	IMU: "NovAtel SPAN uIRS"
+	}
+ConvertIMU { Name: "SPAN HG1900"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 149922641.16135576
+	GyroFlag: 0
+	AccelScale: 440346876.64041990
+	AccelFlag: 0
+	DataRate: 100.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "NovAtel SPAN HG1900"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "SPAN HG1930"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 149922641.16135576
+	GyroFlag: 0
+	AccelScale: 440346876.64041990
+	AccelFlag: 0
+	DataRate: 100.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "NovAtel SPAN HG1930"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "SPAN SAGEM"
+   X: 1
+   Y: 3
+   Z: 5
+   ByteOrder: 0
+   GyroScale: 248242.42424242
+   GyroFlag: 0
+   AccelScale: 248242.42424242
+   AccelFlag: 0
+   DataRate: 500.000000
+   TimeTagFormat: 0
+   TimeTagSource: 0
+   TimeTagBias: 0.000000
+   Manufact: 1
+   IMU: "NovAtel SPAN SAGEM"
+   Decoder: StdIMU.dll
+   }
+ConvertIMU { Name: "SPAN ADIS16488"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 2982616.17777778
+	GyroFlag: 0
+	AccelScale: 10737418.24000000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "NovAtel SPAN ADIS16488"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "SPAN LCI100C"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 17453292.51994329
+	GyroFlag: 0
+	AccelScale: 50000000.00000000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "NovAtel SPAN LCI100C"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "SPAN 500Hz LCI100C"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 17453292.51994329
+	GyroFlag: 0
+	AccelScale: 50000000.00000000
+	AccelFlag: 0
+	DataRate: 500.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "NovAtel SPAN 500Hz LCI100C"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "SPAN STIM300"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 2097152.00000000
+	GyroFlag: 0
+	AccelScale: 4194304.00000000
+	AccelFlag: 0
+	DataRate: 125.00
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "NovAtel SPAN STIM300"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "SPAN KVH1750"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 160849.54386300
+	GyroFlag: 0
+	AccelScale: 655360.00000000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "NovAtel SPAN KVH1750"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "SPAN EPSON G320"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 1024000000.00000000
+	GyroFlag: 0
+	AccelScale: 4176757608.35759350
+	AccelFlag: 0
+	DataRate: 125.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "NovAtel SPAN EPSON G320"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "SPAN EPSON G320 200Hz"
+	X: 1
+	Y: 3
+	Z: 5
+	GyroScale: 1638340000.00000000
+	GyroFlag: 0
+	AccelScale: 6682812173.37215042
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 0
+	Manufact: 1
+	Decoder: StdIMU.dll
+	IMU: "NovAtel SPAN 200Hz EPSON G320"
+	}
+ConvertIMU { Name: "SPAN EPSON G370"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 865076065.07606518
+	GyroFlag: 0
+	AccelScale: 3341406086.68607521
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "NovAtel SPAN EPSON G370"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "SPAN HG9900"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 4685082.53629237
+	GyroFlag: 0
+	AccelScale: 6880419.94752000
+	AccelFlag: 0
+	DataRate: 300.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "NovAtel SPAN HG9900"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "AG58 IP-S2"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 10000000.00000000
+	GyroFlag: 1
+	AccelScale: 10000000.00000000
+	AccelFlag: 1
+	DataRate: 100.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "IMU02"
+	X: 3
+	Y: 1
+	Z: 6
+	ByteOrder: 0
+	GyroScale: 4575.29000000
+	GyroFlag: 0
+	AccelScale: 16384.00000000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "LN200"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "IMU02(UTC)"
+	X: 3
+	Y: 1
+	Z: 6
+	ByteOrder: 0
+	GyroScale: 4575.29000000
+	GyroFlag: 0
+	AccelScale: 16384.00000000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 1
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "LN200"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "IMU07"
+	X: 3
+	Y: 1
+	Z: 6
+	ByteOrder: 0
+	GyroScale: 4575.29000000
+	GyroFlag: 0
+	AccelScale: 16384.00000000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "LN200"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "IMU07(UTC)"
+	X: 3
+	Y: 1
+	Z: 6
+	ByteOrder: 0
+	GyroScale: 4575.29000000
+	GyroFlag: 0
+	AccelScale: 16384.00000000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 1
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "LN200"
+	Decoder: StdIMU.dll
+	}	
+ConvertIMU { Name: "IMU08"
+	X: 3
+	Y: 1
+	Z: 6
+	ByteOrder: 0
+	GyroScale: 4575.29000000
+	GyroFlag: 0
+	AccelScale: 16384.00000000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "LN200"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "IMU08(UTC)"
+	X: 3
+	Y: 1
+	Z: 6
+	ByteOrder: 0
+	GyroScale: 4575.29000000
+	GyroFlag: 0
+	AccelScale: 16384.00000000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 1
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "LN200"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "IMU21"
+	X: 3
+	Y: 1
+	Z: 6
+	GyroScale: 23446.00000000
+	GyroFlag: 1
+	AccelScale: 34095.00000000
+	AccelFlag: 1
+	DataRate: 200.000000
+	TimeTagFormat: 0
+	Manufact: 1
+	IMU: "FSAS"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "IMU21(UTC)"
+	X: 3
+	Y: 1
+	Z: 6
+	GyroScale: 23446.00000000
+	GyroFlag: 1
+	AccelScale: 34095.00000000
+	AccelFlag: 1
+	DataRate: 200.000000
+	TimeTagFormat: 1
+	Manufact: 1
+	IMU: "FSAS"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "IMU26(UTC)"
+	X: 3
+	Y: 1
+	Z: 6
+	ByteOrder: 0
+	GyroScale: 36000.00000000
+	GyroFlag: 0
+	AccelScale: 655360.00000000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 1
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "LN200"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "IMU26"
+	X: 3
+	Y: 1
+	Z: 6
+	ByteOrder: 0
+	GyroScale: 36000.00000000
+	GyroFlag: 0
+	AccelScale: 655360.00000000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "LN200"
+	Decoder: StdIMU.dll
+	}	
+ConvertIMU { Name: "IMU31(UTC)"
+	X: 3
+	Y: 1
+	Z: 6
+	ByteOrder: 0
+	GyroScale: 36000.00000000
+	GyroFlag: 0
+	AccelScale: 655360.00000000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 1
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "LN200"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "IMU31"
+	X: 3
+	Y: 1
+	Z: 6
+	ByteOrder: 0
+	GyroScale: 36000.00000000
+	GyroFlag: 0
+	AccelScale: 655360.00000000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "LN200"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "IMU40"
+	X: 3
+	Y: 1
+	Z: 6
+	ByteOrder: 0
+	GyroScale: 36000.00000000
+	GyroFlag: 0
+	AccelScale: 655360.00000000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "LN200"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "IMU40(UTC)"
+	X: 3
+	Y: 1
+	Z: 6
+	ByteOrder: 0
+	GyroScale: 36000.00000000
+	GyroFlag: 0
+	AccelScale: 655360.00000000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 1
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "LN200"
+	Decoder: StdIMU.dll
+	}
+	
+ConvertIMU { Name: "IMU42"
+	X: 3
+	Y: 1
+	Z: 6
+	GyroScale: 174532.92520000
+	GyroFlag: 1
+	AccelScale: 500000.00000000
+	AccelFlag: 1
+	DataRate: 200.000000
+	TimeTagFormat: 0
+	Manufact: 1
+	IMU: "LN200"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "IMU42(UTC)"
+	X: 3
+	Y: 1
+	Z: 6
+	GyroScale: 174532.92520000
+	GyroFlag: 1
+	AccelScale: 500000.00000000
+	AccelFlag: 1
+	DataRate: 200.000000
+	TimeTagFormat: 1
+	Manufact: 1
+	IMU: "LN200"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "IMU44"
+	X: 3
+	Y: 1
+	Z: 6
+	GyroScale: 18000.00000000
+	GyroFlag: 1
+	AccelScale: 100000.00000000
+	AccelFlag: 1
+	DataRate: 200.000000
+	TimeTagFormat: 0
+	Manufact: 1
+	IMU: "uIRS"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "IMU44(UTC)"
+	X: 3
+	Y: 1
+	Z: 6
+	GyroScale: 18000.00000000
+	GyroFlag: 1
+	AccelScale: 100000.00000000
+	AccelFlag: 1
+	DataRate: 200.000000
+	TimeTagFormat: 1
+	Manufact: 1
+	IMU: "uIRS"
+	Decoder: StdIMU.dll
+	}	
+ConvertIMU { Name: "IMU46"
+	X: 3
+	Y: 1
+	Z: 6
+	ByteOrder: 0
+	GyroScale: 36000.00000000
+	GyroFlag: 0
+	AccelScale: 655360.00000000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "LN200"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "IMU46(UTC)"
+	X: 3
+	Y: 1
+	Z: 6
+	ByteOrder: 0
+	GyroScale: 36000.00000000
+	GyroFlag: 0
+	AccelScale: 655360.00000000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 1
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "LN200"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "IMU57"
+	X: 3
+	Y: 1
+	Z: 6
+	GyroScale: 18000.00000000
+	GyroFlag: 1
+	AccelScale: 100000.00000000
+	AccelFlag: 1
+	DataRate: 200.000000
+	TimeTagFormat: 0
+	Manufact: 1
+	IMU: "uIRS"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "IMU57(UTC)"
+	X: 3
+	Y: 1
+	Z: 6
+	GyroScale: 18000.00000000
+	GyroFlag: 1
+	AccelScale: 100000.00000000
+	AccelFlag: 1
+	DataRate: 200.000000
+	TimeTagFormat: 1
+	Manufact: 1
+	IMU: "uIRS"
+	Decoder: StdIMU.dll
+	}
+	
+ConvertIMU { Name: "IMU64"
+	X: 3
+	Y: 1
+	Z: 6
+	GyroScale: 174532.92520000
+	GyroFlag: 1
+	AccelScale: 500000.00000000
+	AccelFlag: 1
+	DataRate: 200.000000
+	TimeTagFormat: 0
+	Manufact: 1
+	IMU: "LN200"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "IMU64(UTC)"
+	X: 3
+	Y: 1
+	Z: 6
+	GyroScale: 174532.92520000
+	GyroFlag: 1
+	AccelScale: 500000.00000000
+	AccelFlag: 1
+	DataRate: 200.000000
+	TimeTagFormat: 1
+	Manufact: 1
+	IMU: "LN200"
+	Decoder: StdIMU.dll
+	}
+	
+ConvertIMU { Name: "Seapath MRU 5+"
+	X: 4
+	Y: 2
+	Z: 6
+	GyroScale: 1000000000.00000000
+	GyroFlag: 0
+	AccelScale: 1000000000.00000000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 1
+	Manufact: 1
+	Decoder: SeapathIMU.dll
+	}
+	
+ConvertIMU { Name: "SPAN uIMU"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 17453292.51994329
+	GyroFlag: 0
+	AccelScale: 50000000.00000000
+	AccelFlag: 0
+	DataRate: 200.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "NovAtel SPAN uIMU"
+	Decoder: StdIMU.dll
+	}
+	
+ConvertIMU { Name: "SPAN 400Hz uIMU"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 17453292.51994329
+	GyroFlag: 0
+	AccelScale: 50000000.00000000
+	AccelFlag: 0
+	DataRate: 400.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "NovAtel SPAN 400Hz uIMU"
+	Decoder: StdIMU.dll
+	}
+
+ConvertIMU { Name: "SPAN BOSCH SMI130"
+	X: 1
+	Y: 3
+	Z: 5
+	ByteOrder: 0
+	GyroScale: 13120.00000000
+	GyroFlag: 0
+	AccelScale: 5220.94701045
+	AccelFlag: 0
+	DataRate: 100.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+    IMU: "NovAtel SPAN BOSCH SMI130"
+	Decoder: StdIMU.dll
+	}
+ConvertIMU { Name: "SPAN IAM-20680"
+	X: 1
+	Y: 3
+	Z: 5
+	GyroScale: 65.50000000
+	GyroFlag: 1
+	AccelScale: 803.36076800
+	AccelFlag: 1
+	DataRate: 125.000000
+	TimeTagFormat: 0
+	TimeTagSource: 0
+	TimeTagBias: 0.000000
+	Manufact: 1
+	IMU: "NovAtel SPAN IAM-20680"
+	Decoder: StdIMU.dll
+	}	

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<UTC>
+
+  <!--offset valid up to but NOT including end date (i.e less than end date)-->
+
+  <offset value="7">
+    <endyear>1992</endyear>
+    <endmonth>7</endmonth>
+    <endday>1</endday>
+  </offset>
+
+  <offset value="8">
+    <endyear>1993</endyear>
+    <endmonth>7</endmonth>
+    <endday>1</endday>
+  </offset>
+  
+  <offset value="9">
+    <endyear>1994</endyear>
+    <endmonth>7</endmonth>
+    <endday>1</endday>
+  </offset>
+  
+  <offset value="10">
+    <endyear>1996</endyear>
+    <endmonth>1</endmonth>
+    <endday>1</endday>
+  </offset>
+  
+  <offset value="11">
+    <endyear>1997</endyear>
+    <endmonth>7</endmonth>
+    <endday>1</endday>
+  </offset>
+  
+  <offset value="12">
+    <endyear>1999</endyear>
+    <endmonth>1</endmonth>
+    <endday>1</endday>
+  </offset>
+  
+  <offset value="13">
+    <endyear>2006</endyear>
+    <endmonth>1</endmonth>
+    <endday>1</endday>
+  </offset>
+  
+  <offset value="14">
+    <endyear>2009</endyear>
+    <endmonth>1</endmonth>
+    <endday>1</endday>
+  </offset>
+  
+  <offset value="15">
+    <endyear>2012</endyear>
+    <endmonth>7</endmonth>
+    <endday>1</endday>
+  </offset>
+  
+  <offset value="16">
+    <endyear>2015</endyear>
+    <endmonth>7</endmonth>
+    <endday>1</endday>
+  </offset>
+
+  <offset value="17">
+    <endyear>2017</endyear>
+    <endmonth>1</endmonth>
+    <endday>1</endday>
+  </offset>
+  
+  <offset value="18">
+    <endyear></endyear>
+    <endmonth></endmonth>
+    <endday></endday>
+  </offset>
+  
+</UTC>

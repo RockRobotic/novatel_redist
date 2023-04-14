@@ -1,0 +1,306 @@
+$GRID UserFile
+Grid {          ; Grid definition
+        Name: "UTM"
+        Type: TM
+        tm_sf: 0.999600000000
+        tm_zone: 1 -177.000000000000 6.000000000000
+        tm_off: 500000.0000 0.0000 10000000.0000
+        tm_org: 0.000000000000 0.000000000000
+}
+Grid {          ; Grid definition
+        Name: "US State Plane"
+        Type: SP
+}
+Grid {          ; Grid definition
+        Name: "Gauss Kruger (3 deg)"
+        Type: TM
+        tm_sf: 1.000000000000
+        tm_zone: 1 3.00000000000 3.000000000000
+        tm_off: 500000.0000 0.0000 10000000.0000
+        tm_org: 0.000000000000 0.000000000000
+}
+Grid {          ; Grid definition
+	Name: "British Grid"
+	Type: TM
+	tm_sf: 0.999601271700
+	tm_zone: 0 -177.000000000000 6.000000000000
+	tm_off: 400000.0000 100000.0000 0.0000
+	tm_org: 49.000000000000 -2.000000000000
+}
+Grid {          ; Grid definition
+	Name: "Irish Grid"
+	Type: TM
+	tm_sf: 1.000035000000
+	tm_zone: 0 -177.000000000000 6.000000000000
+	tm_off: 200000.0000 250000.0000 0.0000
+	tm_org: 53.500000000000 -8.000000000000
+}
+Grid {          ; Grid definition
+	Name: "German Gauss Kruger (3 deg)"
+	Type: TM
+	tm_sf: 1.000000000000
+	tm_zone: 1 3.000000000000 3.000000000000
+	tm_off: 500000.0000 0.0000 0.0000
+	tm_org: 0.000000000000 0.000000000000
+}
+Grid {          ; Grid definition
+	Name: "ECEF"
+	Type: ECEF
+}
+Grid {          ; Grid definition
+	Name: "SL GRID 99"
+	Type: TM
+	tm_sf: 0.999923841800
+	tm_zone: 0 -177.000000000000 6.000000000000
+	tm_off: 500000.0000 500000.0000 0.0000
+	tm_org: 7.000471527778 80.771713083333
+}
+Grid {          ; Grid definition
+	Name: "Israeli Grid"
+	Type: TM
+	tm_sf: 1.000006700000
+	tm_zone: 0 -177.000000000000 6.000000000000
+	tm_off: 219529.5840 626907.3900 0.0000
+	tm_org: 31.734393611111 35.204516944444
+}
+Grid {          ; Grid definition
+	Name: "Japanese Zone #1"
+	Type: TM
+	tm_sf: 0.999900000000
+	tm_zone: 0 -177.000000000000 6.000000000000
+	tm_off: 0.0000 0.0000 0.0000
+	tm_org: 33.000000000000 129.500000000000
+}
+Grid {          ; Grid definition
+	Name: "Japanese Zone #10"
+	Type: TM
+	tm_sf: 0.999900000000
+	tm_zone: 0 -177.000000000000 6.000000000000
+	tm_off: 0.0000 0.0000 0.0000
+	tm_org: 40.000000000000 140.833333333333
+}
+Grid {          ; Grid definition
+	Name: "Japanese Zone #11"
+	Type: TM
+	tm_sf: 0.999900000000
+	tm_zone: 0 -177.000000000000 6.000000000000
+	tm_off: 0.0000 0.0000 0.0000
+	tm_org: 44.000000000000 140.250000000000
+}
+Grid {          ; Grid definition
+	Name: "Japanese Zone #12"
+	Type: TM
+	tm_sf: 0.999900000000
+	tm_zone: 0 -177.000000000000 6.000000000000
+	tm_off: 0.0000 0.0000 0.0000
+	tm_org: 44.000000000000 142.250000000000
+}
+Grid {          ; Grid definition
+	Name: "Japanese Zone #13"
+	Type: TM
+	tm_sf: 0.999900000000
+	tm_zone: 0 -177.000000000000 6.000000000000
+	tm_off: 0.0000 0.0000 0.0000
+	tm_org: 44.000000000000 144.250000000000
+}
+Grid {          ; Grid definition
+	Name: "Japanese Zone #14"
+	Type: TM
+	tm_sf: 0.999900000000
+	tm_zone: 0 -177.000000000000 6.000000000000
+	tm_off: 0.0000 0.0000 0.0000
+	tm_org: 26.000000000000 142.000000000000
+}
+Grid {          ; Grid definition
+	Name: "Japanese Zone #15"
+	Type: TM
+	tm_sf: 0.999900000000
+	tm_zone: 0 -177.000000000000 6.000000000000
+	tm_off: 0.0000 0.0000 0.0000
+	tm_org: 26.000000000000 127.500000000000
+}
+Grid {          ; Grid definition
+	Name: "Japanese Zone #16"
+	Type: TM
+	tm_sf: 0.999900000000
+	tm_zone: 0 -177.000000000000 6.000000000000
+	tm_off: 0.0000 0.0000 0.0000
+	tm_org: 26.000000000000 124.000000000000
+}
+Grid {          ; Grid definition
+	Name: "Japanese Zone #17"
+	Type: TM
+	tm_sf: 0.999900000000
+	tm_zone: 0 -177.000000000000 6.000000000000
+	tm_off: 0.0000 0.0000 0.0000
+	tm_org: 26.000000000000 131.000000000000
+}
+Grid {          ; Grid definition
+	Name: "Japanese Zone #18"
+	Type: TM
+	tm_sf: 0.999900000000
+	tm_zone: 0 -177.000000000000 6.000000000000
+	tm_off: 0.0000 0.0000 0.0000
+	tm_org: 20.000000000000 136.000000000000
+}
+Grid {          ; Grid definition
+	Name: "Japanese Zone #19"
+	Type: TM
+	tm_sf: 0.999900000000
+	tm_zone: 0 -177.000000000000 6.000000000000
+	tm_off: 0.0000 0.0000 0.0000
+	tm_org: 26.000000000000 154.000000000000
+}
+Grid {          ; Grid definition
+	Name: "Japanese Zone #2"
+	Type: TM
+	tm_sf: 0.999900000000
+	tm_zone: 0 -177.000000000000 6.000000000000
+	tm_off: 0.0000 0.0000 0.0000
+	tm_org: 33.000000000000 131.000000000000
+}
+Grid {          ; Grid definition
+	Name: "Japanese Zone #3"
+	Type: TM
+	tm_sf: 0.999900000000
+	tm_zone: 0 -177.000000000000 6.000000000000
+	tm_off: 0.0000 0.0000 0.0000
+	tm_org: 36.000000000000 132.166666666667
+}
+Grid {          ; Grid definition
+	Name: "Japanese Zone #4"
+	Type: TM
+	tm_sf: 0.999900000000
+	tm_zone: 0 -177.000000000000 6.000000000000
+	tm_off: 0.0000 0.0000 0.0000
+	tm_org: 33.000000000000 133.500000000000
+}
+Grid {          ; Grid definition
+	Name: "Japanese Zone #5"
+	Type: TM
+	tm_sf: 0.999900000000
+	tm_zone: 0 -177.000000000000 6.000000000000
+	tm_off: 0.0000 0.0000 0.0000
+	tm_org: 36.000000000000 134.333333333333
+}
+Grid {          ; Grid definition
+	Name: "Japanese Zone #6"
+	Type: TM
+	tm_sf: 0.999900000000
+	tm_zone: 0 -177.000000000000 6.000000000000
+	tm_off: 0.0000 0.0000 0.0000
+	tm_org: 36.000000000000 136.000000000000
+}
+Grid {          ; Grid definition
+	Name: "Japanese Zone #7"
+	Type: TM
+	tm_sf: 0.999900000000
+	tm_zone: 0 -177.000000000000 6.000000000000
+	tm_off: 0.0000 0.0000 0.0000
+	tm_org: 36.000000000000 137.166666666667
+}
+Grid {          ; Grid definition
+	Name: "Japanese Zone #8"
+	Type: TM
+	tm_sf: 0.999900000000
+	tm_zone: 0 -177.000000000000 6.000000000000
+	tm_off: 0.0000 0.0000 0.0000
+	tm_org: 36.000000000000 138.500000000000
+}
+Grid {          ; Grid definition
+	Name: "Japanese Zone #9"
+	Type: TM
+	tm_sf: 0.999900000000
+	tm_zone: 0 -177.000000000000 6.000000000000
+	tm_off: 0.0000 0.0000 0.0000
+	tm_org: 36.000000000000 139.833333333333
+}
+Grid {          ; Grid definition
+	Name: "EUREF89 NTM"
+	Type: TM
+	tm_sf: 1.000000000000
+	tm_zone: 1 1.500000000000 1.000000000000
+	tm_off: 100000.0000 1000000.0000 0.0000
+	tm_org: 58.000000000000 0.000000000000
+}
+Grid {          ; Grid definition
+	Name: "Lambert93"
+	Type: LAMBERT
+	lam_sf: 1.000000000000
+	lam_phi: 46.500000000000 44.000000000000 49.000000000000
+	lam_off: 700000.0000 6600000.0000
+	lam_cm: 3.000000000000
+}
+Grid {          ; Grid definition
+	Name: "Lambert93_CC42"
+	Type: LAMBERT
+	lam_sf: 1.000000000000
+	lam_phi: 42.000000000000 41.250000000000 42.750000000000
+	lam_off: 1700000.0000 1200000.0000
+	lam_cm: 3.000000000000
+}
+Grid {          ; Grid definition
+	Name: "Lambert93_CC43"
+	Type: LAMBERT
+	lam_sf: 1.000000000000
+	lam_phi: 43.000000000000 42.250000000000 43.750000000000
+	lam_off: 1700000.0000 2200000.0000
+	lam_cm: 3.000000000000
+}
+Grid {          ; Grid definition
+	Name: "Lambert93_CC44"
+	Type: LAMBERT
+	lam_sf: 1.000000000000
+	lam_phi: 44.000000000000 43.250000000000 44.750000000000
+	lam_off: 1700000.0000 3200000.0000
+	lam_cm: 3.000000000000
+}
+Grid {          ; Grid definition
+	Name: "Lambert93_CC45"
+	Type: LAMBERT
+	lam_sf: 1.000000000000
+	lam_phi: 45.000000000000 44.250000000000 45.750000000000
+	lam_off: 1700000.0000 4200000.0000
+	lam_cm: 3.000000000000
+}
+Grid {          ; Grid definition
+	Name: "Lambert93_CC46"
+	Type: LAMBERT
+	lam_sf: 1.000000000000
+	lam_phi: 46.000000000000 45.250000000000 46.750000000000
+	lam_off: 1700000.0000 5200000.0000
+	lam_cm: 3.000000000000
+}
+Grid {          ; Grid definition
+	Name: "Lambert93_CC47"
+	Type: LAMBERT
+	lam_sf: 1.000000000000
+	lam_phi: 47.000000000000 46.250000000000 47.750000000000
+	lam_off: 1700000.0000 6200000.0000
+	lam_cm: 3.000000000000
+}
+Grid {          ; Grid definition
+	Name: "Lambert93_CC48"
+	Type: LAMBERT
+	lam_sf: 1.000000000000
+	lam_phi: 48.000000000000 47.250000000000 48.750000000000
+	lam_off: 1700000.0000 7200000.0000
+	lam_cm: 3.000000000000
+}
+Grid {          ; Grid definition
+	Name: "Lambert93_CC49"
+	Type: LAMBERT
+	lam_sf: 1.000000000000
+	lam_phi: 49.000000000000 48.250000000000 49.750000000000
+	lam_off: 1700000.0000 8200000.0000
+	lam_cm: 3.000000000000
+}
+Grid {          ; Grid definition
+	Name: "Lambert93_CC50"
+	Type: LAMBERT
+	lam_sf: 1.000000000000
+	lam_phi: 50.000000000000 49.250000000000 50.750000000000
+	lam_off: 1700000.0000 9200000.0000
+	lam_cm: 3.000000000000
+}
+; end-of-file

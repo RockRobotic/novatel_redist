@@ -1,0 +1,7879 @@
+$DATUM FactoryList v8.20
+
+; --------------------------------------------
+; List of ellipsoids
+; --------------------------------------------
+Ellipse {
+        Name: Airy-1830 
+        a: 6377563.396 
+        f: 299.3249646
+}
+
+Ellipse {
+        Name: AusNational
+        a: 6378160 
+        f: 298.25
+}
+
+Ellipse {
+        Name: Bessel-1841
+        a: 6377397.155
+        f: 299.1528128
+}
+Ellipse {
+        Name: Bessel-Namibia
+        a: 6377483.865 
+        f: 299.1528128
+}
+
+Ellipse {
+        Name: Clarke-1866 
+        a: 6378206.4 
+        f: 294.9786982
+}
+
+Ellipse {
+        Name: Clarke-1880
+        a: 6378249.145 
+        f: 293.465
+}
+
+Ellipse {
+        Name: Evst(Brunei)
+        a: 6377298.556 
+        f: 300.8017
+}
+
+Ellipse {
+        Name: Evst(India-1830)
+        a: 6377276.345 
+        f: 300.8017
+}
+
+Ellipse {
+        Name: Evst(India-1956)
+        a: 6377301.243 
+        f: 300.8017
+}
+
+Ellipse {
+        Name: Evst(Pakistan)
+        a: 6377309.613 
+        f: 300.8017
+}
+
+Ellipse {
+        Name: Evst(WMal-1948)
+        a: 6377304.063 
+        f: 300.8017
+}
+
+Ellipse {
+        Name: Evst(WMal-1969)
+        a: 6377295.664 
+        f: 300.8017
+}
+
+Ellipse {
+        Name: Helmert-1906 
+        a: 6378200 
+        f: 298.3
+}
+
+Ellipse {
+        Name: Hough-1960 
+        a: 6378270 
+        f: 297
+}
+
+Ellipse {
+        Name: Indonesian-1974 
+        a: 6378160 
+        f: 298.247
+}
+
+Ellipse {
+        Name: International
+        a: 6378388 
+        f: 297
+}
+
+Ellipse {
+        Name: Krassovsky-1940 
+        a: 6378245 
+        f: 298.3
+}
+
+Ellipse {
+        Name: ModifiedAiry 
+        a: 6377340.189 
+        f: 299.3249646
+}
+
+Ellipse {
+        Name: ModFischer-1960 
+        a: 6378155 
+        f: 298.3
+}
+
+Ellipse {
+        Name: SouthAm-1969 
+        a: 6378160 
+        f: 298.25
+}
+
+Ellipse {
+        Name: WGS-1972
+        a: 6378135 
+        f: 298.26
+}
+
+Ellipse {
+        Name: WGS-1984
+        a: 6378137 
+        f: 298.257223563
+}
+
+Ellipse {
+        Name: GRS80
+        a: 6378137 
+        f: 298.257222101
+}
+
+; --------------------------------------------
+; List of datums
+; --------------------------------------------
+
+DatumNT {
+        Name: Hawaiian-Clark-Hawaii
+        EllName: Clarke-1866
+        Enable: 0
+	   NovID: 77
+	   NavToolOnly: 1
+}
+DatumNT {
+        Name: Hawaiian-Clark-Kauai
+        EllName: Clarke-1866
+        Enable: 0
+	   NovID: 78
+	   NavToolOnly: 1
+}
+DatumNT {
+        Name: Hawaiian-Clark-Maui
+        EllName: Clarke-1866
+        Enable: 0
+	   NovID: 79
+	   NavToolOnly: 1
+}
+DatumNT {
+        Name: Hawaiian-Clark-Oahu
+        EllName: Clarke-1866
+        Enable: 0
+	   NovID: 80
+	   NavToolOnly: 1
+}
+DatumNT {
+        Name: Hawaiian-Int-Hawaii
+        EllName: International
+        Enable: 0
+	   NovID: 81
+	   NavToolOnly: 1
+}
+DatumNT {
+        Name: Hawaiian-Int-Kauai
+        EllName: International
+        Enable: 0
+	   NovID: 82
+	   NavToolOnly: 1
+}
+DatumNT {
+        Name: Hawaiian-Int-Maui
+        EllName: International
+        Enable: 0
+	   NovID: 83
+	   NavToolOnly: 1
+}
+DatumNT {
+        Name: Hawaiian-Int-Oahu
+        EllName: International
+        Enable: 0
+	   NovID: 84
+	   NavToolOnly: 1
+}
+Datum {
+	Name: CH1903+
+	EllName: Bessel-1841
+	Enable: 0
+}
+Datum {
+        Name: Adindan 
+        EllName: Clarke-1880
+        Enable: 0
+	   NovID: 65
+}
+
+Datum {
+        Name: Afgooye 
+        EllName: Krassovsky-1940
+        Enable: 0
+}
+
+Datum {
+        Name: AmSamoa-1962               ; American Samoa
+        EllName: Clarke-1866
+        Enable: 0
+}
+
+Datum {
+        Name: Anna-1965 
+        EllName: AusNational
+        Enable: 0
+}
+
+Datum {
+        Name: Antigua-1943 
+        EllName: Clarke-1880
+        Enable: 0
+}
+
+Datum {
+        Name: Arc-1950 
+        EllName: Clarke-1880
+        Enable: 0
+	   NovID: 2
+}
+
+Datum {
+        Name: Arc-1960 
+        EllName: Clarke-1880 
+        Enable: 0
+	   NovID: 3
+}
+
+DatumNT {
+        Name: Arc-1960-Ken-Tan
+        EllName: Clarke-1880 
+        Enable: 0
+	   NovID: 66
+	   NavToolOnly: 1
+}
+
+Datum {
+        Name: AscenIs-1958 
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: Beacon-1945 
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: DOS 
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: TernIs              ; Tern Island
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: Station-1952 
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: AGD66          ; australian geodetic datum
+        EllName: AusNational
+        Enable: 0
+	   NovID: 3
+}
+
+Datum {
+        Name: AGD84            ; australian geodetic datum
+        EllName: AusNational
+        Enable: 0
+	   NovID: 4
+}
+
+Datum {
+        Name: AyabLight 
+        EllName: Clarke-1880
+        Enable: 0
+}
+
+Datum {
+        Name: Bellevue
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: Bermuda-1956 
+        EllName: Clarke-1866
+        Enable: 0
+}
+
+Datum {
+        Name: Bissau 
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: BogotaObs
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: CampoInchauspe 
+        EllName: International
+        Enable: 0
+	   NovID: 51
+}
+
+Datum {
+        Name: Canton-1966 
+        ELlName: International
+        Enable: 0
+}
+
+Datum {
+        Name: Cape 
+        EllName: Clarke-1880
+        Enable: 0
+	   NovID: 10
+}
+
+Datum {
+        Name: CapeCanav
+        ELlName: Clarke-1866
+        Enable: 0
+}
+
+Datum {
+        Name: Carthage
+        EllName: Clarke-1880
+        Enable: 0
+	   NovID: 9
+}
+
+Datum {
+        Name: ChathamIs-1971 
+        EllName: International
+        Enable: 0
+	   NovID: 8
+}
+
+Datum {
+        Name: Chua
+        EllName: International
+        Enable: 0
+	   NovID: 48
+}
+
+Datum {
+        Name: Estonia-1937
+        EllName: Bessel-1841
+        Enable: 0
+}
+
+Datum {
+        Name: CorregoAlegre 
+        EllName: International
+        Enable: 0
+	   NovID: 52
+}
+
+Datum {
+        Name: Dabola 
+        ELlName: Clarke-1880
+        Enable: 0
+}
+
+Datum {
+        Name: DeceptionIs 
+        EllName: Clarke-1880
+        Enable: 0
+}
+
+Datum {
+        Name: Djakarta 
+        EllName: Bessel-1841
+        Enable: 0
+	   NovID: 11
+}
+
+Datum {
+        Name: DOS68 
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: EasterIs
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: ED50
+        EllName: International
+        Enable: 0
+	   NovID: 13
+}
+
+Datum {
+        Name: ED79
+        EllName: International
+        Enable: 0
+	   NovID: 14
+}
+
+Datum {
+        Name: FT55
+        EllName: Clarke-1880
+        Enable: 0
+}
+
+Datum {
+        Name: Gan-1970 
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: GD49
+        EllName: International
+        Enable: 0
+	   NovID: 16
+}
+
+Datum {
+        Name: GDA94         ; new australian datum
+        EllName: GRS80
+        Enable: 1
+}
+
+Datum {
+        Name: Graciosa-1948
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: Guam-1963 
+        EllName: Clarke-1866
+        Enable: 0
+	   NovID: 18
+}
+
+Datum {
+        Name: GUX
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: Hjorsey-1955
+        EllName: International
+        Enable: 0
+	   NovID: 24
+}
+
+Datum {
+        Name: HongKong-1963 
+        EllName: International
+        Enable: 0
+	   NovID: 25
+}
+
+Datum {
+        Name: Hu-Tzu-Shan 
+        EllName: International
+        Enable: 0
+	   NovID: 68
+}
+
+Datum {
+        Name: Indian
+        EllName: Evst(India-1830)
+        Enable: 1
+	   NovID: 70
+}
+
+DatumNT {
+        Name: Indian-Bangladesh
+        EllName: Evst(India-1830)
+        Enable: 1
+	   NovID: 69
+	   NavToolOnly: 1
+}
+
+Datum {
+        Name: Indian-1954 
+        EllName: Evst(India-1830)
+        Enable: 0
+}
+
+Datum {
+        Name: Indian1960 
+        EllName: Evst(India-1830)
+        Enable: 0
+}
+
+Datum {
+       Name: Indian
+       EllName: Evst(India-1830)
+       Enable: 0
+}
+
+Datum {
+        Name: Indonesian-1974 
+        EllName: Indonesian-1974
+        Enable: 0
+}
+
+Datum {
+        Name: IRISH 
+        EllName: ModifiedAiry   ; warning different than 6.02
+        Enable: 0
+	   NovID: 71
+}
+
+Datum {
+        Name: ISTS61-1968
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: ISTS73-1969
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: JohnIs-1961
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: Kandawala 
+        EllName: Evst(India-1830)
+        Enable: 0
+	   NovID: 30
+}
+
+Datum {
+        Name: KerguelIs-1949 
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: Kertau-1948
+        EllName: Evst(WMal-1948)
+        Enable: 0
+	   NovID: 29
+}
+
+Datum {
+        Name: Korea-1995
+        EllName: WGS-1984
+        Enable: 0
+}
+
+Datum {
+        Name: Kusaie1951 
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: LC5-1961 
+        EllName: Clarke-1866
+        Enable: 0
+}
+
+Datum {
+        Name: Leigon 
+        EllName: Clarke-1880
+        Enable: 0
+}
+
+Datum {
+        Name: Liberia-1964 
+        EllName: Clarke-1880
+        Enable: 0
+	   NovID: 31
+}
+
+Datum {
+        Name: Luzon 
+        EllName: Clarke-1866
+        Enable: 0
+	   NovID: 72
+}
+
+DatumNT {
+        Name: Luzon-Mindonaoa
+        EllName: Clarke-1866
+        Enable: 0
+	   NovID: 73
+	   NavToolOnly: 1
+}
+
+Datum {
+        Name: Mahe-1971 
+        EllName: Clarke-1880
+        Enable: 0
+}
+
+Datum {
+        Name: Massawa
+        EllName: Bessel-1841
+        Enable: 0
+}
+
+Datum {
+        Name: Merchich
+        EllName: Clarke-1880
+        Enable: 0
+	   NovID: 34
+}
+
+Datum {
+        Name: Midway-1961 
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: Minna
+        EllName: Clarke-1880
+        Enable: 0
+	   NovID: 43
+}
+
+Datum {
+        Name: MontIs-1958 
+        EllName: Clarke-1880
+        Enable: 0
+}
+
+Datum {
+        Name: M-Poraloko 
+        EllName: Clarke-1880
+        Enable: 0
+}
+
+Datum {
+        Name: Nahrwan 
+        EllName: Clarke-1880
+        Enable: 0
+	   NovID: 74
+}
+
+Datum {
+        Name: Naparima
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: NAD27
+        EllName: Clarke-1866
+        Enable: 0
+	   NovID: 39
+}
+
+DatumNT {
+        Name: NAD27-Canada
+        EllName: Clarke-1866
+        Enable: 0
+	   NovID: 37
+	   NavToolOnly: 1
+}
+
+DatumNT {
+        Name: NAD27-Alaska
+        EllName: Clarke-1866
+        Enable: 0
+	   NovID: 38
+	   NavToolOnly: 1
+}
+
+DatumNT {
+        Name: NAD27-Mexico
+        EllName: Clarke-1866
+        Enable: 0
+	   NovID: 41
+	   NavToolOnly: 1
+}
+
+DatumNT {
+        Name: NAD27-CntAmer
+        EllName: Clarke-1866
+        Enable: 0
+	   NovID: 42
+	   NavToolOnly: 1
+}
+
+DatumNT {
+        Name: NAD27-Carib
+        EllName: Clarke-1866
+        Enable: 0
+	   NovID: 75
+	   NavToolOnly: 1
+}
+
+Datum {
+        Name: NorthSah-1959
+        EllName: Clarke-1880
+        Enable: 0
+}
+
+Datum {
+        Name: ObsMeteor-1939
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: OldEgyp-1907 
+        EllName: Helmert-1906
+        Enable: 0
+	   NovID: 12
+}
+
+Datum {
+        Name: OldHaw(clarke)
+        EllName: Clarke-1866
+        Enable: 0
+}
+
+Datum {
+        Name: OldHaw(int) 
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: Oman 
+        EllName: Clarke-1880
+        Enable: 0
+	   NovID: 44
+}
+
+Datum {
+        Name: OSGB36
+        EllName: Airy-1830
+        Enable: 0
+	   NovID: 76
+}
+
+Datum {
+        Name: Pico-Nieves 
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: Pitcairn-1967 
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: Point-58 
+        EllName: Clarke-1880 
+        Enable: 0
+}
+
+Datum {
+        Name: Point-Noir-1948 
+        EllName: Clarke-1880
+        Enable: 0
+}
+
+Datum {
+        Name: Port-Santo-1936 
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: SAD56
+        EllName: International
+        Enable: 0
+	   NovID: 49
+}
+
+Datum {
+        Name: SChile-1963
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: Puerto-Rico 
+        EllName: Clarke-1866
+        Enable: 0
+}
+
+Datum {
+        Name: QatarNational 
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: Qornoq 
+        EllName: International
+        Enable: 0
+	   NovID: 46
+}
+
+Datum {
+        Name: Reunion 
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: Rome-1940
+        EllName: International
+        Enable: 0
+	   NovID: 47
+}
+
+Datum {
+        Name: Pulkovo-1942
+        EllName: Krassovsky-1940
+        Enable: 0
+}
+
+Datum {
+        Name: Santo(DOS)-1965 
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: SaoBraz 
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: SapperHill-1943 
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: Selvagem-1938 
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: S-Leone-1960 
+        EllName: Clark-1880
+        Enable: 0
+}
+
+Datum {
+        Name: S-JTSK 
+        EllName: Bessel-1841
+        Enable: 0
+}
+
+Datum {
+        Name: SAD69
+        EllName: SouthAm-1969
+        Enable: 0
+	   NovID: 50
+}
+
+Datum {
+        Name: SIRGAS
+        EllName: GRS80
+        Enable: 0
+}
+
+Datum {
+        Name: SouthAsia 
+        EllName: ModFischer-1960
+        Enable: 0
+}
+
+Datum {
+        Name: Timbalai-1948 
+        EllName: Evst(Brunei)
+        Enable: 0
+	   NovID: 85
+}
+
+Datum {
+        Name: TOKYO
+        EllName: Bessel-1841
+        Enable: 0
+	   NovID: 86
+}
+
+Datum {
+        Name: Tristan-1968 
+        EllName: International
+        Enable: 0
+	   NovID: 57
+}
+
+Datum {
+        Name: VitiLevu-1916 
+        EllName: Clarke-1880
+        Enable: 0
+	   NovID: 58
+}
+
+Datum {
+        Name: Voirol-1960 
+        EllName: Clarke-1880
+        Enable: 0
+}
+
+Datum {
+        Name: WakeEni-1960 
+        EllName: Hough-1960
+        Enable: 0
+	   NovID: 67
+}
+
+Datum {
+        Name: WakeIs-1952 
+        EllName: International
+        Enable: 0
+}
+
+Datum {
+        Name: Zanderij 
+        EllName: International
+        Enable: 0
+	   NovID: 62
+}
+
+Datum {
+        Name: WGS84
+        EllName: WGS-1984
+        Enable: 1
+	   NovID: 61
+}
+
+Datum {
+        Name: ITRF90
+        EllName: GRS80
+        Enable: 0
+}
+
+Datum {
+        Name: ITRF94
+        EllName: GRS80
+        Enable: 0
+}
+
+Datum {
+        Name: ITRF96
+        EllName: GRS80
+        Enable: 0
+}
+
+Datum {
+        Name: ITRF00
+        EllName: GRS80
+        Enable: 1
+}
+
+Datum {
+	Name: IGb00
+	EllName: GRS80
+	Enable: 0
+}
+
+Datum {
+	Name: IGS00
+	EllName: GRS80
+	Enable: 0
+}
+
+Datum {
+	Name: ITRF05
+	EllName: GRS80
+	Enable: 1
+}
+
+Datum {
+	Name: IGS05
+	EllName: GRS80
+	Enable: 0
+}
+
+DatumNT {
+        Name: CSRS 
+        EllName: GRS80
+        Enable: 0
+	   NovID: 64
+	   NavToolOnly: 1
+}
+
+Datum {
+        Name: Bukit-Rimpah
+        EllName: Bessel-1841
+        Enable: 0
+	   NovID: 6
+}
+
+Datum {
+        Name: Camp-Area
+        EllName: International
+        Enable: 0
+	   NovID: 7
+}
+
+Datum {
+        Name: Gunung-Segara
+        EllName: Bessel-1841
+        Enable: 0
+	   NovID: 15
+}
+
+Datum {
+        Name: Herat-North
+        EllName: International
+        Enable: 0
+	   NovID: 23
+}
+
+Datum {
+        Name: Hermannskogel
+        EllName: Bessel-1841
+        Enable: 0
+}
+
+Datum {
+        Name: Tananarive-1925
+        EllName: International
+        Enable: 0
+	   NovID: 54
+}
+
+Datum {
+        Name: Voirol-1874
+        EllName: Clarke-1880
+        Enable: 0
+}
+
+Datum {
+        Name: Yacare
+        EllName: International
+        Enable: 0
+	   NovID: 53
+}
+Datum {
+	Name: SLD99
+	EllName: Evst(India-1830)
+	Enable: 0
+}
+Datum {
+	Name: Israel
+	EllName: GRS80
+	Enable: 0
+}
+Datum {
+	Name: ETRS89
+	EllName: GRS80
+	Enable: 1
+}
+Datum {
+	Name: ETRF2000
+	EllName: GRS80
+	Enable: 1
+}
+Datum {
+	Name: ETRF2005
+	EllName: GRS80
+	Enable: 1
+}
+Datum {
+	Name: ETRF2014
+	EllName: GRS80
+	Enable: 1
+}
+Datum {
+	Name: IGS97
+	EllName: GRS80
+	Enable: 0
+}
+Datum {
+	Name: ITRF88
+	EllName: GRS80
+	Enable: 0
+}
+Datum {
+	Name: ITRF89
+	EllName: GRS80
+	Enable: 0
+}
+Datum {
+	Name: ITRF91
+	EllName: GRS80
+	Enable: 0
+}
+Datum {
+	Name: ITRF92
+	EllName: GRS80
+	Enable: 0
+}
+Datum {
+	Name: ITRF93
+	EllName: GRS80
+	Enable: 0
+}
+Datum {
+	Name: ITRF97
+	EllName: GRS80
+	Enable: 0
+}
+Datum {
+	Name: WGS72
+	EllName: WGS-1972
+	Enable: 0
+	NovID: 60
+}
+Datum {
+	Name: NAD83
+	ELLName: GRS80  
+	Enable: 1
+    NovID: 36
+}
+Datum {
+	Name: NAD83(CORS96)
+	EllName: GRS80
+	Enable: 0
+}
+Datum {
+	Name: NAD83(2011)
+	EllName: GRS80
+	Enable: 1
+}
+Datum {
+	Name: NAD83(CSRS)
+	EllName: GRS80
+	Enable: 1
+}
+Datum {
+	Name: NAD83(PACP00)
+	EllName: GRS80
+	Enable: 0
+}
+Datum {
+	Name: NAD83(MARP00)
+	EllName: GRS80
+	Enable: 0
+}
+Datum {
+	Name: NAD83(MA11)
+	EllName: GRS80
+	Enable: 1
+}
+Datum {
+	Name: NAD83(PA11)
+	EllName: GRS80
+	Enable: 1
+}
+Datum {
+	Name: WGS84(G0730)
+	EllName: WGS-1984
+	Enable: 0
+}
+Datum {
+	Name: WGS84(G0873)
+	EllName: WGS-1984
+	Enable: 0
+}
+Datum {
+	Name: WGS84(G1150)
+	EllName: WGS-1984
+	Enable: 0
+}
+Datum {
+	Name: WGS84(G1674)
+	EllName: WGS-1984
+	Enable: 0
+}
+Datum {
+	Name: RGF93
+	EllName: GRS80
+	Enable: 1
+}
+Datum {
+	Name: ITRF08
+	EllName: GRS80
+	Enable: 1
+}
+Datum {
+	Name: IGS08
+	EllName: GRS80
+	Enable: 1
+}
+Datum {
+	Name: IGb08
+	EllName: GRS80
+	Enable: 0
+}
+Datum {
+	Name: ITRF2014
+	EllName: GRS80
+	Enable: 1
+}
+Datum {
+	Name: IGS14
+	EllName: GRS80
+	Enable: 0
+}
+Datum {
+	Name: GDA2020
+	EllName: GRS80
+	Enable: 1
+}
+Datum {
+	Name: ITRF2020
+	EllName: GRS80
+	Enable: 1
+}
+; --------------------------------------------
+; conversions from one datum to another
+; --------------------------------------------
+
+;Convert {
+;     From: datum_name
+;     To:   WGS84
+;     Info: VER602
+;     Default: 0
+;
+;     Type: 3PARAM
+;     Offset: dx dy dz        
+;}
+
+Convert {
+     From: ED50
+     To:   WGS84
+     Info: NIMA-7Param
+     Default: 0
+
+     Type: 7PARAM
+     Offset: -102 -102 -129
+     Angle: 0.413 -0.184 0.385 1
+     Scale: 0.0000024664    
+}
+Convert {
+     From: OSGB36
+     To:   WGS84
+     Info: 7-Parameter
+     Default: 1
+
+     Type: 7PARAM
+     Offset: 446 -99 544
+     Angle: -0.945 -0.261 -0.435    
+     Scale: -0.0000208927
+}
+; gda 94, itrf90,94,96
+Convert {
+     From: GDA94
+     To:   WGS84
+     Info: AusLig
+     Default: 0
+     Type: 3PARAM
+     Offset: 0 0 0
+}
+Convert {
+     From: AGD84
+     To:   WGS84
+     Info: AusLig
+     Default: 1
+
+     Type: 7PARAM
+     Offset: -117.763 -51.510 139.061
+     Angle: -0.292 -0.443 -0.277 1
+     Scale: -0.191
+}     
+Convert {
+     From: AGD84
+     To:   GDA94
+     Info: AusLig
+     Default: 1
+
+     Type: 7PARAM
+     Offset: -117.763 -51.510 139.061
+     Angle: -0.292 -0.443 -0.277 1
+     Scale: -0.191
+}     
+Convert {
+        From: ED50
+        To:   WGS84
+        Info: DK-7PARAM
+        Default: 1
+        
+        Type: 7PARAM
+        Offset: -81.070 -89.360 -115.753   ; m
+        Angle:  -0.48488 -0.02436 -0.41321 1          ; arcsec
+        Scale: -0.540645
+}
+Convert {        ; WGS84 to SLD99 (Sri_Lanka) 
+	From: WGS84
+	To: SLD99
+	Info: Sri_Lanka
+	Default: 1
+	Type: 7PARAM
+	Offset: 0.2930 -766.9500 -87.7130 ; m
+	Angle: 0.19570 1.69510 3.47300 1 ; arc-sec
+	Scale: 0.039300000000 ; ppm
+ }
+ Convert {        ; WGS84 to Israel (Israel) 
+	From: WGS84
+	To: Israel
+	Info: Israel
+	Default: 1
+	Type: 7PARAM
+	Offset: -23.5000 -18.1900 -17.5300 ; m
+	Angle: -0.30020 -1.83980 1.63920 1 ; arc-sec
+	Scale: 5.430000000000 ; ppm
+}
+Convert {        ; WGS84 to ITRF97 (IGN)
+	From: WGS84
+	To: ITRF97
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0048 0.0026 -0.0332 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.002920000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; ITRF97 to WGS84 (NRCan) 
+	From: ITRF97
+	To: WGS84
+	Info: NRCan
+	Default: 0
+	Type: 14PARAM
+	Offset: -0.0067 -0.0061 0.0185 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: -0.001550000000 ; ppm
+	RotVel: 0.000000 0.000000 -0.020000  ; mas/y
+	Velocity: 0.0000 0.0600 0.1400 ; cm/y
+	PPMVel: -0.000010000000 ; ppm/y
+	RefYear: 1997.000
+}
+Convert {        ; ITRF96 to ITRF97 (NRCan) 
+	From: ITRF96
+	To: ITRF97
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0021 0.0002 -0.0100 ; m
+	Angle: 0.000125 -0.000224 -0.000061 0 ; arc-sec
+	Scale: 0.000935000000 ; ppm
+	RotVel: 0.013000 -0.015000 0.000000  ; mas/y
+	Velocity: -0.0700 0.0100 -0.1900 ; cm/y
+	PPMVel: 0.000192000000 ; ppm/y
+	RefYear: 1997.000
+}
+Convert {        ; ITRF93 to ITRF96 (NRCan) 
+	From: ITRF93
+	To: ITRF96
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0060 0.0050 0.0150 ; m
+	Angle: 0.000390 -0.000800 0.000960 0 ; arc-sec
+	Scale: -0.000400000000 ; ppm
+	RotVel: 0.110000 0.190000 -0.050000  ; mas/y
+	Velocity: 0.2900 -0.0400 -0.0800 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 1988.000
+}
+Convert {        ; ITRF91 to ITRF96 (NRCan) 
+	From: ITRF91
+	To: ITRF96
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0200 -0.0160 0.0140 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: -0.000600000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 1988.000
+}
+Convert {        ; ITRF92 to ITRF96 (NRCan) 
+	From: ITRF92
+	To: ITRF96
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0080 -0.0020 0.0080 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000800000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 1988.000
+}
+Convert {        ; ITRF90 to ITRF96 (NRCan) 
+	From: ITRF90
+	To: ITRF96
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0180 -0.0120 0.0300 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: -0.000900000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 1988.000
+}
+Convert {        ; ITRF89 to ITRF96 (NRCan) 
+	From: ITRF89
+	To: ITRF96
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0230 -0.0360 0.0680 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: -0.004300000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 1988.000
+}
+Convert {        ; ITRF94 to ITRF96 (NRCan) 
+	From: ITRF94
+	To: ITRF96
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0000 0.0000 0.0000 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000000000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 1988.000
+}
+Convert {        ; ITRF88 to ITRF96 (NRCan) 
+	From: ITRF88
+	To: ITRF96
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0180 0.0000 0.0920 ; m
+	Angle: -0.000100 0.000000 0.000000 0 ; arc-sec
+	Scale: -0.007400000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 1988.000
+}
+Convert {        ; ITRF05 to ITRF00 (IGN)
+	From: ITRF05
+	To: ITRF00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0001 -0.0008 -0.0058 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000400000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: -0.0200 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; ITRF05 to IGb00 (IGN)
+	From: ITRF05
+	To: IGb00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0001 -0.0008 -0.0058 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000400000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: -0.0200 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; ITRF05 to IGS00 (IGN)
+	From: ITRF05
+	To: IGS00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0001 -0.0008 -0.0058 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000400000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: -0.0200 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGS05 to ITRF00 (IGN)
+	From: IGS05
+	To: ITRF00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0001 -0.0008 -0.0058 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000400000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: -0.0200 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGS05 to IGb00 (IGN)
+	From: IGS05
+	To: IGb00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0001 -0.0008 -0.0058 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000400000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: -0.0200 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGS05 to IGS00 (IGN)
+	From: IGS05
+	To: IGS00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0001 -0.0008 -0.0058 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000400000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: -0.0200 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; ITRF05 to IGb00 (IGN)
+	From: ITRF05
+	To: IGb00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0001 -0.0008 -0.0058 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000400000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: -0.0200 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; ITRF05 to IGS00 (IGN)
+	From: ITRF05
+	To: IGS00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0001 -0.0008 -0.0058 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000400000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: -0.0200 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84 to ITRF05 (IGN)
+	From: WGS84
+	To: ITRF05
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0020 -0.0009 -0.0047 ; m
+	Angle: 0.000000 0.000000 0.000000 ; arc-sec
+	Scale: 0.000940000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0300 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84 to IGS05 (IGN)
+	From: WGS84
+	To: IGS05
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0020 -0.0009 -0.0047 ; m
+	Angle: 0.000000 0.000000 0.000000 ; arc-sec
+	Scale: 0.000940000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0300 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; ITRF05 to WGS84(G1150) (IGN) 
+	From: ITRF05
+	To: WGS84(G1150)
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0001 -0.0008 -0.0058 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000400000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: -0.0200 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; ITRF05 to NAD83 (NRCan) 
+	From: ITRF05
+	To: NAD83
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0037 -1.9114 -0.5420 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: -0.000755000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0500 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF05 to NAD83(CSRS) (NRCan) 
+	From: ITRF05
+	To: NAD83(CSRS)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0037 -1.9114 -0.5420 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: -0.000755000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0500 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; IGS05 to NAD83(CSRS) (NRCan) 
+	From: IGS05
+	To: NAD83(CSRS)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0037 -1.9114 -0.5420 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: -0.000755000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0500 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF05 to NAD83(CORS96) (NRCan) 
+	From: ITRF05
+	To: NAD83(CORS96)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0037 -1.9114 -0.5420 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: -0.000755000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0500 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF05 to NAD83(2011) (NRCan) 
+	From: ITRF05
+	To: NAD83(2011)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0037 -1.9114 -0.5420 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: -0.000755000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0500 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; WGS84 to ITRF00 (IGN)
+	From: WGS84
+	To: ITRF00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0019 -0.0017 -0.0105 ; m
+	Angle: 0.000000 0.000000 0.000000 ; arc-sec
+	Scale: 0.001340000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84 to IGb00 (IGN) 
+	From: WGS84
+	To: IGb00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0019 -0.0017 -0.0105 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.001340000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGS00 to WGS84 (850) 
+	From: IGS00
+	To: WGS84
+	Info: 850
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0009 0.0006 0.0303 ; m
+	Angle: -0.000001 -0.000002 -0.000001 0 ; arc-sec
+	Scale: -0.002219551186 ; ppm
+	RotVel: -0.000086 -0.000101 -0.000137  ; mas/y
+	Velocity: -0.0096 -0.0104 0.1800 ; cm/y
+	PPMVel: -0.000080038919 ; ppm/y
+	RefYear: 2011.000
+}
+Convert {        ; WGS84(G1150) to IGS00 (810) 
+	From: WGS84(G1150)
+	To: IGS00
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0000 0.0000 -0.0000 ; m
+	Angle: 0.000000 -0.000001 0.000000 0 ; arc-sec
+	Scale: 0.000000000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84 to ITRF88 (IGN)
+	From: WGS84
+	To: ITRF88
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0228 0.0026 -0.1252 ; m
+	Angle: 0.000100 0.000000 0.000060 ; arc-sec
+	Scale: 0.010410000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84 to ITRF89 (IGN)
+	From: WGS84
+	To: ITRF89
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0278 0.0386 -0.1012 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.007310000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84 to ITRF90 (IGN)
+	From: WGS84
+	To: ITRF90
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0228 0.0146 -0.0632 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.003910000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84 to ITRF91 (IGN)
+	From: WGS84
+	To: ITRF91
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0248 0.0186 -0.0472 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.003610000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84 to ITRF92 (IGN)
+	From: WGS84
+	To: ITRF92
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0128 0.0046 -0.0412 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.002210000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84 to ITRF93 (IGN)
+	From: WGS84
+	To: ITRF93
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0240 0.0024 -0.0386 ; m
+	Angle: -0.001710 -0.001480 -0.000300 ; arc-sec
+	Scale: 0.003410000000 ; ppm
+	RotVel: -0.000110 -0.000190 0.070000  ; mas/y
+	Velocity: -0.2800 -0.0100 -0.2400 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84 to ITRF94 (IGN)
+	From: WGS84
+	To: ITRF94
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0048 0.0026 -0.0332 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.002920000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84 to ITRF96 (IGN)
+	From: WGS84
+	To: ITRF96
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0048 0.0026 -0.0332 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.002920000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; ITRF88 to NAD83(2011) (NRCan) 
+	From: ITRF88
+	To: NAD83(2011)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9730 -1.9072 -0.4209 ; m
+	Angle: -0.026688 0.001484 -0.011186 0 ; arc-sec
+	Scale: -0.007400000000 ; ppm
+	RotVel: -0.053000 0.742000 0.032000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF89 to NAD83 (NRCan) 
+	From: ITRF89
+	To: NAD83
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9680 -1.9432 -0.4449 ; m
+	Angle: -0.026588 0.001484 -0.011186 0 ; arc-sec
+	Scale: -0.004300000000 ; ppm
+	RotVel: -0.053000 0.742000 0.032000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF89 to NAD83(CORS96) (NRCan) 
+	From: ITRF89
+	To: NAD83(CORS96)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9680 -1.9432 -0.4449 ; m
+	Angle: -0.026588 0.001484 -0.011186 0 ; arc-sec
+	Scale: -0.004300000000 ; ppm
+	RotVel: -0.053000 0.742000 0.032000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF89 to NAD83(2011) (NRCan) 
+	From: ITRF89
+	To: NAD83(2011)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9680 -1.9432 -0.4449 ; m
+	Angle: -0.026588 0.001484 -0.011186 0 ; arc-sec
+	Scale: -0.004300000000 ; ppm
+	RotVel: -0.053000 0.742000 0.032000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF90 to NAD83 (NRCan) 
+	From: ITRF90
+	To: NAD83
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9730 -1.9192 -0.4829 ; m
+	Angle: -0.026588 0.001484 -0.011186 0 ; arc-sec
+	Scale: -0.000900000000 ; ppm
+	RotVel: -0.053000 0.742000 0.032000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF90 to NAD83(CORS96) (NRCan) 
+	From: ITRF90
+	To: NAD83(CORS96)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9730 -1.9192 -0.4829 ; m
+	Angle: -0.026588 0.001484 -0.011186 0 ; arc-sec
+	Scale: -0.000900000000 ; ppm
+	RotVel: -0.053000 0.742000 0.032000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF90 to NAD83(2011) (NRCan) 
+	From: ITRF90
+	To: NAD83(2011)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9730 -1.9192 -0.4829 ; m
+	Angle: -0.026588 0.001484 -0.011186 0 ; arc-sec
+	Scale: -0.000900000000 ; ppm
+	RotVel: -0.053000 0.742000 0.032000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF91 to NAD83 (NRCan) 
+	From: ITRF91
+	To: NAD83
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9710 -1.9232 -0.4989 ; m
+	Angle: -0.026588 0.001484 -0.011186 0 ; arc-sec
+	Scale: -0.000600000000 ; ppm
+	RotVel: -0.053000 0.742000 0.032000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF91 to NAD83(CORS96) (NRCan) 
+	From: ITRF91
+	To: NAD83(CORS96)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9710 -1.9232 -0.4989 ; m
+	Angle: -0.026588 0.001484 -0.011186 0 ; arc-sec
+	Scale: -0.000600000000 ; ppm
+	RotVel: -0.053000 0.742000 0.032000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF91 to NAD83(2011) (NRCan) 
+	From: ITRF91
+	To: NAD83(2011)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9710 -1.9232 -0.4989 ; m
+	Angle: -0.026588 0.001484 -0.011186 0 ; arc-sec
+	Scale: -0.000600000000 ; ppm
+	RotVel: -0.053000 0.742000 0.032000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF92 to NAD83 (NRCan) 
+	From: ITRF92
+	To: NAD83
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9830 -1.9092 -0.5049 ; m
+	Angle: -0.026588 0.001484 -0.011186 0 ; arc-sec
+	Scale: 0.000800000000 ; ppm
+	RotVel: -0.053000 0.742000 0.032000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF92 to NAD83(CORS96) (NRCan) 
+	From: ITRF92
+	To: NAD83(CORS96)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9830 -1.9092 -0.5049 ; m
+	Angle: -0.026588 0.001484 -0.011186 0 ; arc-sec
+	Scale: 0.000800000000 ; ppm
+	RotVel: -0.053000 0.742000 0.032000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF92 to NAD83(2011) (NRCan) 
+	From: ITRF92
+	To: NAD83(2011)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9830 -1.9092 -0.5049 ; m
+	Angle: -0.026588 0.001484 -0.011186 0 ; arc-sec
+	Scale: 0.000800000000 ; ppm
+	RotVel: -0.053000 0.742000 0.032000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF93 to NAD83 (NRCan) 
+	From: ITRF93
+	To: NAD83
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0546 -1.9118 -0.5171 ; m
+	Angle: -0.023558 0.005244 -0.011426 0 ; arc-sec
+	Scale: -0.000400000000 ; ppm
+	RotVel: 0.057000 0.932000 -0.018000  ; mas/y
+	Velocity: 0.2900 -0.0400 -0.0800 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF93 to NAD83(CORS96) (NRCan) 
+	From: ITRF93
+	To: NAD83(CORS96)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0546 -1.9118 -0.5171 ; m
+	Angle: -0.023558 0.005244 -0.011426 0 ; arc-sec
+	Scale: -0.000400000000 ; ppm
+	RotVel: 0.057000 0.932000 -0.018000  ; mas/y
+	Velocity: 0.2900 -0.0400 -0.0800 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF93 to NAD83(2011) (NRCan) 
+	From: ITRF93
+	To: NAD83(2011)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0546 -1.9118 -0.5171 ; m
+	Angle: -0.023558 0.005244 -0.011426 0 ; arc-sec
+	Scale: -0.000400000000 ; ppm
+	RotVel: 0.057000 0.932000 -0.018000  ; mas/y
+	Velocity: 0.2900 -0.0400 -0.0800 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF94 to NAD83 (NRCan) 
+	From: ITRF94
+	To: NAD83
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9910 -1.9072 -0.5129 ; m
+	Angle: -0.026588 0.001484 -0.011186 0 ; arc-sec
+	Scale: 0.000000000000 ; ppm
+	RotVel: -0.053000 0.742000 0.032000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF94 to NAD83(CORS96) (NRCan) 
+	From: ITRF94
+	To: NAD83(CORS96)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9910 -1.9072 -0.5129 ; m
+	Angle: -0.026588 0.001484 -0.011186 0 ; arc-sec
+	Scale: 0.000000000000 ; ppm
+	RotVel: -0.053000 0.742000 0.032000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF94 to NAD83(2011) (NRCan) 
+	From: ITRF94
+	To: NAD83(2011)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9910 -1.9072 -0.5129 ; m
+	Angle: -0.026588 0.001484 -0.011186 0 ; arc-sec
+	Scale: 0.000000000000 ; ppm
+	RotVel: -0.053000 0.742000 0.032000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF96 to NAD83 (NRCan) 
+	From: ITRF96
+	To: NAD83
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9910 -1.9072 -0.5129 ; m
+	Angle: -0.026588 0.001484 -0.011186 0 ; arc-sec
+	Scale: 0.000000000000 ; ppm
+	RotVel: -0.053000 0.742000 0.032000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF96 to NAD83(CORS96) (NRCan) 
+	From: ITRF96
+	To: NAD83(CORS96)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9910 -1.9072 -0.5129 ; m
+	Angle: -0.026588 0.001484 -0.011186 0 ; arc-sec
+	Scale: 0.000000000000 ; ppm
+	RotVel: -0.053000 0.742000 0.032000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF96 to NAD83(2011) (NRCan) 
+	From: ITRF96
+	To: NAD83(2011)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9910 -1.9072 -0.5129 ; m
+	Angle: -0.026588 0.001484 -0.011186 0 ; arc-sec
+	Scale: 0.000000000000 ; ppm
+	RotVel: -0.053000 0.742000 0.032000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF97 to NAD83 (NRCan) 
+	From: ITRF97
+	To: NAD83
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9993 -1.9089 -0.4751 ; m
+	Angle: -0.026915 0.001935 -0.011129 0 ; arc-sec
+	Scale: -0.003815000000 ; ppm
+	RotVel: -0.067000 0.757000 0.031000  ; mas/y
+	Velocity: 0.0700 -0.0100 0.1900 ; cm/y
+	PPMVel: -0.000192000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF97 to NAD83(CORS96) (NRCan) 
+	From: ITRF97
+	To: NAD83(CORS96)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9993 -1.9089 -0.4751 ; m
+	Angle: -0.026915 0.001935 -0.011129 0 ; arc-sec
+	Scale: -0.003815000000 ; ppm
+	RotVel: -0.067000 0.757000 0.031000  ; mas/y
+	Velocity: 0.0700 -0.0100 0.1900 ; cm/y
+	PPMVel: -0.000192000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF97 to NAD83(2011) (NRCan) 
+	From: ITRF97
+	To: NAD83(2011)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9993 -1.9089 -0.4751 ; m
+	Angle: -0.026915 0.001935 -0.011129 0 ; arc-sec
+	Scale: -0.003815000000 ; ppm
+	RotVel: -0.067000 0.757000 0.031000  ; mas/y
+	Velocity: 0.0700 -0.0100 0.1900 ; cm/y
+	PPMVel: -0.000192000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF00 to NAD83 (NRCan) 
+	From: ITRF00
+	To: NAD83
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0060 -1.9118 -0.5146 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: -0.002115000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0700 -0.0700 0.0500 ; cm/y
+	PPMVel: -0.000182000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; IGb00 to NAD83 (NRCan) 
+	From: IGb00
+	To: NAD83
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0060 -1.9118 -0.5146 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: -0.002115000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0700 -0.0700 0.0500 ; cm/y
+	PPMVel: -0.000182000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; IGS00 to NAD83 (NRCan) 
+	From: IGS00
+	To: NAD83
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0060 -1.9118 -0.5146 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: -0.002115000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0700 -0.0700 0.0500 ; cm/y
+	PPMVel: -0.000182000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF00 to NAD83(CORS96) (NRCan) 
+	From: ITRF00
+	To: NAD83(CORS96)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0060 -1.9118 -0.5146 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: -0.002115000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0700 -0.0700 0.0500 ; cm/y
+	PPMVel: -0.000182000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; IGb00 to NAD83(CORS96) (NRCan) 
+	From: IGb00
+	To: NAD83(CORS96)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0060 -1.9118 -0.5146 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: -0.002115000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0700 -0.0700 0.0500 ; cm/y
+	PPMVel: -0.000182000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; IGb00 to NAD83(CSRS) (NRCan) 
+	From: IGb00
+	To: NAD83(CSRS)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0060 -1.9118 -0.5146 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: -0.002115000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0700 -0.0700 0.0500 ; cm/y
+	PPMVel: -0.000182000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; IGS00 to NAD83(CSRS) (NRCan) 
+	From: IGS00
+	To: NAD83(CSRS)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0060 -1.9118 -0.5146 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: -0.002115000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0700 -0.0700 0.0500 ; cm/y
+	PPMVel: -0.000182000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF00 to NAD83(CSRS) (NRCan) 
+	From: ITRF00
+	To: NAD83(CSRS)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0060 -1.9118 -0.5146 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: -0.002115000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0700 -0.0700 0.0500 ; cm/y
+	PPMVel: -0.000182000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; IGS00 to NAD83(CORS96) (NRCan) 
+	From: IGS00
+	To: NAD83(CORS96)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0060 -1.9118 -0.5146 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: -0.002115000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0700 -0.0700 0.0500 ; cm/y
+	PPMVel: -0.000182000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF00 to NAD83(2011) (NRCan) 
+	From: ITRF00
+	To: NAD83(2011)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0060 -1.9118 -0.5146 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: -0.002115000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0700 -0.0700 0.0500 ; cm/y
+	PPMVel: -0.000182000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; IGb00 to NAD83(2011) (NRCan) 
+	From: IGb00
+	To: NAD83(2011)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0060 -1.9118 -0.5146 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: -0.002115000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0700 -0.0700 0.0500 ; cm/y
+	PPMVel: -0.000182000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; IGS00 to NAD83(2011) (NRCan) 
+	From: IGS00
+	To: NAD83(2011)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0060 -1.9118 -0.5146 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: -0.002115000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0700 -0.0700 0.0500 ; cm/y
+	PPMVel: -0.000182000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ETRS89 to RGF93 (DEFAULT) 
+	From: ETRS89
+	To: RGF93
+	Info: DEFAULT
+	Default: 1
+	Type: 3PARAM
+	Offset: 0.0000 0.0000 0.0000 ; m
+}
+Convert {        ; IGS08 to ITRF08 (IGN) 
+	From: IGS08
+	To: ITRF08
+	Info: IGN
+	Default: 1
+	Type: 3PARAM
+	Offset: 0.0000 0.0000 0.0000 ; m
+}
+Convert {        ; IGS08 to IGb08 (IGN) 
+	From: IGS08
+	To: IGb08
+	Info: IGN
+	Default: 1
+	Type: 3PARAM
+	Offset: 0.0000 0.0000 0.0000 ; m
+}
+Convert {        ; IGb08 to ITRF08 (IGN) 
+	From: IGb08
+	To: ITRF08
+	Info: IGN
+	Default: 1
+	Type: 3PARAM
+	Offset: 0.0000 0.0000 0.0000 ; m
+}
+Convert {        ; ITRF00 to IGb00 (IGN) 
+	From: ITRF00
+	To: IGb00
+	Info: IGN
+	Default: 1
+	Type: 3PARAM
+	Offset: 0.0000 0.0000 0.0000 ; m
+}
+Convert {        ; ITRF00 to IGS00 (IGN) 
+	From: ITRF00
+	To: IGS00
+	Info: IGN
+	Default: 1
+	Type: 3PARAM
+	Offset: 0.0000 0.0000 0.0000 ; m
+}
+Convert {        ; IGb00 to IGS00 (Same) 
+	From: IGb00
+	To: IGS00
+	Info: Same
+	Default: 1
+	Type: 3PARAM
+	Offset: 0.0000 0.0000 0.0000 ; m
+}
+Convert {        ; ITRF05 to IGS05 (Same) 
+	From: ITRF05
+	To: IGS05
+	Info: Same
+	Default: 1
+	Type: 3PARAM
+	Offset: 0.0000 0.0000 0.0000 ; m
+}
+Convert {        ; ITRF08 to ITRF05 (IGN) 
+	From: ITRF08
+	To: ITRF05
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0020 -0.0009 -0.0047 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000940000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0300 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; ITRF08 to ITRF00 (IGN) 
+	From: ITRF08
+	To: ITRF00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0019 -0.0017 -0.0105 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.001340000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; ITRF08 to IGb00 (IGN) 
+	From: ITRF08
+	To: IGb00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0019 -0.0017 -0.0105 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.001340000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; ITRF08 to IGS00 (IGN) 
+	From: ITRF08
+	To: IGS00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0019 -0.0017 -0.0105 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.001340000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGb08 to IGS00 (IGN) 
+	From: IGb08
+	To: IGS00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0019 -0.0017 -0.0105 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.001340000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {		; ITRF08 to WGS84 (IGN)
+        From: ITRF08
+        To: WGS84
+        Info: IGN
+        Default: 1
+
+        Type: 3PARAM
+        Offset: 0 0 0
+}
+Convert {        ; ITRF08 to WGS84(G1150) (IGN) 
+	From: ITRF08
+	To: WGS84(G1150)
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0019 -0.0017 -0.0105 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.001340000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; ITRF08 to ITRF97 (IGN) 
+	From: ITRF08
+	To: ITRF97
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0048 0.0026 -0.0332 ; m
+	Angle: 0.000000 0.000000 0.000060 0 ; arc-sec
+	Scale: 0.002920000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; ITRF08 to NAD83(CSRS) (NRC) 
+	From: ITRF08
+	To: NAD83(CSRS)
+	Info: NRC
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0084 -1.9147 -0.5520 ; m
+	Angle: -0.027181 0.004965 -0.010624 0 ; arc-sec
+	Scale: -0.000223000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0800 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2016.000
+}
+Convert {        ; IGS08 to NAD83(CSRS) (NRC) 
+	From: IGS08
+	To: NAD83(CSRS)
+	Info: NRC
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0084 -1.9147 -0.5520 ; m
+	Angle: -0.027181 0.004965 -0.010624 0 ; arc-sec
+	Scale: -0.000223000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0800 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2016.000
+}
+Convert {        ; IGb08 to NAD83(CSRS) (NRC) 
+	From: IGb08
+	To: NAD83(CSRS)
+	Info: NRC
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0084 -1.9147 -0.5520 ; m
+	Angle: -0.027181 0.004965 -0.010624 0 ; arc-sec
+	Scale: -0.000223000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0800 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2016.000
+}
+Convert {        ; WGS84 to NAD83(CSRS) (NRC) 
+	From: WGS84
+	To: NAD83(CSRS)
+	Info: NRC
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0084 -1.9147 -0.5520 ; m
+	Angle: -0.027181 0.004965 -0.010624 0 ; arc-sec
+	Scale: -0.000223000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0800 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2016.000
+}
+Convert {        ; WGS84(G1674) to NAD83(CSRS) (NRC) 
+	From: WGS84(G1674)
+	To: NAD83(CSRS)
+	Info: NRC
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0084 -1.9147 -0.5520 ; m
+	Angle: -0.027181 0.004965 -0.010624 0 ; arc-sec
+	Scale: -0.000223000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0800 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2016.000
+}
+Convert {        ; ITRF08 to NAD83 (NRCan) 
+	From: ITRF08
+	To: NAD83
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0053 -1.9123 -0.5467 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: 0.000185000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0800 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF08 to NAD83(CORS96) (NRCan) 
+	From: ITRF08
+	To: NAD83(CORS96)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0053 -1.9123 -0.5467 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: 0.000185000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0800 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF08 to NAD83(2011) (NRCan) 
+	From: ITRF08
+	To: NAD83(2011)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0053 -1.9123 -0.5467 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: 0.000185000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0800 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF08 to ITRF96 (IGN)
+	From: ITRF08
+	To: ITRF96
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0048 0.0026 -0.0332 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.002920000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGS08 to ITRF96 (IGN)
+	From: IGS08
+	To: ITRF96
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0048 0.0026 -0.0332 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.002920000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGb08 to ITRF96 (IGN)
+	From: IGb08
+	To: ITRF96
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0048 0.0026 -0.0332 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.002920000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; ITRF08 to ITRF94 (IGN)
+	From: ITRF08
+	To: ITRF94
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0048 0.0026 -0.0332 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.002920000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGS08 to ITRF94 (IGN)
+	From: IGS08
+	To: ITRF94
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0048 0.0026 -0.0332 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.002920000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGb08 to ITRF94 (IGN)
+	From: IGb08
+	To: ITRF94
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0048 0.0026 -0.0332 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.002920000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; ITRF08 to ITRF93 (IGN)
+	From: ITRF08
+	To: ITRF93
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0240 0.0024 -0.0386 ; m
+	Angle: -0.001710 -0.001480 -0.000300 ; arc-sec
+	Scale: 0.003410000000 ; ppm
+	RotVel: -0.000110 -0.000190 0.070000  ; mas/y
+	Velocity: -0.2800 -0.0100 -0.2400 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGS08 to ITRF93 (IGN)
+	From: IGS08
+	To: ITRF93
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0240 0.0024 -0.0386 ; m
+	Angle: -0.001710 -0.001480 -0.000300 ; arc-sec
+	Scale: 0.003410000000 ; ppm
+	RotVel: -0.000110 -0.000190 0.070000  ; mas/y
+	Velocity: -0.2800 -0.0100 -0.2400 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGb08 to ITRF93 (IGN)
+	From: IGb08
+	To: ITRF93
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0240 0.0024 -0.0386 ; m
+	Angle: -0.001710 -0.001480 -0.000300 ; arc-sec
+	Scale: 0.003410000000 ; ppm
+	RotVel: -0.000110 -0.000190 0.070000  ; mas/y
+	Velocity: -0.2800 -0.0100 -0.2400 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; ITRF08 to ITRF92 (IGN)
+	From: ITRF08
+	To: ITRF92
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0128 0.0046 -0.0412 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.002210000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGS08 to ITRF92 (IGN)
+	From: IGS08
+	To: ITRF92
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0128 0.0046 -0.0412 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.002210000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGb08 to ITRF92 (IGN)
+	From: IGb08
+	To: ITRF92
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0128 0.0046 -0.0412 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.002210000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; ITRF08 to ITRF91 (IGN)
+	From: ITRF08
+	To: ITRF91
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0248 0.0186 -0.0472 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.003610000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGS08 to ITRF91 (IGN)
+	From: IGS08
+	To: ITRF91
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0248 0.0186 -0.0472 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.003610000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGb08 to ITRF91 (IGN)
+	From: IGb08
+	To: ITRF91
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0248 0.0186 -0.0472 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.003610000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; ITRF08 to ITRF90 (IGN)
+	From: ITRF08
+	To: ITRF90
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0228 0.0146 -0.0632 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.003910000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGS08 to ITRF90 (IGN)
+	From: IGS08
+	To: ITRF90
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0228 0.0146 -0.0632 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.003910000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGb08 to ITRF90 (IGN)
+	From: IGb08
+	To: ITRF90
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0228 0.0146 -0.0632 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.003910000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; ITRF08 to ITRF89 (IGN)
+	From: ITRF08
+	To: ITRF89
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0278 0.0386 -0.1012 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.007310000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGS08 to ITRF89 (IGN)
+	From: IGS08
+	To: ITRF89
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0278 0.0386 -0.1012 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.007310000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGb08 to ITRF89 (IGN)
+	From: IGb08
+	To: ITRF89
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0278 0.0386 -0.1012 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.007310000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; ITRF08 to ITRF88 (IGN)
+	From: ITRF08
+	To: ITRF88
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0228 0.0026 -0.1252 ; m
+	Angle: 0.000100 0.000000 0.000060 ; arc-sec
+	Scale: 0.010410000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGS08 to ITRF88 (IGN)
+	From: IGS08
+	To: ITRF88
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0228 0.0026 -0.1252 ; m
+	Angle: 0.000100 0.000000 0.000060 ; arc-sec
+	Scale: 0.010410000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGb08 to ITRF88 (IGN)
+	From: IGb08
+	To: ITRF88
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0228 0.0026 -0.1252 ; m
+	Angle: 0.000100 0.000000 0.000060 ; arc-sec
+	Scale: 0.010410000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGS08 to ITRF05 (IGN) 
+	From: IGS08
+	To: ITRF05
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0020 -0.0009 -0.0047 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000940000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0300 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGS08 to IGS05 (IGN) 
+	From: IGS08
+	To: IGS05
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0020 -0.0009 -0.0047 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000940000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0300 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGb08 to IGS05 (IGN) 
+	From: IGb08
+	To: IGS05
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0020 -0.0009 -0.0047 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000940000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0300 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGS08 to ITRF00 (IGN) 
+	From: IGS08
+	To: ITRF00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0019 -0.0017 -0.0105 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.001340000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGS08 to IGb00 (IGN) 
+	From: IGS08
+	To: IGb00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0019 -0.0017 -0.0105 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.001340000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGS08 to IGS00 (IGN) 
+	From: IGS08
+	To: IGS00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0019 -0.0017 -0.0105 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.001340000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {		; IGS08 to WGS84 (850) 
+        From: IGS08
+        To: WGS84
+        Info: 850
+        Default: 1
+
+        Type: 3PARAM
+        Offset: 0 0 0
+}
+Convert {        ; IGS08 to WGS84(G1150) (IGN) 
+	From: IGS08
+	To: WGS84(G1150)
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0019 -0.0017 -0.0105 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.001340000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGS08 to ITRF97 (IGN) 
+	From: IGS08
+	To: ITRF97
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0048 0.0026 -0.0332 ; m
+	Angle: 0.000000 0.000000 0.000060 0 ; arc-sec
+	Scale: 0.002920000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGS08 to NAD83 (NRCan) 
+	From: IGS08
+	To: NAD83
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0053 -1.9123 -0.5467 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: 0.000185000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0800 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; IGS08 to NAD83(CORS96) (NRCan) 
+	From: IGS08
+	To: NAD83(CORS96)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0053 -1.9123 -0.5467 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: 0.000185000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0800 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; IGS08 to NAD83(2011) (NRCan) 
+	From: IGS08
+	To: NAD83(2011)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0053 -1.9123 -0.5467 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: 0.000185000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0800 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; IGb08 to ITRF05 (IGN) 
+	From: IGb08
+	To: ITRF05
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0020 -0.0009 -0.0047 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000940000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0300 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGb08 to ITRF00 (IGN) 
+	From: IGb08
+	To: ITRF00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0019 -0.0017 -0.0105 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.001340000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGb08 to IGb00 (IGN) 
+	From: IGb08
+	To: IGb00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0019 -0.0017 -0.0105 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.001340000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {		; IGb08 to WGS84 (850) 
+        From: IGb08
+        To: WGS84
+        Info: 850
+        Default: 1
+
+        Type: 3PARAM
+        Offset: 0 0 0
+}
+Convert {        ; IGb08 to WGS84(G1150) (IGN) 
+	From: IGb08
+	To: WGS84(G1150)
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0019 -0.0017 -0.0105 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.001340000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGb08 to ITRF97 (IGN) 
+	From: IGb08
+	To: ITRF97
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0048 0.0026 -0.0332 ; m
+	Angle: 0.000000 0.000000 0.000060 0 ; arc-sec
+	Scale: 0.002920000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGb08 to NAD83 (NRCan) 
+	From: IGb08
+	To: NAD83
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0053 -1.9123 -0.5467 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: 0.000185000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0800 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; IGb08 to NAD83(CORS96) (NRCan) 
+	From: IGb08
+	To: NAD83(CORS96)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0053 -1.9123 -0.5467 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: 0.000185000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0800 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; IGb08 to NAD83(2011) (NRCan) 
+	From: IGb08
+	To: NAD83(2011)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0053 -1.9123 -0.5467 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: 0.000185000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0800 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; WGS84(G1150) to ITRF00 (810) 
+	From: WGS84(G1150)
+	To: ITRF00
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0000 0.0000 -0.0000 ; m
+	Angle: 0.000000 -0.000001 0.000000 0 ; arc-sec
+	Scale: 0.000000000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84(G1150) to IGb00 (810) 
+	From: WGS84(G1150)
+	To: IGb00
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0000 0.0000 -0.0000 ; m
+	Angle: 0.000000 -0.000001 0.000000 0 ; arc-sec
+	Scale: 0.000000000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84(G1150) to ITRF88 (810) 
+	From: WGS84(G1150)
+	To: ITRF88
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0301 -0.0018 -0.0956 ; m
+	Angle: -0.000172 0.000391 0.000279 0 ; arc-sec
+	Scale: 0.006017876570 ; ppm
+	RotVel: -0.013349 0.015358 0.019699  ; mas/y
+	Velocity: 0.0685 -0.0700 0.0462 ; cm/y
+	PPMVel: -0.000182785087 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G1150) to ITRF89 (810) 
+	From: WGS84(G1150)
+	To: ITRF89
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0352 0.0342 -0.0716 ; m
+	Angle: -0.000273 0.000388 0.000277 0 ; arc-sec
+	Scale: 0.002922648649 ; ppm
+	RotVel: -0.013657 0.014886 0.019435  ; mas/y
+	Velocity: 0.0701 -0.0707 0.0459 ; cm/y
+	PPMVel: -0.000181515699 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G1150) to ITRF90 (810) 
+	From: WGS84(G1150)
+	To: ITRF90
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0302 0.0101 -0.0337 ; m
+	Angle: -0.000276 0.000390 0.000278 0 ; arc-sec
+	Scale: -0.000477506859 ; ppm
+	RotVel: -0.013913 0.015321 0.019701  ; mas/y
+	Velocity: 0.0686 -0.0710 0.0450 ; cm/y
+	PPMVel: -0.000181826997 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G1150) to ITRF91 (810) 
+	From: WGS84(G1150)
+	To: ITRF91
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0322 0.0142 -0.0176 ; m
+	Angle: -0.000274 0.000389 0.000277 0 ; arc-sec
+	Scale: -0.000780579529 ; ppm
+	RotVel: -0.013307 0.014951 0.019570  ; mas/y
+	Velocity: 0.0699 -0.0695 0.0463 ; cm/y
+	PPMVel: -0.000182233360 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G1150) to ITRF92 (810) 
+	From: WGS84(G1150)
+	To: ITRF92
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0202 0.0002 -0.0117 ; m
+	Angle: -0.000274 0.000389 0.000277 0 ; arc-sec
+	Scale: -0.002178216679 ; ppm
+	RotVel: -0.013884 0.015228 0.019581  ; mas/y
+	Velocity: 0.0692 -0.0709 0.0450 ; cm/y
+	PPMVel: -0.000181733398 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G1150) to ITRF93 (810) 
+	From: WGS84(G1150)
+	To: ITRF93
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0396 0.0011 -0.0027 ; m
+	Angle: -0.002861 -0.002607 0.000314 0 ; arc-sec
+	Scale: -0.000979128233 ; ppm
+	RotVel: -0.123837 -0.174552 0.069901  ; mas/y
+	Velocity: -0.2219 -0.0306 0.1249 ; cm/y
+	PPMVel: -0.000181579590 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G1150) to ITRF94 (810) 
+	From: WGS84(G1150)
+	To: ITRF94
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0122 -0.0019 -0.0037 ; m
+	Angle: -0.000275 0.000389 0.000277 0 ; arc-sec
+	Scale: -0.001384442200 ; ppm
+	RotVel: -0.013783 0.015008 0.019584  ; mas/y
+	Velocity: 0.0696 -0.0708 0.0454 ; cm/y
+	PPMVel: -0.000183019425 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G1150) to ITRF96 (810) 
+	From: WGS84(G1150)
+	To: ITRF96
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0122 -0.0019 -0.0037 ; m
+	Angle: -0.000275 0.000389 0.000277 0 ; arc-sec
+	Scale: -0.001384442200 ; ppm
+	RotVel: -0.013783 0.015008 0.019584  ; mas/y
+	Velocity: 0.0696 -0.0708 0.0454 ; cm/y
+	PPMVel: -0.000183019425 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84 to WGS84(G1150) (850) 
+	From: WGS84
+	To: WGS84(G1150)
+	Info: 850
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0019 -0.0017 -0.0105 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.001340000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84(G0873) to ITRF00 (810) 
+	From: WGS84(G0873)
+	To: ITRF00
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0122 0.0018 0.0034 ; m
+	Angle: 0.000274 -0.000390 -0.000277 0 ; arc-sec
+	Scale: 0.001387556110 ; ppm
+	RotVel: 0.013783 -0.015008 -0.019584  ; mas/y
+	Velocity: -0.0696 0.0708 -0.0454 ; cm/y
+	PPMVel: 0.000183019451 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0873) to IGb00 (810) 
+	From: WGS84(G0873)
+	To: IGb00
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0122 0.0018 0.0034 ; m
+	Angle: 0.000274 -0.000390 -0.000277 0 ; arc-sec
+	Scale: 0.001387556110 ; ppm
+	RotVel: 0.013783 -0.015008 -0.019584  ; mas/y
+	Velocity: -0.0696 0.0708 -0.0454 ; cm/y
+	PPMVel: 0.000183019451 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0873) to IGS00 (810) 
+	From: WGS84(G0873)
+	To: IGS00
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0122 0.0018 0.0034 ; m
+	Angle: 0.000274 -0.000390 -0.000277 0 ; arc-sec
+	Scale: 0.001387556110 ; ppm
+	RotVel: 0.013783 -0.015008 -0.019584  ; mas/y
+	Velocity: -0.0696 0.0708 -0.0454 ; cm/y
+	PPMVel: 0.000183019451 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0873) to ITRF88 (810) 
+	From: WGS84(G0873)
+	To: ITRF88
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0179 0.0001 -0.0921 ; m
+	Angle: 0.000103 0.000001 0.000002 0 ; arc-sec
+	Scale: 0.007403875537 ; ppm
+	RotVel: 0.000434 0.000351 0.000115  ; mas/y
+	Velocity: -0.0010 0.0008 0.0007 ; cm/y
+	PPMVel: 0.000000234340 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0873) to ITRF89 (810) 
+	From: WGS84(G0873)
+	To: ITRF89
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0230 0.0360 -0.0681 ; m
+	Angle: 0.000002 -0.000002 -0.000000 0 ; arc-sec
+	Scale: 0.004308647669 ; ppm
+	RotVel: 0.000126 -0.000122 -0.000149  ; mas/y
+	Velocity: 0.0006 0.0001 0.0005 ; cm/y
+	PPMVel: 0.000001503719 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0873) to ITRF90 (810) 
+	From: WGS84(G0873)
+	To: ITRF90
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0180 0.0120 -0.0301 ; m
+	Angle: -0.000001 0.000000 0.000001 0 ; arc-sec
+	Scale: 0.000908492274 ; ppm
+	RotVel: -0.000130 0.000313 0.000117  ; mas/y
+	Velocity: -0.0009 -0.0002 -0.0004 ; cm/y
+	PPMVel: 0.000001192429 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0873) to ITRF91 (810) 
+	From: WGS84(G0873)
+	To: ITRF91
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0200 0.0160 -0.0141 ; m
+	Angle: 0.000001 -0.000001 -0.000000 0 ; arc-sec
+	Scale: 0.000605419492 ; ppm
+	RotVel: 0.000476 -0.000057 -0.000014  ; mas/y
+	Velocity: 0.0003 0.0013 0.0008 ; cm/y
+	PPMVel: 0.000000786074 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0873) to ITRF92 (810) 
+	From: WGS84(G0873)
+	To: ITRF92
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0080 0.0020 -0.0081 ; m
+	Angle: 0.000001 -0.000001 -0.000000 0 ; arc-sec
+	Scale: -0.000792217865 ; ppm
+	RotVel: -0.000101 0.000220 -0.000003  ; mas/y
+	Velocity: -0.0004 -0.0001 -0.0005 ; cm/y
+	PPMVel: 0.000001286040 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0873) to ITRF93 (810) 
+	From: WGS84(G0873)
+	To: ITRF93
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0518 0.0030 0.0009 ; m
+	Angle: -0.002586 -0.002996 0.000037 0 ; arc-sec
+	Scale: 0.000406870556 ; ppm
+	RotVel: -0.110054 -0.189560 0.050317  ; mas/y
+	Velocity: -0.2915 0.0402 0.0794 ; cm/y
+	PPMVel: 0.000001439837 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0873) to ITRF94 (810) 
+	From: WGS84(G0873)
+	To: ITRF94
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0000 -0.0000 -0.0001 ; m
+	Angle: -0.000000 -0.000001 0.000000 0 ; arc-sec
+	Scale: 0.000001556810 ; ppm
+	RotVel: -0.000000 0.000000 0.000000  ; mas/y
+	Velocity: -0.0000 -0.0000 -0.0000 ; cm/y
+	PPMVel: -0.000000000002 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0873) to ITRF96 (810) 
+	From: WGS84(G0873)
+	To: ITRF96
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0000 -0.0000 -0.0001 ; m
+	Angle: -0.000000 -0.000001 0.000000 0 ; arc-sec
+	Scale: 0.000001556810 ; ppm
+	RotVel: -0.000000 0.000000 0.000000  ; mas/y
+	Velocity: -0.0000 -0.0000 -0.0000 ; cm/y
+	PPMVel: -0.000000000002 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0873) to ITRF97 (810) 
+	From: WGS84(G0873)
+	To: ITRF97
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0054 0.0013 -0.0304 ; m
+	Angle: 0.000273 -0.000391 -0.000059 0 ; arc-sec
+	Scale: 0.003040264037 ; ppm
+	RotVel: 0.014434 -0.015457 0.000224  ; mas/y
+	Velocity: -0.0682 0.0120 -0.1837 ; cm/y
+	PPMVel: 0.000192226735 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0873) to NAD83 (810) 
+	From: WGS84(G0873)
+	To: NAD83
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9910 -1.9072 -0.5130 ; m
+	Angle: -0.026374 -0.001506 -0.011313 0 ; arc-sec
+	Scale: 0.000004261699 ; ppm
+	RotVel: -0.053119 0.742516 0.031634  ; mas/y
+	Velocity: -0.0005 0.0001 0.0002 ; cm/y
+	PPMVel: 0.000000804783 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0873) to WGS84 (850) 
+	From: WGS84(G0873)
+	To: WGS84
+	Info: 850
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0134 0.0046 0.0325 ; m
+	Angle: 0.000315 -0.000438 -0.000337 0 ; arc-sec
+	Scale: -0.000284427806 ; ppm
+	RotVel: 0.013713 -0.015045 -0.019516  ; mas/y
+	Velocity: -0.0797 0.0607 0.1343 ; cm/y
+	PPMVel: 0.000102200982 ; ppm/y
+	RefYear: 2011.000
+}
+Convert {        ; WGS84(G0873) to ITRF05 (810) 
+	From: WGS84(G0873)
+	To: ITRF05
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0107 0.0019 0.0236 ; m
+	Angle: 0.000275 -0.000391 -0.000279 0 ; arc-sec
+	Scale: 0.000348590451 ; ppm
+	RotVel: 0.013797 -0.014444 -0.019246  ; mas/y
+	Velocity: -0.0514 0.0615 0.1337 ; cm/y
+	PPMVel: 0.000104906006 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0873) to ITRF08 (830) 
+	From: WGS84(G0873)
+	To: ITRF08
+	Info: 830
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0134 0.0046 0.0325 ; m
+	Angle: 0.000315 -0.000438 -0.000337 0 ; arc-sec
+	Scale: -0.000284427806 ; ppm
+	RotVel: 0.013713 -0.015045 -0.019516  ; mas/y
+	Velocity: -0.0797 0.0607 0.1343 ; cm/y
+	PPMVel: 0.000102200982 ; ppm/y
+	RefYear: 2011.000
+}
+Convert {        ; WGS84(G0873) to IGS08 (830) 
+	From: WGS84(G0873)
+	To: IGS08
+	Info: 830
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0134 0.0046 0.0325 ; m
+	Angle: 0.000315 -0.000438 -0.000337 0 ; arc-sec
+	Scale: -0.000284427806 ; ppm
+	RotVel: 0.013713 -0.015045 -0.019516  ; mas/y
+	Velocity: -0.0797 0.0607 0.1343 ; cm/y
+	PPMVel: 0.000102200982 ; ppm/y
+	RefYear: 2011.000
+}
+Convert {        ; WGS84(G0873) to IGb08 (830) 
+	From: WGS84(G0873)
+	To: IGb08
+	Info: 830
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0134 0.0046 0.0325 ; m
+	Angle: 0.000315 -0.000438 -0.000337 0 ; arc-sec
+	Scale: -0.000284427806 ; ppm
+	RotVel: 0.013713 -0.015045 -0.019516  ; mas/y
+	Velocity: -0.0797 0.0607 0.1343 ; cm/y
+	PPMVel: 0.000102200982 ; ppm/y
+	RefYear: 2011.000
+}
+Convert {        ; WGS84(G1150) to WGS84(G0873) (810) 
+	From: WGS84(G1150)
+	To: WGS84(G0873)
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0122 -0.0019 -0.0035 ; m
+	Angle: -0.000275 0.000390 0.000277 0 ; arc-sec
+	Scale: -0.001385999127 ; ppm
+	RotVel: -0.013783 0.015008 0.019584  ; mas/y
+	Velocity: 0.0696 -0.0708 0.0454 ; cm/y
+	PPMVel: -0.000183019440 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0873) to NAD83(CORS96) (810) 
+	From: WGS84(G0873)
+	To: NAD83(CORS96)
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9910 -1.9072 -0.5130 ; m
+	Angle: -0.026374 -0.001506 -0.011313 0 ; arc-sec
+	Scale: 0.000004261699 ; ppm
+	RotVel: -0.053119 0.742516 0.031634  ; mas/y
+	Velocity: -0.0005 0.0001 0.0002 ; cm/y
+	PPMVel: 0.000000804783 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0873) to NAD83(2011) (810) 
+	From: WGS84(G0873)
+	To: NAD83(2011)
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9910 -1.9072 -0.5130 ; m
+	Angle: -0.026374 -0.001506 -0.011313 0 ; arc-sec
+	Scale: 0.000004261699 ; ppm
+	RotVel: -0.053119 0.742516 0.031634  ; mas/y
+	Velocity: -0.0005 0.0001 0.0002 ; cm/y
+	PPMVel: 0.000000804783 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; ITRF05 to WGS84(G0730) (810) 
+	From: ITRF05
+	To: WGS84(G0730)
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0187 0.0002 -0.0316 ; m
+	Angle: -0.000274 0.000391 0.000278 0 ; arc-sec
+	Scale: -0.001142365257 ; ppm
+	RotVel: -0.013898 0.014665 0.019243  ; mas/y
+	Velocity: 0.0511 -0.0616 -0.1342 ; cm/y
+	PPMVel: -0.000103619991 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0730) to ITRF00 (810) 
+	From: WGS84(G0730)
+	To: ITRF00
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0202 -0.0002 0.0114 ; m
+	Angle: 0.000273 -0.000390 -0.000276 0 ; arc-sec
+	Scale: 0.002181330464 ; ppm
+	RotVel: 0.013884 -0.015228 -0.019581  ; mas/y
+	Velocity: -0.0692 0.0709 -0.0450 ; cm/y
+	PPMVel: 0.000181733385 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0730) to IGb00 (810) 
+	From: WGS84(G0730)
+	To: IGb00
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0202 -0.0002 0.0114 ; m
+	Angle: 0.000273 -0.000390 -0.000276 0 ; arc-sec
+	Scale: 0.002181330464 ; ppm
+	RotVel: 0.013884 -0.015228 -0.019581  ; mas/y
+	Velocity: -0.0692 0.0709 -0.0450 ; cm/y
+	PPMVel: 0.000181733385 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0730) to IGS00 (810) 
+	From: WGS84(G0730)
+	To: IGS00
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0202 -0.0002 0.0114 ; m
+	Angle: 0.000273 -0.000390 -0.000276 0 ; arc-sec
+	Scale: 0.002181330464 ; ppm
+	RotVel: 0.013884 -0.015228 -0.019581  ; mas/y
+	Velocity: -0.0692 0.0709 -0.0450 ; cm/y
+	PPMVel: 0.000181733385 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0730) to ITRF88 (810) 
+	From: WGS84(G0730)
+	To: ITRF88
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0099 -0.0020 -0.0841 ; m
+	Angle: 0.000101 0.000001 0.000002 0 ; arc-sec
+	Scale: 0.008197650298 ; ppm
+	RotVel: 0.000535 0.000130 0.000118  ; mas/y
+	Velocity: -0.0007 0.0009 0.0012 ; cm/y
+	PPMVel: -0.000001051698 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0730) to ITRF89 (810) 
+	From: WGS84(G0730)
+	To: ITRF89
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0150 0.0340 -0.0601 ; m
+	Angle: 0.000001 -0.000002 0.000000 0 ; arc-sec
+	Scale: 0.005102422400 ; ppm
+	RotVel: 0.000227 -0.000342 -0.000146  ; mas/y
+	Velocity: 0.0010 0.0002 0.0010 ; cm/y
+	PPMVel: 0.000000217729 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0730) to ITRF90 (810) 
+	From: WGS84(G0730)
+	To: ITRF90
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0100 0.0099 -0.0221 ; m
+	Angle: -0.000002 0.000000 0.000001 0 ; arc-sec
+	Scale: 0.001702266830 ; ppm
+	RotVel: -0.000029 0.000093 0.000120  ; mas/y
+	Velocity: -0.0006 -0.0001 0.0000 ; cm/y
+	PPMVel: -0.000000093600 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0730) to ITRF91 (810) 
+	From: WGS84(G0730)
+	To: ITRF91
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0120 0.0140 -0.0061 ; m
+	Angle: -0.000000 -0.000001 0.000000 0 ; arc-sec
+	Scale: 0.001399194314 ; ppm
+	RotVel: 0.000577 -0.000277 -0.000011  ; mas/y
+	Velocity: 0.0007 0.0014 0.0013 ; cm/y
+	PPMVel: -0.000000499953 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0730) to ITRF92 (810) 
+	From: WGS84(G0730)
+	To: ITRF92
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0000 -0.0000 -0.0001 ; m
+	Angle: -0.000000 -0.000001 0.000000 0 ; arc-sec
+	Scale: 0.000001556803 ; ppm
+	RotVel: -0.000000 0.000000 0.000000  ; mas/y
+	Velocity: -0.0000 -0.0000 -0.0000 ; cm/y
+	PPMVel: 0.000000000001 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0730) to ITRF93 (810) 
+	From: WGS84(G0730)
+	To: ITRF93
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0599 0.0010 0.0089 ; m
+	Angle: -0.002587 -0.002997 0.000038 0 ; arc-sec
+	Scale: 0.001200645472 ; ppm
+	RotVel: -0.109953 -0.189780 0.050320  ; mas/y
+	Velocity: -0.2911 0.0404 0.0799 ; cm/y
+	PPMVel: 0.000000153815 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0730) to ITRF94 (810) 
+	From: WGS84(G0730)
+	To: ITRF94
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0080 -0.0021 0.0079 ; m
+	Angle: -0.000002 -0.000001 0.000001 0 ; arc-sec
+	Scale: 0.000795331357 ; ppm
+	RotVel: 0.000101 -0.000220 0.000003  ; mas/y
+	Velocity: 0.0004 0.0001 0.0005 ; cm/y
+	PPMVel: -0.000001286060 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0730) to ITRF96 (810) 
+	From: WGS84(G0730)
+	To: ITRF96
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0080 -0.0021 0.0079 ; m
+	Angle: -0.000002 -0.000001 0.000001 0 ; arc-sec
+	Scale: 0.000795331357 ; ppm
+	RotVel: 0.000101 -0.000220 0.000003  ; mas/y
+	Velocity: 0.0004 0.0001 0.0005 ; cm/y
+	PPMVel: -0.000001286060 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0730) to ITRF97 (810) 
+	From: WGS84(G0730)
+	To: ITRF97
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0135 -0.0008 -0.0224 ; m
+	Angle: 0.000272 -0.000392 -0.000059 0 ; arc-sec
+	Scale: 0.003834038481 ; ppm
+	RotVel: 0.014535 -0.015677 0.000227  ; mas/y
+	Velocity: -0.0679 0.0121 -0.1833 ; cm/y
+	PPMVel: 0.000190940694 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0730) to NAD83 (810) 
+	From: WGS84(G0730)
+	To: NAD83
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9830 -1.9093 -0.5050 ; m
+	Angle: -0.026375 -0.001506 -0.011313 0 ; arc-sec
+	Scale: 0.000798036284 ; ppm
+	RotVel: -0.053018 0.742295 0.031637  ; mas/y
+	Velocity: -0.0001 0.0003 0.0006 ; cm/y
+	PPMVel: -0.000000481208 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0730) to WGS84 (850) 
+	From: WGS84(G0730)
+	To: WGS84
+	Info: 850
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0215 0.0025 0.0404 ; m
+	Angle: 0.000313 -0.000436 -0.000337 0 ; arc-sec
+	Scale: 0.000513993977 ; ppm
+	RotVel: 0.013418 -0.015255 -0.019828  ; mas/y
+	Velocity: -0.0786 0.0597 0.1340 ; cm/y
+	PPMVel: 0.000101991715 ; ppm/y
+	RefYear: 2011.000
+}
+Convert {        ; WGS84(G0730) to ITRF08 (830) 
+	From: WGS84(G0730)
+	To: ITRF08
+	Info: 830
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0215 0.0025 0.0404 ; m
+	Angle: 0.000313 -0.000436 -0.000337 0 ; arc-sec
+	Scale: 0.000513993977 ; ppm
+	RotVel: 0.013418 -0.015255 -0.019828  ; mas/y
+	Velocity: -0.0786 0.0597 0.1340 ; cm/y
+	PPMVel: 0.000101991715 ; ppm/y
+	RefYear: 2011.000
+}
+Convert {        ; WGS84(G0730) to IGS08 (830) 
+	From: WGS84(G0730)
+	To: IGS08
+	Info: 830
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0215 0.0025 0.0404 ; m
+	Angle: 0.000313 -0.000436 -0.000337 0 ; arc-sec
+	Scale: 0.000513993977 ; ppm
+	RotVel: 0.013418 -0.015255 -0.019828  ; mas/y
+	Velocity: -0.0786 0.0597 0.1340 ; cm/y
+	PPMVel: 0.000101991715 ; ppm/y
+	RefYear: 2011.000
+}
+Convert {        ; WGS84(G0730) to IGb08 (830) 
+	From: WGS84(G0730)
+	To: IGb08
+	Info: 830
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0215 0.0025 0.0404 ; m
+	Angle: 0.000313 -0.000436 -0.000337 0 ; arc-sec
+	Scale: 0.000513993977 ; ppm
+	RotVel: 0.013418 -0.015255 -0.019828  ; mas/y
+	Velocity: -0.0786 0.0597 0.1340 ; cm/y
+	PPMVel: 0.000101991715 ; ppm/y
+	RefYear: 2011.000
+}
+Convert {        ; WGS84(G1150) to WGS84(G0730) (810) 
+	From: WGS84(G1150)
+	To: WGS84(G0730)
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0202 0.0002 -0.0115 ; m
+	Angle: -0.000274 0.000390 0.000277 0 ; arc-sec
+	Scale: -0.002179773613 ; ppm
+	RotVel: -0.013884 0.015228 0.019581  ; mas/y
+	Velocity: 0.0692 -0.0709 0.0450 ; cm/y
+	PPMVel: -0.000181733401 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0730) to WGS84(G0873) (810) 
+	From: WGS84(G0730)
+	To: WGS84(G0873)
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0080 -0.0020 0.0080 ; m
+	Angle: -0.000001 -0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000793774760 ; ppm
+	RotVel: 0.000101 -0.000220 0.000003  ; mas/y
+	Velocity: 0.0004 0.0001 0.0005 ; cm/y
+	PPMVel: -0.000001286059 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0730) to WGS84(G0873) (810) 
+	From: WGS84(G0730)
+	To: WGS84(G0873)
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0080 -0.0020 0.0080 ; m
+	Angle: -0.000001 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000793770000 ; ppm
+	RotVel: 0.000100 -0.000220 0.000000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0010 ; cm/y
+	PPMVel: -0.000001290000 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0730) to NAD83(CORS96) (810) 
+	From: WGS84(G0730)
+	To: NAD83(CORS96)
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9830 -1.9093 -0.5050 ; m
+	Angle: -0.026375 -0.001506 -0.011313 0 ; arc-sec
+	Scale: 0.000798036284 ; ppm
+	RotVel: -0.053018 0.742295 0.031637  ; mas/y
+	Velocity: -0.0001 0.0003 0.0006 ; cm/y
+	PPMVel: -0.000000481208 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0730) to NAD83(2011) (810) 
+	From: WGS84(G0730)
+	To: NAD83(2011)
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9830 -1.9093 -0.5050 ; m
+	Angle: -0.026375 -0.001506 -0.011313 0 ; arc-sec
+	Scale: 0.000798036284 ; ppm
+	RotVel: -0.053018 0.742295 0.031637  ; mas/y
+	Velocity: -0.0001 0.0003 0.0006 ; cm/y
+	PPMVel: -0.000000481208 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84 to NAD83 (850) 
+	From: WGS84
+	To: NAD83
+	Info: 850
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0053 -1.9123 -0.5467 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: 0.000185000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0800 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; WGS84 to NAD83(CORS96) (850) 
+	From: WGS84
+	To: NAD83(CORS96)
+	Info: 850
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0053 -1.9123 -0.5467 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: 0.000185000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0800 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; WGS84 to NAD83(2011) (850) 
+	From: WGS84
+	To: NAD83(2011)
+	Info: 850
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0053 -1.9123 -0.5467 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: 0.000185000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0800 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; WGS84(G1150) to NAD83 (NRCan) 
+	From: WGS84(G1150)
+	To: NAD83
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0060 -1.9118 -0.5146 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: -0.002115000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0700 -0.0700 0.0500 ; cm/y
+	PPMVel: -0.000182000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; WGS84(G1150) to NAD83(CORS96) (NRCan) 
+	From: WGS84(G1150)
+	To: NAD83(CORS96)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0060 -1.9118 -0.5146 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: -0.002115000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0700 -0.0700 0.0500 ; cm/y
+	PPMVel: -0.000182000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; WGS84(G1150) to NAD83(2011) (NRCan) 
+	From: WGS84(G1150)
+	To: NAD83(2011)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0060 -1.9118 -0.5146 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: -0.002115000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0700 -0.0700 0.0500 ; cm/y
+	PPMVel: -0.000182000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; NAD83(CORS96) to NAD83 (810) 
+	From: NAD83(CORS96)
+	To: NAD83
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0000 0.0000 0.0000 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000000000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(2011) to NAD83 (810) 
+	From: NAD83(2011)
+	To: NAD83
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0000 0.0000 0.0000 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000000000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(CORS96) to NAD83(MARP00) (810) 
+	From: NAD83(CORS96)
+	To: NAD83(MARP00)
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0929 -0.1050 -0.0436 ; m
+	Angle: -0.002107 -0.010457 0.005911 0 ; arc-sec
+	Scale: 0.001387904621 ; ppm
+	RotVel: 0.086587 -0.862523 0.295390  ; mas/y
+	Velocity: -0.0685 0.0710 -0.0453 ; cm/y
+	PPMVel: 0.000182780989 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(2011) to NAD83(MARP00) (810) 
+	From: NAD83(2011)
+	To: NAD83(MARP00)
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0929 -0.1050 -0.0436 ; m
+	Angle: -0.002107 -0.010457 0.005911 0 ; arc-sec
+	Scale: 0.001387904621 ; ppm
+	RotVel: 0.086587 -0.862523 0.295390  ; mas/y
+	Velocity: -0.0685 0.0710 -0.0453 ; cm/y
+	PPMVel: 0.000182780989 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; ITRF05 to NAD83(MARP00) (810) 
+	From: ITRF05
+	To: NAD83(MARP00)
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9088 -2.0141 -0.5803 ; m
+	Angle: -0.028756 -0.011573 -0.005124 0 ; arc-sec
+	Scale: 0.001043576756 ; ppm
+	RotVel: 0.019671 -0.105563 0.346270  ; mas/y
+	Velocity: -0.0175 0.0096 -0.1788 ; cm/y
+	PPMVel: 0.000078679974 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; IGS05 to NAD83(MARP00) (810) 
+	From: IGS05
+	To: NAD83(MARP00)
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9088 -2.0141 -0.5803 ; m
+	Angle: -0.028756 -0.011573 -0.005124 0 ; arc-sec
+	Scale: 0.001043576756 ; ppm
+	RotVel: 0.019671 -0.105563 0.346270  ; mas/y
+	Velocity: -0.0175 0.0096 -0.1788 ; cm/y
+	PPMVel: 0.000078679974 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(MARP00) to ITRF00 (810) 
+	From: NAD83(MARP00)
+	To: ITRF00
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.9103 2.0141 0.5601 ; m
+	Angle: 0.028755 0.011573 0.005126 0 ; arc-sec
+	Scale: -0.000004624331 ; ppm
+	RotVel: -0.019685 0.105000 -0.346609  ; mas/y
+	Velocity: -0.0006 -0.0003 -0.0003 ; cm/y
+	PPMVel: -0.000000566478 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(MARP00) to IGb00 (810) 
+	From: NAD83(MARP00)
+	To: IGb00
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.9103 2.0141 0.5601 ; m
+	Angle: 0.028755 0.011573 0.005126 0 ; arc-sec
+	Scale: -0.000004624331 ; ppm
+	RotVel: -0.019685 0.105000 -0.346609  ; mas/y
+	Velocity: -0.0006 -0.0003 -0.0003 ; cm/y
+	PPMVel: -0.000000566478 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(MARP00) to IGS00 (810) 
+	From: NAD83(MARP00)
+	To: IGS00
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.9103 2.0141 0.5601 ; m
+	Angle: 0.028755 0.011573 0.005126 0 ; arc-sec
+	Scale: -0.000004624331 ; ppm
+	RotVel: -0.019685 0.105000 -0.346609  ; mas/y
+	Velocity: -0.0006 -0.0003 -0.0003 ; cm/y
+	PPMVel: -0.000000566478 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(MARP00) to ITRF88 (810) 
+	From: NAD83(MARP00)
+	To: ITRF88
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.8802 2.0123 0.4646 ; m
+	Angle: 0.028583 0.011965 0.005404 0 ; arc-sec
+	Scale: 0.006011695324 ; ppm
+	RotVel: -0.033034 0.120358 -0.326910  ; mas/y
+	Velocity: 0.0679 -0.0703 0.0458 ; cm/y
+	PPMVel: -0.000183351567 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(MARP00) to ITRF89 (810) 
+	From: NAD83(MARP00)
+	To: ITRF89
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.8751 2.0483 0.4886 ; m
+	Angle: 0.028483 0.011962 0.005402 0 ; arc-sec
+	Scale: 0.002916467558 ; ppm
+	RotVel: -0.033342 0.119886 -0.327173  ; mas/y
+	Velocity: 0.0695 -0.0710 0.0456 ; cm/y
+	PPMVel: -0.000182082167 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(MARP00) to ITRF90 (810) 
+	From: NAD83(MARP00)
+	To: ITRF90
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.8801 2.0242 0.5265 ; m
+	Angle: 0.028480 0.011964 0.005403 0 ; arc-sec
+	Scale: -0.000483687880 ; ppm
+	RotVel: -0.033598 0.120321 -0.326907  ; mas/y
+	Velocity: 0.0680 -0.0713 0.0447 ; cm/y
+	PPMVel: -0.000182393428 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(MARP00) to ITRF91 (810) 
+	From: NAD83(MARP00)
+	To: ITRF91
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.8781 2.0282 0.5426 ; m
+	Angle: 0.028482 0.011962 0.005402 0 ; arc-sec
+	Scale: -0.000786760703 ; ppm
+	RotVel: -0.032992 0.119951 -0.327038  ; mas/y
+	Velocity: 0.0693 -0.0699 0.0459 ; cm/y
+	PPMVel: -0.000182799844 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(MARP00) to ITRF92 (810) 
+	From: NAD83(MARP00)
+	To: ITRF92
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.8901 2.0142 0.5485 ; m
+	Angle: 0.028481 0.011963 0.005402 0 ; arc-sec
+	Scale: -0.002184398105 ; ppm
+	RotVel: -0.033569 0.120228 -0.327028  ; mas/y
+	Velocity: 0.0686 -0.0713 0.0446 ; cm/y
+	PPMVel: -0.000182299883 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(MARP00) to ITRF93 (810) 
+	From: NAD83(MARP00)
+	To: ITRF93
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.9499 2.0152 0.5575 ; m
+	Angle: 0.025895 0.008967 0.005439 0 ; arc-sec
+	Scale: -0.000985308045 ; ppm
+	RotVel: -0.143522 -0.069552 -0.276707  ; mas/y
+	Velocity: -0.2225 -0.0309 0.1246 ; cm/y
+	PPMVel: -0.000182146003 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(MARP00) to ITRF94 (810) 
+	From: NAD83(MARP00)
+	To: ITRF94
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.8981 2.0122 0.5566 ; m
+	Angle: 0.028480 0.011963 0.005403 0 ; arc-sec
+	Scale: -0.001390623206 ; ppm
+	RotVel: -0.033468 0.120008 -0.327024  ; mas/y
+	Velocity: 0.0690 -0.0711 0.0451 ; cm/y
+	PPMVel: -0.000183585887 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(MARP00) to ITRF96 (810) 
+	From: NAD83(MARP00)
+	To: ITRF96
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.8981 2.0122 0.5566 ; m
+	Angle: 0.028480 0.011963 0.005403 0 ; arc-sec
+	Scale: -0.001390623206 ; ppm
+	RotVel: -0.033468 0.120008 -0.327024  ; mas/y
+	Velocity: 0.0690 -0.0711 0.0451 ; cm/y
+	PPMVel: -0.000183585887 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(MARP00) to ITRF97 (810) 
+	From: NAD83(MARP00)
+	To: ITRF97
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.9036 2.0135 0.5262 ; m
+	Angle: 0.028754 0.011572 0.005343 0 ; arc-sec
+	Scale: 0.001648083829 ; ppm
+	RotVel: -0.019034 0.104551 -0.326801  ; mas/y
+	Velocity: 0.0007 -0.0591 -0.1386 ; cm/y
+	PPMVel: 0.000008640829 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(MARP00) to NAD83 (810) 
+	From: NAD83(MARP00)
+	To: NAD83
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0929 0.1050 0.0436 ; m
+	Angle: 0.002107 0.010457 -0.005911 0 ; arc-sec
+	Scale: -0.001387907586 ; ppm
+	RotVel: -0.086587 0.862523 -0.295390  ; mas/y
+	Velocity: 0.0685 -0.0710 0.0453 ; cm/y
+	PPMVel: -0.000182781263 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(MARP00) to WGS84 (810) 
+	From: NAD83(MARP00)
+	To: WGS84
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.9103 2.0141 0.5602 ; m
+	Angle: 0.028756 0.011574 0.005125 0 ; arc-sec
+	Scale: -0.000006181090 ; ppm
+	RotVel: -0.019685 0.105000 -0.346609  ; mas/y
+	Velocity: -0.0006 -0.0003 -0.0003 ; cm/y
+	PPMVel: -0.000000566477 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G1150) to NAD83(MARP00) (810) 
+	From: WGS84(G1150)
+	To: NAD83(MARP00)
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9103 -2.0141 -0.5602 ; m
+	Angle: -0.028756 -0.011574 -0.005125 0 ; arc-sec
+	Scale: 0.000006168122 ; ppm
+	RotVel: 0.019685 -0.105000 0.346609  ; mas/y
+	Velocity: 0.0006 0.0003 0.0003 ; cm/y
+	PPMVel: 0.000000566521 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0873) to NAD83(MARP00) (810) 
+	From: WGS84(G0873)
+	To: NAD83(MARP00)
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.8981 -2.0122 -0.5567 ; m
+	Angle: -0.028481 -0.011964 -0.005402 0 ; arc-sec
+	Scale: 0.001392167391 ; ppm
+	RotVel: 0.033468 -0.120008 0.327024  ; mas/y
+	Velocity: -0.0690 0.0711 -0.0451 ; cm/y
+	PPMVel: 0.000183585961 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0730) to NAD83(MARP00) (810) 
+	From: WGS84(G0730)
+	To: NAD83(MARP00)
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.8901 -2.0143 -0.5487 ; m
+	Angle: -0.028482 -0.011964 -0.005402 0 ; arc-sec
+	Scale: 0.002185941952 ; ppm
+	RotVel: 0.033569 -0.120228 0.327028  ; mas/y
+	Velocity: -0.0686 0.0713 -0.0446 ; cm/y
+	PPMVel: 0.000182299924 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; ITRF05 to NAD83(PACP00) (810) 
+	From: ITRF05
+	To: NAD83(PACP00)
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9087 -2.0141 -0.5803 ; m
+	Angle: -0.023534 -0.024513 0.021267 0 ; arc-sec
+	Scale: 0.001042228437 ; ppm
+	RotVel: 0.383739 -1.007341 2.185531  ; mas/y
+	Velocity: -0.0185 0.0101 -0.1790 ; cm/y
+	PPMVel: 0.000078692314 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; IGS05 to NAD83(PACP00) (810) 
+	From: IGS05
+	To: NAD83(PACP00)
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9087 -2.0141 -0.5803 ; m
+	Angle: -0.023534 -0.024513 0.021267 0 ; arc-sec
+	Scale: 0.001042228437 ; ppm
+	RotVel: 0.383739 -1.007341 2.185531  ; mas/y
+	Velocity: -0.0185 0.0101 -0.1790 ; cm/y
+	PPMVel: 0.000078692314 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(PACP00) to ITRF00 (810) 
+	From: NAD83(PACP00)
+	To: ITRF00
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.9102 2.0141 0.5602 ; m
+	Angle: 0.023533 0.024514 -0.021265 0 ; arc-sec
+	Scale: -0.000003291972 ; ppm
+	RotVel: -0.383753 1.006778 -2.185869  ; mas/y
+	Velocity: 0.0004 -0.0008 -0.0002 ; cm/y
+	PPMVel: -0.000000580768 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(PACP00) to IGb00 (810) 
+	From: NAD83(PACP00)
+	To: IGb00
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.9102 2.0141 0.5602 ; m
+	Angle: 0.023533 0.024514 -0.021265 0 ; arc-sec
+	Scale: -0.000003291972 ; ppm
+	RotVel: -0.383753 1.006778 -2.185869  ; mas/y
+	Velocity: 0.0004 -0.0008 -0.0002 ; cm/y
+	PPMVel: -0.000000580768 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(PACP00) to IGS00 (810) 
+	From: NAD83(PACP00)
+	To: IGS00
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.9102 2.0141 0.5602 ; m
+	Angle: 0.023533 0.024514 -0.021265 0 ; arc-sec
+	Scale: -0.000003291972 ; ppm
+	RotVel: -0.383753 1.006778 -2.185869  ; mas/y
+	Velocity: 0.0004 -0.0008 -0.0002 ; cm/y
+	PPMVel: -0.000000580768 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(PACP00) to ITRF88 (810) 
+	From: NAD83(PACP00)
+	To: ITRF88
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.8801 2.0123 0.4646 ; m
+	Angle: 0.023361 0.024905 -0.020987 0 ; arc-sec
+	Scale: 0.006013027522 ; ppm
+	RotVel: -0.397101 1.022136 -2.166170  ; mas/y
+	Velocity: 0.0689 -0.0708 0.0460 ; cm/y
+	PPMVel: -0.000183365855 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(PACP00) to ITRF89 (810) 
+	From: NAD83(PACP00)
+	To: ITRF89
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.8750 2.0483 0.4887 ; m
+	Angle: 0.023261 0.024902 -0.020989 0 ; arc-sec
+	Scale: 0.002917799960 ; ppm
+	RotVel: -0.397409 1.021663 -2.166433  ; mas/y
+	Velocity: 0.0706 -0.0715 0.0458 ; cm/y
+	PPMVel: -0.000182096428 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(PACP00) to ITRF90 (810) 
+	From: NAD83(PACP00)
+	To: ITRF90
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.8801 2.0243 0.5266 ; m
+	Angle: 0.023258 0.024904 -0.020988 0 ; arc-sec
+	Scale: -0.000482355845 ; ppm
+	RotVel: -0.397666 1.022098 -2.166168  ; mas/y
+	Velocity: 0.0690 -0.0718 0.0448 ; cm/y
+	PPMVel: -0.000182407779 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(PACP00) to ITRF91 (810) 
+	From: NAD83(PACP00)
+	To: ITRF91
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.8780 2.0283 0.5426 ; m
+	Angle: 0.023260 0.024903 -0.020989 0 ; arc-sec
+	Scale: -0.000785428328 ; ppm
+	RotVel: -0.397060 1.021728 -2.166298  ; mas/y
+	Velocity: 0.0703 -0.0704 0.0461 ; cm/y
+	PPMVel: -0.000182814138 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(PACP00) to ITRF92 (810) 
+	From: NAD83(PACP00)
+	To: ITRF92
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.8900 2.0143 0.5486 ; m
+	Angle: 0.023259 0.024903 -0.020989 0 ; arc-sec
+	Scale: -0.002183065899 ; ppm
+	RotVel: -0.397636 1.022005 -2.166288  ; mas/y
+	Velocity: 0.0696 -0.0717 0.0448 ; cm/y
+	PPMVel: -0.000182314178 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(PACP00) to ITRF93 (810) 
+	From: NAD83(PACP00)
+	To: ITRF93
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.9499 2.0153 0.5576 ; m
+	Angle: 0.020672 0.021907 -0.020951 0 ; arc-sec
+	Scale: -0.000983975156 ; ppm
+	RotVel: -0.507590 0.832225 -2.115967  ; mas/y
+	Velocity: -0.2215 -0.0314 0.1247 ; cm/y
+	PPMVel: -0.000182160183 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(PACP00) to ITRF94 (810) 
+	From: NAD83(PACP00)
+	To: ITRF94
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.8980 2.0122 0.5566 ; m
+	Angle: 0.023258 0.024903 -0.020988 0 ; arc-sec
+	Scale: -0.001389291041 ; ppm
+	RotVel: -0.397536 1.021785 -2.166285  ; mas/y
+	Velocity: 0.0700 -0.0716 0.0453 ; cm/y
+	PPMVel: -0.000183600194 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(PACP00) to ITRF96 (810) 
+	From: NAD83(PACP00)
+	To: ITRF96
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.8980 2.0122 0.5566 ; m
+	Angle: 0.023258 0.024903 -0.020988 0 ; arc-sec
+	Scale: -0.001389291041 ; ppm
+	RotVel: -0.397536 1.021785 -2.166285  ; mas/y
+	Velocity: 0.0700 -0.0716 0.0453 ; cm/y
+	PPMVel: -0.000183600194 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(PACP00) to ITRF97 (810) 
+	From: NAD83(PACP00)
+	To: ITRF97
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.9035 2.0135 0.5263 ; m
+	Angle: 0.023531 0.024512 -0.021048 0 ; arc-sec
+	Scale: 0.001649415909 ; ppm
+	RotVel: -0.383101 1.006328 -2.166061  ; mas/y
+	Velocity: 0.0017 -0.0596 -0.1385 ; cm/y
+	PPMVel: 0.000008626542 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(PACP00) to NAD83 (810) 
+	From: NAD83(PACP00)
+	To: NAD83
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0929 0.1050 0.0437 ; m
+	Angle: -0.003115 0.023398 -0.032302 0 ; arc-sec
+	Scale: -0.001386583788 ; ppm
+	RotVel: -0.450654 1.764301 -2.134651  ; mas/y
+	Velocity: 0.0695 -0.0715 0.0454 ; cm/y
+	PPMVel: -0.000182796246 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(PACP00) to WGS84 (810) 
+	From: NAD83(PACP00)
+	To: WGS84
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.9102 2.0141 0.5603 ; m
+	Angle: 0.023533 0.024514 -0.021265 0 ; arc-sec
+	Scale: -0.000004848856 ; ppm
+	RotVel: -0.383753 1.006778 -2.185869  ; mas/y
+	Velocity: 0.0004 -0.0008 -0.0002 ; cm/y
+	PPMVel: -0.000000580756 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G1150) to NAD83(PACP00) (810) 
+	From: WGS84(G1150)
+	To: NAD83(PACP00)
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9102 -2.0141 -0.5603 ; m
+	Angle: -0.023533 -0.024514 0.021265 0 ; arc-sec
+	Scale: 0.000004820039 ; ppm
+	RotVel: 0.383753 -1.006778 2.185869  ; mas/y
+	Velocity: -0.0004 0.0008 0.0002 ; cm/y
+	PPMVel: 0.000000578890 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0873) to NAD83(PACP00) (810) 
+	From: WGS84(G0873)
+	To: NAD83(PACP00)
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.8980 -2.0123 -0.5567 ; m
+	Angle: -0.023258 -0.024904 0.020988 0 ; arc-sec
+	Scale: 0.001390818838 ; ppm
+	RotVel: 0.397536 -1.021785 2.166285  ; mas/y
+	Velocity: -0.0700 0.0716 -0.0453 ; cm/y
+	PPMVel: 0.000183598300 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; WGS84(G0730) to NAD83(PACP00) (810) 
+	From: WGS84(G0730)
+	To: NAD83(PACP00)
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.8900 -2.0143 -0.5487 ; m
+	Angle: -0.023260 -0.024904 0.020989 0 ; arc-sec
+	Scale: 0.002184593606 ; ppm
+	RotVel: 0.397636 -1.022005 2.166288  ; mas/y
+	Velocity: -0.0696 0.0717 -0.0448 ; cm/y
+	PPMVel: 0.000182312277 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(CORS96) to NAD83(PACP00) (810) 
+	From: NAD83(CORS96)
+	To: NAD83(PACP00)
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0929 -0.1050 -0.0437 ; m
+	Angle: 0.003115 -0.023398 0.032302 0 ; arc-sec
+	Scale: 0.001386547982 ; ppm
+	RotVel: 0.450654 -1.764301 2.134651  ; mas/y
+	Velocity: -0.0695 0.0715 -0.0454 ; cm/y
+	PPMVel: 0.000182792647 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(2011) to NAD83(PACP00) (810) 
+	From: NAD83(2011)
+	To: NAD83(PACP00)
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0929 -0.1050 -0.0437 ; m
+	Angle: 0.003115 -0.023398 0.032302 0 ; arc-sec
+	Scale: 0.001386547982 ; ppm
+	RotVel: 0.450654 -1.764301 2.134651  ; mas/y
+	Velocity: -0.0695 0.0715 -0.0454 ; cm/y
+	PPMVel: 0.000182792647 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {        ; NAD83(PACP00) to NAD83(MARP00) (810) 
+	From: NAD83(PACP00)
+	To: NAD83(MARP00)
+	Info: 810
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0001 0.0000 0.0001 ; m
+	Angle: -0.005222 0.012940 -0.026391 0 ; arc-sec
+	Scale: 0.000001330402 ; ppm
+	RotVel: -0.364067 0.901777 -1.839260  ; mas/y
+	Velocity: 0.0010 -0.0005 0.0002 ; cm/y
+	PPMVel: -0.000000014325 ; ppm/y
+	RefYear: 2007.970
+}
+Convert {		; WGS84(G1674) to WGS84 (850) 
+        From: WGS84(G1674)
+        To: WGS84
+        Info: 850
+        Default: 1
+
+        Type: 3PARAM
+        Offset: 0 0 0
+}
+Convert {		; ITRF08 to WGS84(G1674) (IGN)
+        From: ITRF08
+        To: WGS84(G1674)
+        Info: IGN
+        Default: 1
+
+        Type: 3PARAM
+        Offset: 0 0 0
+}
+Convert {		; IGS08 to WGS84(G1674) (850) 
+        From: IGS08
+        To: WGS84(G1674)
+        Info: 850
+        Default: 1
+
+        Type: 3PARAM
+        Offset: 0 0 0
+}
+Convert {		; IGb08 to WGS84(G1674) (850) 
+        From: IGb08
+        To: WGS84(G1674)
+        Info: 850
+        Default: 1
+
+        Type: 3PARAM
+        Offset: 0 0 0
+}
+Convert {        ; WGS84(G1674) to ITRF05 (IGN)
+	From: WGS84(G1674)
+	To: ITRF05
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0020 -0.0009 -0.0047 ; m
+	Angle: 0.000000 0.000000 0.000000 ; arc-sec
+	Scale: 0.000940000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0300 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84(G1674) to ITRF97 (IGN)
+	From: WGS84(G1674)
+	To: ITRF97
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0048 0.0026 -0.0332 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.002920000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84(G1674) to NAD83(CORS96) (850) 
+	From: WGS84(G1674)
+	To: NAD83(CORS96)
+	Info: 850
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0053 -1.9123 -0.5467 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: 0.000185000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0800 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; WGS84(G1674) to NAD83(2011) (850) 
+	From: WGS84(G1674)
+	To: NAD83(2011)
+	Info: 850
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0053 -1.9123 -0.5467 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: 0.000185000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0800 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; WGS84(G1674) to NAD83 (850) 
+	From: WGS84(G1674)
+	To: NAD83
+	Info: 850
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0053 -1.9123 -0.5467 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: 0.000185000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0800 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; IGS00 to WGS84(G1674) (850) 
+	From: IGS00
+	To: WGS84(G1674)
+	Info: 850
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0009 0.0006 0.0303 ; m
+	Angle: -0.000001 -0.000002 -0.000001 0 ; arc-sec
+	Scale: -0.002219551186 ; ppm
+	RotVel: -0.000086 -0.000101 -0.000137  ; mas/y
+	Velocity: -0.0096 -0.0104 0.1800 ; cm/y
+	PPMVel: -0.000080038919 ; ppm/y
+	RefYear: 2011.000
+}
+Convert {        ; WGS84(G1674) to ITRF00 (IGN) 
+	From: WGS84(G1674)
+	To: ITRF00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0019 -0.0017 -0.0105 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.001340000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; IGb00 to WGS84(G1674) (850) 
+	From: IGb00
+	To: WGS84(G1674)
+	Info: 850
+	Default: 0
+	Type: 14PARAM
+	Offset: 0.0009 0.0006 0.0303 ; m
+	Angle: -0.000001 -0.000002 -0.000001 0 ; arc-sec
+	Scale: -0.002219551186 ; ppm
+	RotVel: -0.000086 -0.000101 -0.000137  ; mas/y
+	Velocity: -0.0096 -0.0104 0.1800 ; cm/y
+	PPMVel: -0.000080038919 ; ppm/y
+	RefYear: 2011.000
+}
+Convert {        ; WGS84(G1674) to IGb00 (IGN) 
+	From: WGS84(G1674)
+	To: IGb00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0019 -0.0017 -0.0105 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.001340000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84(G1674) to ITRF88 (IGN)
+	From: WGS84(G1674)
+	To: ITRF88
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0228 0.0026 -0.1252 ; m
+	Angle: 0.000100 0.000000 0.000060 ; arc-sec
+	Scale: 0.010410000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84(G1674) to ITRF89 (IGN)
+	From: WGS84(G1674)
+	To: ITRF89
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0278 0.0386 -0.1012 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.007310000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84(G1674) to ITRF90 (IGN)
+	From: WGS84(G1674)
+	To: ITRF90
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0228 0.0146 -0.0632 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.003910000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84(G1674) to ITRF91 (IGN)
+	From: WGS84(G1674)
+	To: ITRF91
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0248 0.0186 -0.0472 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.003610000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84(G1674) to ITRF92 (IGN)
+	From: WGS84(G1674)
+	To: ITRF92
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0128 0.0046 -0.0412 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.002210000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84(G1674) to ITRF93 (IGN)
+	From: WGS84(G1674)
+	To: ITRF93
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0240 0.0024 -0.0386 ; m
+	Angle: -0.001710 -0.001480 -0.000300 ; arc-sec
+	Scale: 0.003410000000 ; ppm
+	RotVel: -0.000110 -0.000190 0.070000  ; mas/y
+	Velocity: -0.2800 -0.0100 -0.2400 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84(G1674) to ITRF94 (IGN)
+	From: WGS84(G1674)
+	To: ITRF94
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0048 0.0026 -0.0332 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.002920000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84(G1674) to ITRF96 (IGN)
+	From: WGS84(G1674)
+	To: ITRF96
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0048 0.0026 -0.0332 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.002920000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84(G1674) to ITRF97 (IGN)
+	From: WGS84(G1674)
+	To: ITRF97
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0048 0.0026 -0.0332 ; m
+	Angle: 0.000000 0.000000 0.000060 ; arc-sec
+	Scale: 0.002920000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3200 ; cm/y
+	PPMVel: 0.000090000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84(G1674) to WGS84(G1150) (850) 
+	From: WGS84(G1674)
+	To: WGS84(G1150)
+	Info: 850
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0019 -0.0017 -0.0105 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.001340000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2000.000
+}
+Convert {        ; WGS84(G0873) to WGS84(G1674) (850) 
+	From: WGS84(G0873)
+	To: WGS84(G1674)
+	Info: 850
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0134 0.0046 0.0325 ; m
+	Angle: 0.000315 -0.000438 -0.000337 0 ; arc-sec
+	Scale: -0.000284427806 ; ppm
+	RotVel: 0.013713 -0.015045 -0.019516  ; mas/y
+	Velocity: -0.0797 0.0607 0.1343 ; cm/y
+	PPMVel: 0.000102200982 ; ppm/y
+	RefYear: 2011.000
+}
+Convert {        ; WGS84(G0730) to WGS84(G1674) (850) 
+	From: WGS84(G0730)
+	To: WGS84(G1674)
+	Info: 850
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0215 0.0025 0.0404 ; m
+	Angle: 0.000313 -0.000436 -0.000337 0 ; arc-sec
+	Scale: 0.000513993977 ; ppm
+	RotVel: 0.013418 -0.015255 -0.019828  ; mas/y
+	Velocity: -0.0786 0.0597 0.1340 ; cm/y
+	PPMVel: 0.000101991715 ; ppm/y
+	RefYear: 2011.000
+}
+Convert {        ; IGS08 to NAD83(PA11) (NGS) 
+	From: IGS08
+	To: NAD83(PA11)
+	Info: NGS
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9080 -2.0161 -0.5653 ; m
+	Angle: 0.027741 0.013469 0.002712 1 ; arc-sec
+	Scale: 0.001100000000 ; ppm
+	RotVel: -0.384000 1.007000 -2.186000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 1997.000
+}
+Convert {        ; IGb08 to NAD83(PA11) (NGS) 
+	From: IGb08
+	To: NAD83(PA11)
+	Info: NGS
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9080 -2.0161 -0.5653 ; m
+	Angle: 0.027741 0.013469 0.002712 1 ; arc-sec
+	Scale: 0.001100000000 ; ppm
+	RotVel: -0.384000 1.007000 -2.186000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 1997.000
+}
+Convert {        ; ITRF08 to NAD83(PA11) (NGS) 
+	From: ITRF08
+	To: NAD83(PA11)
+	Info: NGS
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9080 -2.0161 -0.5653 ; m
+	Angle: 0.027741 0.013469 0.002712 1 ; arc-sec
+	Scale: 0.001100000000 ; ppm
+	RotVel: -0.384000 1.007000 -2.186000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 1997.000
+}
+Convert {        ; WGS84 to NAD83(PA11) (NGS) 
+	From: WGS84
+	To: NAD83(PA11)
+	Info: NGS
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9080 -2.0161 -0.5653 ; m
+	Angle: 0.027741 0.013469 0.002712 1 ; arc-sec
+	Scale: 0.001100000000 ; ppm
+	RotVel: -0.384000 1.007000 -2.186000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 1997.000
+}
+Convert {        ; WGS84(G1674) to NAD83(PA11) (NGS) 
+	From: WGS84(G1674)
+	To: NAD83(PA11)
+	Info: NGS
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9080 -2.0161 -0.5653 ; m
+	Angle: 0.027741 0.013469 0.002712 1 ; arc-sec
+	Scale: 0.001100000000 ; ppm
+	RotVel: -0.384000 1.007000 -2.186000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 1997.000
+}
+Convert {        ; IGS08 to NAD83(MA11) (NGS) 
+	From: IGS08
+	To: NAD83(MA11)
+	Info: NGS
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9080 -2.0161 -0.5653 ; m
+	Angle: 0.028971 0.010420 0.008928 1 ; arc-sec
+	Scale: 0.001100000000 ; ppm
+	RotVel: -0.020000 0.105000 -0.347000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 1997.000
+}
+Convert {        ; IGb08 to NAD83(MA11) (NGS) 
+	From: IGb08
+	To: NAD83(MA11)
+	Info: NGS
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9080 -2.0161 -0.5653 ; m
+	Angle: 0.028971 0.010420 0.008928 1 ; arc-sec
+	Scale: 0.001100000000 ; ppm
+	RotVel: -0.020000 0.105000 -0.347000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 1997.000
+}
+Convert {        ; ITRF08 to NAD83(MA11) (NGS) 
+	From: ITRF08
+	To: NAD83(MA11)
+	Info: NGS
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9080 -2.0161 -0.5653 ; m
+	Angle: 0.028971 0.010420 0.008928 1 ; arc-sec
+	Scale: 0.001100000000 ; ppm
+	RotVel: -0.020000 0.105000 -0.347000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 1997.000
+}
+Convert {        ; WGS84 to NAD83(MA11) (NGS) 
+	From: WGS84
+	To: NAD83(MA11)
+	Info: NGS
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9080 -2.0161 -0.5653 ; m
+	Angle: 0.028971 0.010420 0.008928 1 ; arc-sec
+	Scale: 0.001100000000 ; ppm
+	RotVel: -0.020000 0.105000 -0.347000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 1997.000
+}
+Convert {        ; WGS84(G1674) to NAD83(MA11) (NGS) 
+	From: WGS84(G1674)
+	To: NAD83(MA11)
+	Info: NGS
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.9080 -2.0161 -0.5653 ; m
+	Angle: 0.028971 0.010420 0.008928 1 ; arc-sec
+	Scale: 0.001100000000 ; ppm
+	RotVel: -0.020000 0.105000 -0.347000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 1997.000
+}
+Convert {        ; ITRF05 to NAD83(PA11) (Combo) 
+	From: ITRF05
+	To: NAD83(PA11)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF05 to IGS08 (IGN)"
+	CombTo: "IGS08 to NAD83(PA11) (NGS)"
+}
+Convert {        ; IGS05 to NAD83(PA11) (Combo) 
+	From: IGS05
+	To: NAD83(PA11)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS05 to IGS08 (IGN)"
+	CombTo: "IGS08 to NAD83(PA11) (NGS)"
+}
+Convert {        ; ITRF05 to NAD83(MA11) (Combo) 
+	From: ITRF05
+	To: NAD83(MA11)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF05 to IGS08 (IGN)"
+	CombTo: "IGS08 to NAD83(MA11) (NGS)"
+}
+Convert {        ; IGS05 to NAD83(MA11) (Combo) 
+	From: IGS05
+	To: NAD83(MA11)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS05 to IGS08 (IGN)"
+	CombTo: "IGS08 to NAD83(MA11) (NGS)"
+}
+Convert {        ; WGS84 to GDA94 (ARGN) 
+	From: WGS84
+	To: GDA94
+	Info: ARGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0847 -0.0194 0.0320 ; m
+	Angle: -0.000425 0.002258 0.002402 1 ; arc-sec
+	Scale: 0.009710000000 ; ppm
+	RotVel: 1.546100 1.182000 1.155100  ; mas/y
+	Velocity: 0.1420 0.1340 0.0900 ; cm/y
+	PPMVel: 0.000109000000 ; ppm/y
+	RefYear: 1994.000
+}
+Convert {        ; IGS08 to GDA94 (ARGN) 
+	From: IGS08
+	To: GDA94
+	Info: ARGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0847 -0.0194 0.0320 ; m
+	Angle: -0.000425 0.002258 0.002402 1 ; arc-sec
+	Scale: 0.009710000000 ; ppm
+	RotVel: 1.546100 1.182000 1.155100  ; mas/y
+	Velocity: 0.1420 0.1340 0.0900 ; cm/y
+	PPMVel: 0.000109000000 ; ppm/y
+	RefYear: 1994.000
+}
+Convert {        ; IGb08 to GDA94 (ARGN) 
+	From: IGb08
+	To: GDA94
+	Info: ARGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0847 -0.0194 0.0320 ; m
+	Angle: -0.000425 0.002258 0.002402 1 ; arc-sec
+	Scale: 0.009710000000 ; ppm
+	RotVel: 1.546100 1.182000 1.155100  ; mas/y
+	Velocity: 0.1420 0.1340 0.0900 ; cm/y
+	PPMVel: 0.000109000000 ; ppm/y
+	RefYear: 1994.000
+}
+Convert {        ; ITRF08 to GDA94 (ARGN) 
+	From: ITRF08
+	To: GDA94
+	Info: ARGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0847 -0.0194 0.0320 ; m
+	Angle: -0.000425 0.002258 0.002402 1 ; arc-sec
+	Scale: 0.009710000000 ; ppm
+	RotVel: 1.546100 1.182000 1.155100  ; mas/y
+	Velocity: 0.1420 0.1340 0.0900 ; cm/y
+	PPMVel: 0.000109000000 ; ppm/y
+	RefYear: 1994.000
+}
+Convert {        ; ITRF05 to GDA94 (ARGN) 
+	From: ITRF05
+	To: GDA94
+	Info: ARGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0797 -0.0069 0.0380 ; m
+	Angle: -0.000035 0.002121 0.002141 1 ; arc-sec
+	Scale: 0.006636000000 ; ppm
+	RotVel: 1.470700 1.144300 1.170100  ; mas/y
+	Velocity: 0.2250 -0.0620 -0.0560 ; cm/y
+	PPMVel: 0.000294000000 ; ppm/y
+	RefYear: 1994.000
+}
+Convert {        ; ITRF00 to GDA94 (ARGN) 
+	From: ITRF00
+	To: GDA94
+	Info: ARGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0459 -0.0299 -0.0204 ; m
+	Angle: -0.001670 0.000459 0.001936 1 ; arc-sec
+	Scale: 0.007070000000 ; ppm
+	RotVel: 1.745400 1.486800 1.224000  ; mas/y
+	Velocity: -0.4660 0.3550 1.1240 ; cm/y
+	PPMVel: 0.000249000000 ; ppm/y
+	RefYear: 1994.000
+}
+Convert {        ; IGb00 to GDA94 (ARGN) 
+	From: IGb00
+	To: GDA94
+	Info: ARGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0459 -0.0299 -0.0204 ; m
+	Angle: -0.001670 0.000459 0.001936 1 ; arc-sec
+	Scale: 0.007070000000 ; ppm
+	RotVel: 1.745400 1.486800 1.224000  ; mas/y
+	Velocity: -0.4660 0.3550 1.1240 ; cm/y
+	PPMVel: 0.000249000000 ; ppm/y
+	RefYear: 1994.000
+}
+Convert {        ; ITRF97 to GDA94 (ARGN) 
+	From: ITRF97
+	To: GDA94
+	Info: ARGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0146 -0.0276 -0.0253 ; m
+	Angle: -0.001789 -0.000605 0.000996 1 ; arc-sec
+	Scale: 0.006950000000 ; ppm
+	RotVel: 1.639400 1.519800 1.380100  ; mas/y
+	Velocity: -0.8600 0.0360 1.1250 ; cm/y
+	PPMVel: 0.000007000000 ; ppm/y
+	RefYear: 1994.000
+}
+Convert {        ; ITRF96 to GDA94 (ARGN) 
+	From: ITRF96
+	To: GDA94
+	Info: ARGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0245 -0.0364 -0.0681 ; m
+	Angle: -0.002736 -0.002043 0.000373 1 ; arc-sec
+	Scale: 0.006901000000 ; ppm
+	RotVel: 2.020300 2.173500 1.629000  ; mas/y
+	Velocity: -2.1800 0.4710 2.6270 ; cm/y
+	PPMVel: 0.000388000000 ; ppm/y
+	RefYear: 1994.000
+}
+Convert {        ; ITRF2014 to WGS84 (IGN) 
+	From: ITRF2014
+	To: WGS84
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0016 0.0019 0.0024 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: -0.000020000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0000 0.0000 -0.0100 ; cm/y
+	PPMVel: 0.000030000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF2014 to WGS84(G1674) (IGN) 
+	From: ITRF2014
+	To: WGS84(G1674)
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0016 0.0019 0.0024 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: -0.000020000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0000 0.0000 -0.0100 ; cm/y
+	PPMVel: 0.000030000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF2014 to ITRF05 (IGN) 
+	From: ITRF2014
+	To: ITRF05
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0026 0.0010 -0.0023 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000920000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0300 0.0000 -0.0100 ; cm/y
+	PPMVel: 0.000030000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF2014 to ITRF00 (IGN) 
+	From: ITRF2014
+	To: ITRF00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0007 0.0012 -0.0261 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.002120000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1900 ; cm/y
+	PPMVel: 0.000110000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS14 to ITRF05 (IGN) 
+	From: IGS14
+	To: ITRF05
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0026 0.0010 -0.0023 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000920000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0300 0.0000 -0.0100 ; cm/y
+	PPMVel: 0.000030000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS14 to IGS05 (IGN) 
+	From: IGS14
+	To: IGS05
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0026 0.0010 -0.0023 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000920000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0300 0.0000 -0.0100 ; cm/y
+	PPMVel: 0.000030000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF2014 to IGS05 (IGN) 
+	From: ITRF2014
+	To: IGS05
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0026 0.0010 -0.0023 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000920000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0300 0.0000 -0.0100 ; cm/y
+	PPMVel: 0.000030000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS14 to ITRF00 (IGN) 
+	From: IGS14
+	To: ITRF00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0007 0.0012 -0.0261 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.002120000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1900 ; cm/y
+	PPMVel: 0.000110000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF2014 to ITRF08 (IGN) 
+	From: ITRF2014
+	To: ITRF08
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0016 0.0019 0.0024 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: -0.000020000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0000 0.0000 -0.0100 ; cm/y
+	PPMVel: 0.000030000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF2014 to IGS08 (IGN) 
+	From: ITRF2014
+	To: IGS08
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0016 0.0019 0.0024 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: -0.000020000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0000 0.0000 -0.0100 ; cm/y
+	PPMVel: 0.000030000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF2014 to IGb08 (IGN) 
+	From: ITRF2014
+	To: IGb08
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0016 0.0019 0.0024 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: -0.000020000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0000 0.0000 -0.0100 ; cm/y
+	PPMVel: 0.000030000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF2014 to IGb00 (IGN) 
+	From: ITRF2014
+	To: IGb00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0007 0.0012 -0.0261 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.002120000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1900 ; cm/y
+	PPMVel: 0.000110000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF2014 to GDA2020 (ICSM) 
+	From: ITRF2014
+	To: GDA2020
+	Info: ICSM
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0000 0.0000 0.0000 ; m
+	Angle: 0.000000 0.000000 0.000000 1 ; arc-sec
+	Scale: 0.000000000000 ; ppm
+	RotVel: 1.503790 1.183460 1.207160  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2020.000
+}
+Convert {        ; IGS14 to ITRF2014 (IGN) 
+	From: IGS14
+	To: ITRF2014
+	Info: IGN
+	Default: 1
+	Type: 3PARAM
+	Offset: 0.0000 0.0000 0.0000 ; m
+}
+Convert {        ; IGS14 to WGS84 (IGN) 
+	From: IGS14
+	To: WGS84
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0016 0.0019 0.0024 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: -0.000020000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0000 0.0000 -0.0100 ; cm/y
+	PPMVel: 0.000030000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS14 to WGS84(G1674) (IGN) 
+	From: IGS14
+	To: WGS84(G1674)
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0016 0.0019 0.0024 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: -0.000020000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0000 0.0000 -0.0100 ; cm/y
+	PPMVel: 0.000030000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS14 to ITRF08 (IGN) 
+	From: IGS14
+	To: ITRF08
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0016 0.0019 0.0024 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: -0.000020000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0000 0.0000 -0.0100 ; cm/y
+	PPMVel: 0.000030000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS14 to IGS08 (IGN) 
+	From: IGS14
+	To: IGS08
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0016 0.0019 0.0024 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: -0.000020000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0000 0.0000 -0.0100 ; cm/y
+	PPMVel: 0.000030000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS14 to IGb08 (IGN) 
+	From: IGS14
+	To: IGb08
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0016 0.0019 0.0024 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: -0.000020000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0000 0.0000 -0.0100 ; cm/y
+	PPMVel: 0.000030000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS14 to GDA2020 (ICSM) 
+	From: IGS14
+	To: GDA2020
+	Info: ICSM
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0000 0.0000 0.0000 ; m
+	Angle: 0.000000 0.000000 0.000000 1 ; arc-sec
+	Scale: 0.000000000000 ; ppm
+	RotVel: 1.503790 1.183460 1.207160  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2020.000
+}
+Convert {        ; GDA2020 to ITRF08 (Combo) 
+	From: GDA2020
+	To: ITRF08
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "GDA2020 to ITRF2014 (ICSM)"
+	CombTo: "ITRF2014 to ITRF08 (IGN)"
+}
+Convert {        ; WGS84 to GDA2020 (Combo) 
+	From: WGS84
+	To: GDA2020
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "WGS84 to IGS14 (IGN)"
+	CombTo: "IGS14 to GDA2020 (ICSM)"
+}
+Convert {        ; GDA94 to GDA2020 (ICSM) 
+	From: GDA94
+	To: GDA2020
+	Info: ICSM
+	Default: 1
+	Type: 7PARAM
+	Offset: 0.0616 -0.0109 -0.0402 ; m
+	Angle: -0.039492 -0.032722 -0.032898 1 ; arc-sec
+	Scale: -0.009994000000 ; ppm
+}
+Convert {        ; ITRF2014 to GDA94 (Combo) 
+	From: ITRF2014
+	To: GDA94
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF2014 to IGS08 (IGN)"
+	CombTo: "IGS08 to GDA94 (ARGN)"
+}
+Convert {        ; IGS14 to GDA94 (Combo) 
+	From: IGS14
+	To: GDA94
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS14 to IGS08 (IGN)"
+	CombTo: "IGS08 to GDA94 (ARGN)"
+}
+Convert {        ; ITRF2014 to ITRF97 (IGN)
+	From: ITRF2014
+	To: ITRF97
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0074 -0.0005 -0.0628 ; m
+	Angle: 0.000000 0.000000 0.000260 ; arc-sec
+	Scale: 0.003800000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3300 ; cm/y
+	PPMVel: 0.000120000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF2014 to ITRF96 (IGN)
+	From: ITRF2014
+	To: ITRF96
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0074 -0.0005 -0.0628 ; m
+	Angle: 0.000000 0.000000 0.000260 ; arc-sec
+	Scale: 0.003800000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3300 ; cm/y
+	PPMVel: 0.000120000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF2014 to ITRF94 (IGN)
+	From: ITRF2014
+	To: ITRF94
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0074 -0.0005 -0.0628 ; m
+	Angle: 0.000000 0.000000 0.000260 ; arc-sec
+	Scale: 0.003800000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3300 ; cm/y
+	PPMVel: 0.000120000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF2014 to ITRF93 (IGN)
+	From: ITRF2014
+	To: ITRF93
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0504 0.0033 -0.0602 ; m
+	Angle: -0.002810 -0.003380 0.000400 ; arc-sec
+	Scale: 0.004290000000 ; ppm
+	RotVel: -0.000110 -0.000190 0.070000  ; mas/y
+	Velocity: -0.2800 -0.0100 -0.2500 ; cm/y
+	PPMVel: 0.000120000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF2014 to ITRF92 (IGN)
+	From: ITRF2014
+	To: ITRF92
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0154 0.0015 -0.0708 ; m
+	Angle: 0.000000 0.000000 0.000260 ; arc-sec
+	Scale: 0.003090000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3300 ; cm/y
+	PPMVel: 0.000120000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF2014 to ITRF91 (IGN)
+	From: ITRF2014
+	To: ITRF91
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0274 0.0155 -0.0768 ; m
+	Angle: 0.000000 0.000000 0.000260 ; arc-sec
+	Scale: 0.004490000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3300 ; cm/y
+	PPMVel: 0.000120000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF2014 to ITRF90 (IGN)
+	From: ITRF2014
+	To: ITRF90
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0254 0.0115 -0.0928 ; m
+	Angle: 0.000000 0.000000 0.000260 ; arc-sec
+	Scale: 0.004790000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3300 ; cm/y
+	PPMVel: 0.000120000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF2014 to ITRF89 (IGN)
+	From: ITRF2014
+	To: ITRF89
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0304 0.0355 -0.1308 ; m
+	Angle: 0.000000 0.000000 0.000260 ; arc-sec
+	Scale: 0.008190000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3300 ; cm/y
+	PPMVel: 0.000120000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF2014 to ITRF88 (IGN)
+	From: ITRF2014
+	To: ITRF88
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0254 -0.0005 -0.1548 ; m
+	Angle: 0.000100 0.000000 0.000260 ; arc-sec
+	Scale: 0.011290000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3300 ; cm/y
+	PPMVel: 0.000120000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS14 to ITRF97 (IGN)
+	From: IGS14
+	To: ITRF97
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0074 -0.0005 -0.0628 ; m
+	Angle: 0.000000 0.000000 0.000260 ; arc-sec
+	Scale: 0.003800000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3300 ; cm/y
+	PPMVel: 0.000120000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS14 to ITRF96 (IGN)
+	From: IGS14
+	To: ITRF96
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0074 -0.0005 -0.0628 ; m
+	Angle: 0.000000 0.000000 0.000260 ; arc-sec
+	Scale: 0.003800000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3300 ; cm/y
+	PPMVel: 0.000120000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS14 to ITRF94 (IGN)
+	From: IGS14
+	To: ITRF94
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0074 -0.0005 -0.0628 ; m
+	Angle: 0.000000 0.000000 0.000260 ; arc-sec
+	Scale: 0.003800000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3300 ; cm/y
+	PPMVel: 0.000120000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS14 to ITRF93 (IGN)
+	From: IGS14
+	To: ITRF93
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0504 0.0033 -0.0602 ; m
+	Angle: -0.002810 -0.003380 0.000400 ; arc-sec
+	Scale: 0.004290000000 ; ppm
+	RotVel: -0.000110 -0.000190 0.070000  ; mas/y
+	Velocity: -0.2800 -0.0100 -0.2500 ; cm/y
+	PPMVel: 0.000120000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS14 to ITRF92 (IGN)
+	From: IGS14
+	To: ITRF92
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0154 0.0015 -0.0708 ; m
+	Angle: 0.000000 0.000000 0.000260 ; arc-sec
+	Scale: 0.003090000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3300 ; cm/y
+	PPMVel: 0.000120000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS14 to ITRF91 (IGN)
+	From: IGS14
+	To: ITRF91
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0274 0.0155 -0.0768 ; m
+	Angle: 0.000000 0.000000 0.000260 ; arc-sec
+	Scale: 0.004490000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3300 ; cm/y
+	PPMVel: 0.000120000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS14 to ITRF90 (IGN)
+	From: IGS14
+	To: ITRF90
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0254 0.0115 -0.0928 ; m
+	Angle: 0.000000 0.000000 0.000260 ; arc-sec
+	Scale: 0.004790000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3300 ; cm/y
+	PPMVel: 0.000120000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS14 to ITRF89 (IGN)
+	From: IGS14
+	To: ITRF89
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0304 0.0355 -0.1308 ; m
+	Angle: 0.000000 0.000000 0.000260 ; arc-sec
+	Scale: 0.008190000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3300 ; cm/y
+	PPMVel: 0.000120000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS14 to ITRF88 (IGN)
+	From: IGS14
+	To: ITRF88
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0254 -0.0005 -0.1548 ; m
+	Angle: 0.000100 0.000000 0.000260 ; arc-sec
+	Scale: 0.011290000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0500 -0.3300 ; cm/y
+	PPMVel: 0.000120000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS14 to IGb00 (IGN) 
+	From: IGS14
+	To: IGb00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0007 0.0012 -0.0261 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.002120000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1900 ; cm/y
+	PPMVel: 0.000110000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS14 to IGS00 (IGN) 
+	From: IGS14
+	To: IGS00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0007 0.0012 -0.0261 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.002120000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1900 ; cm/y
+	PPMVel: 0.000110000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF2014 to IGS00 (IGN) 
+	From: ITRF2014
+	To: IGS00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0007 0.0012 -0.0261 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.002120000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1900 ; cm/y
+	PPMVel: 0.000110000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS14 to NAD83 (Combo) 
+	From: IGS14
+	To: NAD83
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS14 to IGS08 (IGN)"
+	CombTo: "IGS08 to NAD83 (NRCan)"
+}
+Convert {        ; ITRF2014 to NAD83 (Combo) 
+	From: ITRF2014
+	To: NAD83
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF2014 to IGS08 (IGN)"
+	CombTo: "IGS08 to NAD83 (NRCan)"
+}
+Convert {        ; IGS14 to NAD83(2011) (Combo) 
+	From: IGS14
+	To: NAD83(2011)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS14 to IGS08 (IGN)"
+	CombTo: "IGS08 to NAD83(2011) (NRCan)"
+}
+Convert {        ; ITRF2014 to NAD83(2011) (Combo) 
+	From: ITRF2014
+	To: NAD83(2011)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF2014 to IGS08 (IGN)"
+	CombTo: "IGS08 to NAD83(2011) (NRCan)"
+}
+Convert {        ; IGS14 to NAD83(CSRS) (Combo) 
+	From: IGS14
+	To: NAD83(CSRS)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS14 to IGS08 (IGN)"
+	CombTo: "IGS08 to NAD83(CSRS) (NRC)"
+}
+Convert {        ; ITRF2014 to NAD83(CSRS) (Combo) 
+	From: ITRF2014
+	To: NAD83(CSRS)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF2014 to IGS08 (IGN)"
+	CombTo: "IGS08 to NAD83(CSRS) (NRC)"
+}
+Convert {        ; IGS14 to NAD83(CORS96) (Combo) 
+	From: IGS14
+	To: NAD83(CORS96)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS14 to IGS08 (IGN)"
+	CombTo: "IGS08 to NAD83(CORS96) (NRCan)"
+}
+Convert {        ; ITRF2014 to NAD83(CORS96) (Combo) 
+	From: ITRF2014
+	To: NAD83(CORS96)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF2014 to IGS08 (IGN)"
+	CombTo: "IGS08 to NAD83(CORS96) (NRCan)"
+}
+Convert {        ; IGS14 to NAD83(MA11) (Combo) 
+	From: IGS14
+	To: NAD83(MA11)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS14 to IGS08 (IGN)"
+	CombTo: "IGS08 to NAD83(MA11) (NGS)"
+}
+Convert {        ; ITRF2014 to NAD83(MA11) (Combo) 
+	From: ITRF2014
+	To: NAD83(MA11)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF2014 to IGS08 (IGN)"
+	CombTo: "IGS08 to NAD83(MA11) (NGS)"
+}
+Convert {        ; IGS14 to NAD83(MARP00) (Combo) 
+	From: IGS14
+	To: NAD83(MARP00)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS14 to IGS05 (IGN)"
+	CombTo: "IGS05 to NAD83(MARP00) (810)"
+}
+Convert {        ; ITRF2014 to NAD83(MARP00) (Combo) 
+	From: ITRF2014
+	To: NAD83(MARP00)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF2014 to IGS05 (IGN)"
+	CombTo: "IGS05 to NAD83(MARP00) (810)"
+}
+Convert {        ; IGS14 to NAD83(PA11) (Combo) 
+	From: IGS14
+	To: NAD83(PA11)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS14 to IGS08 (IGN)"
+	CombTo: "IGS08 to NAD83(PA11) (NGS)"
+}
+Convert {        ; ITRF2014 to NAD83(PA11) (Combo) 
+	From: ITRF2014
+	To: NAD83(PA11)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF2014 to IGS08 (IGN)"
+	CombTo: "IGS08 to NAD83(PA11) (NGS)"
+}
+Convert {        ; IGS14 to NAD83(PACP00) (Combo) 
+	From: IGS14
+	To: NAD83(PACP00)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS14 to IGS05 (IGN)"
+	CombTo: "IGS05 to NAD83(PACP00) (810)"
+}
+Convert {        ; ITRF2014 to NAD83(PACP00) (Combo) 
+	From: ITRF2014
+	To: NAD83(PACP00)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF2014 to IGS05 (IGN)"
+	CombTo: "IGS05 to NAD83(PACP00) (810)"
+}
+Convert {        ; IGS14 to WGS84(G1150) (Combo) 
+	From: IGS14
+	To: WGS84(G1150)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS14 to WGS84 (IGN)"
+	CombTo: "WGS84 to WGS84(G1150) (850)"
+}
+Convert {        ; ITRF2014 to WGS84(G1150) (Combo) 
+	From: ITRF2014
+	To: WGS84(G1150)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF2014 to WGS84 (IGN)"
+	CombTo: "WGS84 to WGS84(G1150) (850)"
+}
+Convert {        ; IGS08 to GDA2020 (Combo) 
+	From: IGS08
+	To: GDA2020
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS08 to IGS14 (IGN)"
+	CombTo: "IGS14 to GDA2020 (ICSM)"
+}
+Convert {        ; IGb08 to GDA2020 (Combo) 
+	From: IGb08
+	To: GDA2020
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGb08 to IGS14 (IGN)"
+	CombTo: "IGS14 to GDA2020 (ICSM)"
+}
+Convert {        ; ITRF05 to GDA2020 (Combo) 
+	From: ITRF05
+	To: GDA2020
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF05 to ITRF2014 (IGN)"
+	CombTo: "ITRF2014 to GDA2020 (ICSM)"
+}
+Convert {        ; IGS05 to GDA2020 (Combo) 
+	From: IGS05
+	To: GDA2020
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS05 to ITRF2014 (IGN)"
+	CombTo: "ITRF2014 to GDA2020 (ICSM)"
+}
+Convert {        ; IGS08 to NAD83(MARP00) (Combo) 
+	From: IGS08
+	To: NAD83(MARP00)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS08 to IGS05 (IGN)"
+	CombTo: "IGS05 to NAD83(MARP00) (810)"
+}
+Convert {        ; IGb08 to NAD83(MARP00) (Combo) 
+	From: IGb08
+	To: NAD83(MARP00)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGb08 to IGS05 (IGN)"
+	CombTo: "IGS05 to NAD83(MARP00) (810)"
+}
+Convert {        ; IGS08 to NAD83(PACP00) (Combo) 
+	From: IGS08
+	To: NAD83(PACP00)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS08 to IGS05 (IGN)"
+	CombTo: "IGS05 to NAD83(PACP00) (810)"
+}
+Convert {        ; IGb08 to NAD83(PACP00) (Combo) 
+	From: IGb08
+	To: NAD83(PACP00)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGb08 to IGS05 (IGN)"
+	CombTo: "IGS05 to NAD83(PACP00) (810)"
+}
+Convert {        ; ITRF00 to ITRF97 (IGN)
+	From: ITRF00
+	To: ITRF97
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0067 0.0061 -0.0185 ; m
+	Angle: 0.000000 0.000000 0.000000 ; arc-sec
+	Scale: 0.001550000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0000 -0.0600 -0.1400 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1997.000
+}
+Convert {        ; ITRF00 to ITRF96 (IGN)
+	From: ITRF00
+	To: ITRF96
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0067 0.0061 -0.0185 ; m
+	Angle: 0.000000 0.000000 0.000000 ; arc-sec
+	Scale: 0.001550000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0000 -0.0600 -0.1400 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1997.000
+}
+Convert {        ; ITRF00 to ITRF94 (IGN)
+	From: ITRF00
+	To: ITRF94
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0067 0.0061 -0.0185 ; m
+	Angle: 0.000000 0.000000 0.000000 ; arc-sec
+	Scale: 0.001550000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0000 -0.0600 -0.1400 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1997.000
+}
+Convert {        ; ITRF00 to ITRF93 (IGN)
+	From: ITRF00
+	To: ITRF93
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0127 0.0065 -0.0209 ; m
+	Angle: -0.000390 0.000800 -0.001140 ; arc-sec
+	Scale: 0.001950000000 ; ppm
+	RotVel: -0.000110 -0.000190 0.070000  ; mas/y
+	Velocity: -0.2900 -0.0200 -0.0600 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1988.000
+}
+Convert {        ; ITRF00 to ITRF92 (IGN)
+	From: ITRF00
+	To: ITRF92
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0147 0.0135 -0.0139 ; m
+	Angle: 0.000000 0.000000 -0.000180 ; arc-sec
+	Scale: 0.000750000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0000 -0.0600 -0.1400 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1988.000
+}
+Convert {        ; ITRF00 to ITRF91 (IGN)
+	From: ITRF00
+	To: ITRF91
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0267 0.0275 -0.0199 ; m
+	Angle: 0.000000 0.000000 -0.000180 ; arc-sec
+	Scale: 0.002150000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0000 -0.0600 -0.1400 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1988.000
+}
+Convert {        ; ITRF00 to ITRF90 (IGN)
+	From: ITRF00
+	To: ITRF90
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0247 0.0235 -0.0359 ; m
+	Angle: 0.000000 0.000000 -0.000180 ; arc-sec
+	Scale: 0.002450000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0000 -0.0600 -0.1400 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1988.000
+}
+Convert {        ; ITRF00 to ITRF89 (IGN)
+	From: ITRF00
+	To: ITRF89
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0297 0.0475 -0.0739 ; m
+	Angle: 0.000000 0.000000 -0.000180 ; arc-sec
+	Scale: 0.005850000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0000 -0.0600 -0.1400 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1988.000
+}
+Convert {        ; ITRF00 to ITRF88 (IGN)
+	From: ITRF00
+	To: ITRF88
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0247 0.0115 -0.0979 ; m
+	Angle: 0.000100 0.000000 -0.000180 ; arc-sec
+	Scale: 0.008950000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0000 -0.0600 -0.1400 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1988.000
+}
+Convert {        ; IGb00 to ITRF97 (IGN)
+	From: IGb00
+	To: ITRF97
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0067 0.0061 -0.0185 ; m
+	Angle: 0.000000 0.000000 0.000000 ; arc-sec
+	Scale: 0.001550000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0000 -0.0600 -0.1400 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1997.000
+}
+Convert {        ; IGb00 to ITRF96 (IGN)
+	From: IGb00
+	To: ITRF96
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0067 0.0061 -0.0185 ; m
+	Angle: 0.000000 0.000000 0.000000 ; arc-sec
+	Scale: 0.001550000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0000 -0.0600 -0.1400 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1997.000
+}
+Convert {        ; IGb00 to ITRF94 (IGN)
+	From: IGb00
+	To: ITRF94
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0067 0.0061 -0.0185 ; m
+	Angle: 0.000000 0.000000 0.000000 ; arc-sec
+	Scale: 0.001550000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0000 -0.0600 -0.1400 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1997.000
+}
+Convert {        ; IGb00 to ITRF93 (IGN)
+	From: IGb00
+	To: ITRF93
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0127 0.0065 -0.0209 ; m
+	Angle: -0.000390 0.000800 -0.001140 ; arc-sec
+	Scale: 0.001950000000 ; ppm
+	RotVel: -0.000110 -0.000190 0.070000  ; mas/y
+	Velocity: -0.2900 -0.0200 -0.0600 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1988.000
+}
+Convert {        ; IGb00 to ITRF92 (IGN)
+	From: IGb00
+	To: ITRF92
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0147 0.0135 -0.0139 ; m
+	Angle: 0.000000 0.000000 -0.000180 ; arc-sec
+	Scale: 0.000750000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0000 -0.0600 -0.1400 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1988.000
+}
+Convert {        ; IGb00 to ITRF91 (IGN)
+	From: IGb00
+	To: ITRF91
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0267 0.0275 -0.0199 ; m
+	Angle: 0.000000 0.000000 -0.000180 ; arc-sec
+	Scale: 0.002150000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0000 -0.0600 -0.1400 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1988.000
+}
+Convert {        ; IGb00 to ITRF90 (IGN)
+	From: IGb00
+	To: ITRF90
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0247 0.0235 -0.0359 ; m
+	Angle: 0.000000 0.000000 -0.000180 ; arc-sec
+	Scale: 0.002450000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0000 -0.0600 -0.1400 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1988.000
+}
+Convert {        ; IGb00 to ITRF89 (IGN)
+	From: IGb00
+	To: ITRF89
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0297 0.0475 -0.0739 ; m
+	Angle: 0.000000 0.000000 -0.000180 ; arc-sec
+	Scale: 0.005850000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0000 -0.0600 -0.1400 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1988.000
+}
+Convert {        ; IGb00 to ITRF88 (IGN)
+	From: IGb00
+	To: ITRF88
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0247 0.0115 -0.0979 ; m
+	Angle: 0.000100 0.000000 -0.000180 ; arc-sec
+	Scale: 0.008950000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0000 -0.0600 -0.1400 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1988.000
+}
+Convert {        ; IGS00 to ITRF97 (IGN)
+	From: IGS00
+	To: ITRF97
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0067 0.0061 -0.0185 ; m
+	Angle: 0.000000 0.000000 0.000000 ; arc-sec
+	Scale: 0.001550000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0000 -0.0600 -0.1400 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1997.000
+}
+Convert {        ; IGS00 to ITRF96 (IGN)
+	From: IGS00
+	To: ITRF96
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0067 0.0061 -0.0185 ; m
+	Angle: 0.000000 0.000000 0.000000 ; arc-sec
+	Scale: 0.001550000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0000 -0.0600 -0.1400 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1997.000
+}
+Convert {        ; IGS00 to ITRF94 (IGN)
+	From: IGS00
+	To: ITRF94
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0067 0.0061 -0.0185 ; m
+	Angle: 0.000000 0.000000 0.000000 ; arc-sec
+	Scale: 0.001550000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0000 -0.0600 -0.1400 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1997.000
+}
+Convert {        ; IGS00 to ITRF93 (IGN)
+	From: IGS00
+	To: ITRF93
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0127 0.0065 -0.0209 ; m
+	Angle: -0.000390 0.000800 -0.001140 ; arc-sec
+	Scale: 0.001950000000 ; ppm
+	RotVel: -0.000110 -0.000190 0.070000  ; mas/y
+	Velocity: -0.2900 -0.0200 -0.0600 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1988.000
+}
+Convert {        ; IGS00 to ITRF92 (IGN)
+	From: IGS00
+	To: ITRF92
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0147 0.0135 -0.0139 ; m
+	Angle: 0.000000 0.000000 -0.000180 ; arc-sec
+	Scale: 0.000750000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0000 -0.0600 -0.1400 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1988.000
+}
+Convert {        ; IGS00 to ITRF91 (IGN)
+	From: IGS00
+	To: ITRF91
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0267 0.0275 -0.0199 ; m
+	Angle: 0.000000 0.000000 -0.000180 ; arc-sec
+	Scale: 0.002150000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0000 -0.0600 -0.1400 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1988.000
+}
+Convert {        ; IGS00 to ITRF90 (IGN)
+	From: IGS00
+	To: ITRF90
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0247 0.0235 -0.0359 ; m
+	Angle: 0.000000 0.000000 -0.000180 ; arc-sec
+	Scale: 0.002450000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0000 -0.0600 -0.1400 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1988.000
+}
+Convert {        ; IGS00 to ITRF89 (IGN)
+	From: IGS00
+	To: ITRF89
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0297 0.0475 -0.0739 ; m
+	Angle: 0.000000 0.000000 -0.000180 ; arc-sec
+	Scale: 0.005850000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0000 -0.0600 -0.1400 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1988.000
+}
+Convert {        ; IGS00 to ITRF88 (IGN)
+	From: IGS00
+	To: ITRF88
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0247 0.0115 -0.0979 ; m
+	Angle: 0.000100 0.000000 -0.000180 ; arc-sec
+	Scale: 0.008950000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0000 -0.0600 -0.1400 ; cm/y
+	PPMVel: 0.000010000000 ; ppm/y
+	RefYear: 1988.000
+}
+Convert {        ; ITRF05 to ITRF88 (Combo) 
+	From: ITRF05
+	To: ITRF88
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF05 to ITRF00 (IGN)"
+	CombTo: "ITRF00 to ITRF88 (IGN)"
+}
+Convert {        ; ITRF05 to ITRF89 (Combo) 
+	From: ITRF05
+	To: ITRF89
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF05 to ITRF00 (IGN)"
+	CombTo: "ITRF00 to ITRF89 (IGN)"
+}
+Convert {        ; ITRF05 to ITRF90 (Combo) 
+	From: ITRF05
+	To: ITRF90
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF05 to ITRF00 (IGN)"
+	CombTo: "ITRF00 to ITRF90 (IGN)"
+}
+Convert {        ; ITRF05 to ITRF91 (Combo) 
+	From: ITRF05
+	To: ITRF91
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF05 to ITRF00 (IGN)"
+	CombTo: "ITRF00 to ITRF91 (IGN)"
+}
+Convert {        ; ITRF05 to ITRF92 (Combo) 
+	From: ITRF05
+	To: ITRF92
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF05 to ITRF00 (IGN)"
+	CombTo: "ITRF00 to ITRF92 (IGN)"
+}
+Convert {        ; ITRF05 to ITRF93 (Combo) 
+	From: ITRF05
+	To: ITRF93
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF05 to ITRF00 (IGN)"
+	CombTo: "ITRF00 to ITRF93 (IGN)"
+}
+Convert {        ; ITRF05 to ITRF94 (Combo) 
+	From: ITRF05
+	To: ITRF94
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF05 to ITRF00 (IGN)"
+	CombTo: "ITRF00 to ITRF94 (IGN)"
+}
+Convert {        ; ITRF05 to ITRF96 (Combo) 
+	From: ITRF05
+	To: ITRF96
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF05 to ITRF00 (IGN)"
+	CombTo: "ITRF00 to ITRF96 (IGN)"
+}
+Convert {        ; ITRF05 to ITRF97 (Combo) 
+	From: ITRF05
+	To: ITRF97
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF05 to ITRF00 (IGN)"
+	CombTo: "ITRF00 to ITRF97 (IGN)"
+}
+Convert {        ; IGS05 to ITRF88 (Combo) 
+	From: IGS05
+	To: ITRF88
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS05 to ITRF00 (IGN)"
+	CombTo: "ITRF00 to ITRF88 (IGN)"
+}
+Convert {        ; IGS05 to ITRF89 (Combo) 
+	From: IGS05
+	To: ITRF89
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS05 to ITRF00 (IGN)"
+	CombTo: "ITRF00 to ITRF89 (IGN)"
+}
+Convert {        ; IGS05 to ITRF90 (Combo) 
+	From: IGS05
+	To: ITRF90
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS05 to ITRF00 (IGN)"
+	CombTo: "ITRF00 to ITRF90 (IGN)"
+}
+Convert {        ; IGS05 to ITRF91 (Combo) 
+	From: IGS05
+	To: ITRF91
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS05 to ITRF00 (IGN)"
+	CombTo: "ITRF00 to ITRF91 (IGN)"
+}
+Convert {        ; IGS05 to ITRF92 (Combo) 
+	From: IGS05
+	To: ITRF92
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS05 to ITRF00 (IGN)"
+	CombTo: "ITRF00 to ITRF92 (IGN)"
+}
+Convert {        ; IGS05 to ITRF93 (Combo) 
+	From: IGS05
+	To: ITRF93
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS05 to ITRF00 (IGN)"
+	CombTo: "ITRF00 to ITRF93 (IGN)"
+}
+Convert {        ; IGS05 to ITRF94 (Combo) 
+	From: IGS05
+	To: ITRF94
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS05 to ITRF00 (IGN)"
+	CombTo: "ITRF00 to ITRF94 (IGN)"
+}
+Convert {        ; IGS05 to ITRF96 (Combo) 
+	From: IGS05
+	To: ITRF96
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS05 to ITRF00 (IGN)"
+	CombTo: "ITRF00 to ITRF96 (IGN)"
+}
+Convert {        ; IGS05 to ITRF97 (Combo) 
+	From: IGS05
+	To: ITRF97
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS05 to ITRF00 (IGN)"
+	CombTo: "ITRF00 to ITRF97 (IGN)"
+}
+Convert {        ; ITRF00 to GDA2020 (Combo) 
+	From: ITRF00
+	To: GDA2020
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF00 to IGS14 (IGN)"
+	CombTo: "IGS14 to GDA2020 (ICSM)"
+}
+Convert {        ; IGb00 to GDA2020 (Combo) 
+	From: IGb00
+	To: GDA2020
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGb00 to IGS14 (IGN)"
+	CombTo: "IGS14 to GDA2020 (ICSM)"
+}
+Convert {        ; IGS00 to GDA2020 (Combo) 
+	From: IGS00
+	To: GDA2020
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS00 to IGS14 (IGN)"
+	CombTo: "IGS14 to GDA2020 (ICSM)"
+}
+Convert {        ; ITRF00 to NAD83(MA11) (Combo) 
+	From: ITRF00
+	To: NAD83(MA11)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF00 to IGS08 (IGN)"
+	CombTo: "IGS08 to NAD83(MA11) (NGS)"
+}
+Convert {        ; IGS00 to NAD83(MA11) (Combo) 
+	From: IGS00
+	To: NAD83(MA11)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS00 to IGS08 (IGN)"
+	CombTo: "IGS08 to NAD83(MA11) (NGS)"
+}
+Convert {        ; IGb00 to NAD83(MA11) (Combo) 
+	From: IGb00
+	To: NAD83(MA11)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGb00 to IGS08 (IGN)"
+	CombTo: "IGS08 to NAD83(MA11) (NGS)"
+}
+Convert {        ; ITRF00 to NAD83(PA11) (Combo) 
+	From: ITRF00
+	To: NAD83(PA11)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF00 to IGS08 (IGN)"
+	CombTo: "IGS08 to NAD83(PA11) (NGS)"
+}
+Convert {        ; IGS00 to NAD83(PA11) (Combo) 
+	From: IGS00
+	To: NAD83(PA11)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGS00 to IGS08 (IGN)"
+	CombTo: "IGS08 to NAD83(PA11) (NGS)"
+}
+Convert {        ; IGb00 to NAD83(PA11) (Combo) 
+	From: IGb00
+	To: NAD83(PA11)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "IGb00 to IGS08 (IGN)"
+	CombTo: "IGS08 to NAD83(PA11) (NGS)"
+}
+Convert {        ; ITRF2014 to ETRF2000 (IGN) 
+	From: ITRF2014
+	To: ETRF2000
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0547 0.0522 -0.0741 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.002120000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1900 ; cm/y
+	PPMVel: 0.000110000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS14 to ETRF2000 (IGN) 
+	From: IGS14
+	To: ETRF2000
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0547 0.0522 -0.0741 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.002120000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1900 ; cm/y
+	PPMVel: 0.000110000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF08 to ETRF2000 (IGN) 
+	From: ITRF08
+	To: ETRF2000
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0531 0.0503 -0.0765 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.002140000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS08 to ETRF2000 (IGN) 
+	From: IGS08
+	To: ETRF2000
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0531 0.0503 -0.0765 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.002140000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGb08 to ETRF2000 (IGN) 
+	From: IGb08
+	To: ETRF2000
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0531 0.0503 -0.0765 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.002140000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF08 to ETRS89 (IGN) 
+	From: ITRF08
+	To: ETRS89
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0531 0.0503 -0.0765 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.002140000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF08 to RGF93 (IGN) 
+	From: ITRF08
+	To: RGF93
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0531 0.0503 -0.0765 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.002140000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGb08 to ETRS89 (IGN) 
+	From: IGb08
+	To: ETRS89
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0531 0.0503 -0.0765 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.002140000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGb08 to RGF93 (IGN) 
+	From: IGb08
+	To: RGF93
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0531 0.0503 -0.0765 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.002140000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS08 to ETRS89 (IGN) 
+	From: IGS08
+	To: ETRS89
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0531 0.0503 -0.0765 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.002140000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS08 to RGF93 (IGN) 
+	From: IGS08
+	To: RGF93
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0531 0.0503 -0.0765 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.002140000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; WGS84 to ETRF2000 (IGN) 
+	From: WGS84
+	To: ETRF2000
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0531 0.0503 -0.0765 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.002140000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; WGS84 to ETRS89 (IGN) 
+	From: WGS84
+	To: ETRS89
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0531 0.0503 -0.0765 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.002140000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; WGS84 to RGF93 (IGN) 
+	From: WGS84
+	To: RGF93
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0531 0.0503 -0.0765 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.002140000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; WGS84(G1674) to ETRF2000 (IGN) 
+	From: WGS84(G1674)
+	To: ETRF2000
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0531 0.0503 -0.0765 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.002140000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; WGS84(G1674) to ETRS89 (IGN) 
+	From: WGS84(G1674)
+	To: ETRS89
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0531 0.0503 -0.0765 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.002140000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; WGS84(G1674) to RGF93 (IGN) 
+	From: WGS84(G1674)
+	To: RGF93
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0531 0.0503 -0.0765 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.002140000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF05 to ETRF2000 (IGN) 
+	From: ITRF05
+	To: ETRF2000
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0521 0.0512 -0.0718 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.001200000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: -0.0200 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS05 to ETRF2000 (IGN) 
+	From: IGS05
+	To: ETRF2000
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0521 0.0512 -0.0718 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.001200000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: -0.0200 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF05 to ETRS89 (IGN) 
+	From: ITRF05
+	To: ETRS89
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0521 0.0512 -0.0718 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.001200000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: -0.0200 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF05 to RGF93 (IGN) 
+	From: ITRF05
+	To: RGF93
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0521 0.0512 -0.0718 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.001200000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: -0.0200 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS05 to ETRS89 (IGN) 
+	From: IGS05
+	To: ETRS89
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0521 0.0512 -0.0718 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.001200000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: -0.0200 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS05 to RGF93 (IGN) 
+	From: IGS05
+	To: RGF93
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0521 0.0512 -0.0718 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.001200000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: -0.0200 0.0100 -0.1800 ; cm/y
+	PPMVel: 0.000080000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF00 to ETRF2000 (IGN) 
+	From: ITRF00
+	To: ETRF2000
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0540 0.0510 -0.0480 ; m
+	Angle: 0.000000 0.000000 0.00000 0 ; arc-sec
+	Scale: 0.000000000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 1989.000
+}
+Convert {        ; IGS00 to ETRF2000 (IGN) 
+	From: IGS00
+	To: ETRF2000
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0540 0.0510 -0.0480 ; m
+	Angle: 0.000000 0.000000 0.00000 0 ; arc-sec
+	Scale: 0.000000000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 1989.000
+}
+Convert {        ; ITRF00 to ETRF2000 (IGN2) 
+	From: ITRF00
+	To: ETRF2000
+	Info: IGN2
+	Default: 0
+	Type: 14PARAM
+	Offset: 0.0540 0.0510 -0.0480 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.000000000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS00 to ETRF2000 (IGN2) 
+	From: IGS00
+	To: ETRF2000
+	Info: IGN2
+	Default: 0
+	Type: 14PARAM
+	Offset: 0.0540 0.0510 -0.0480 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.000000000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF2014 to ETRS89 (ETRF2000) 
+	From: ITRF2014
+	To: ETRS89
+	Info: ETRF2000
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0547 0.0522 -0.0741 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.002120000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1900 ; cm/y
+	PPMVel: 0.000110000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS14 to ETRS89 (ETRF2000) 
+	From: IGS14
+	To: ETRS89
+	Info: ETRF2000
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0547 0.0522 -0.0741 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.002120000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1900 ; cm/y
+	PPMVel: 0.000110000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF2014 to RGF93 (ETRF2000) 
+	From: ITRF2014
+	To: RGF93
+	Info: ETRF2000
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0547 0.0522 -0.0741 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.002120000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1900 ; cm/y
+	PPMVel: 0.000110000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS14 to RGF93 (ETRF2000) 
+	From: IGS14
+	To: RGF93
+	Info: ETRF2000
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0547 0.0522 -0.0741 ; m
+	Angle: 0.001701 0.010290 -0.016632 0 ; arc-sec
+	Scale: 0.002120000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: 0.0100 0.0100 -0.1900 ; cm/y
+	PPMVel: 0.000110000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF2014 to ETRF2005 (IGN) 
+	From: ITRF2014
+	To: ETRF2005
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0523 0.0490 -0.0372 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000290000000 ; ppm
+	RotVel: 0.054000 0.518000 -0.781000  ; mas/y
+	Velocity: 0.0300 0.0000 -0.0100 ; cm/y
+	PPMVel: 0.000030000000 ; ppm/y
+	RefYear: 1989.000
+}
+Convert {        ; IGS14 to ETRF2005 (IGN) 
+	From: IGS14
+	To: ETRF2005
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0523 0.0490 -0.0372 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000290000000 ; ppm
+	RotVel: 0.054000 0.518000 -0.781000  ; mas/y
+	Velocity: 0.0300 0.0000 -0.0100 ; cm/y
+	PPMVel: 0.000030000000 ; ppm/y
+	RefYear: 1989.000
+}
+Convert {        ; ITRF05 to ETRF2005 (IGN) 
+	From: ITRF05
+	To: ETRF2005
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0560 0.0480 -0.0370 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000000000000 ; ppm
+	RotVel: 0.054000 0.518000 -0.781000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 1989.000
+}
+Convert {        ; IGS05 to ETRF2005 (IGN) 
+	From: IGS05
+	To: ETRF2005
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0560 0.0480 -0.0370 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000000000000 ; ppm
+	RotVel: 0.054000 0.518000 -0.781000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 1989.000
+}
+Convert {        ; ITRF2014 to ETRF2014 (IGN) 
+	From: ITRF2014
+	To: ETRF2014
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0000 0.0000 0.0000 ; m
+	Angle: 0.001785 0.011151 -0.016170 0 ; arc-sec
+	Scale: 0.000000000000 ; ppm
+	RotVel: 0.085000 0.531000 -0.770000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS14 to ETRF2014 (IGN) 
+	From: IGS14
+	To: ETRF2014
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0000 0.0000 0.0000 ; m
+	Angle: 0.001785 0.011151 -0.016170 0 ; arc-sec
+	Scale: 0.000000000000 ; ppm
+	RotVel: 0.085000 0.531000 -0.770000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF08 to ETRF2014 (IGN) 
+	From: ITRF08
+	To: ETRF2014
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0016 -0.0019 -0.0024 ; m
+	Angle: 0.001785 0.011151 -0.016170 0 ; arc-sec
+	Scale: 0.000020000000 ; ppm
+	RotVel: 0.085000 0.531000 -0.770000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0100 ; cm/y
+	PPMVel: -0.000030000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS08 to ETRF2014 (IGN) 
+	From: IGS08
+	To: ETRF2014
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0016 -0.0019 -0.0024 ; m
+	Angle: 0.001785 0.011151 -0.016170 0 ; arc-sec
+	Scale: 0.000020000000 ; ppm
+	RotVel: 0.085000 0.531000 -0.770000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0100 ; cm/y
+	PPMVel: -0.000030000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGb08 to ETRF2014 (IGN) 
+	From: IGb08
+	To: ETRF2014
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0016 -0.0019 -0.0024 ; m
+	Angle: 0.001785 0.011151 -0.016170 0 ; arc-sec
+	Scale: 0.000020000000 ; ppm
+	RotVel: 0.085000 0.531000 -0.770000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0100 ; cm/y
+	PPMVel: -0.000030000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; WGS84 to ETRF2014 (IGN) 
+	From: WGS84
+	To: ETRF2014
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0016 -0.0019 -0.0024 ; m
+	Angle: 0.001785 0.011151 -0.016170 0 ; arc-sec
+	Scale: 0.000020000000 ; ppm
+	RotVel: 0.085000 0.531000 -0.770000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0100 ; cm/y
+	PPMVel: -0.000030000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF05 to ETRF2014 (IGN) 
+	From: ITRF05
+	To: ETRF2014
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0026 -0.0010 0.0023 ; m
+	Angle: 0.001785 0.011151 -0.016170 0 ; arc-sec
+	Scale: -0.000920000000 ; ppm
+	RotVel: 0.085000 0.531000 -0.770000  ; mas/y
+	Velocity: -0.0300 0.0000 0.0100 ; cm/y
+	PPMVel: -0.000030000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS05 to ETRF2014 (IGN) 
+	From: IGS05
+	To: ETRF2014
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0026 -0.0010 0.0023 ; m
+	Angle: 0.001785 0.011151 -0.016170 0 ; arc-sec
+	Scale: -0.000920000000 ; ppm
+	RotVel: 0.085000 0.531000 -0.770000  ; mas/y
+	Velocity: -0.0300 0.0000 0.0100 ; cm/y
+	PPMVel: -0.000030000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF00 to ETRF2014 (IGN) 
+	From: ITRF00
+	To: ETRF2014
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0007 -0.0012 0.0261 ; m
+	Angle: 0.001785 0.011151 -0.016170 0 ; arc-sec
+	Scale: -0.002120000000 ; ppm
+	RotVel: 0.085000 0.531000 -0.770000  ; mas/y
+	Velocity: -0.0100 -0.0100 0.1900 ; cm/y
+	PPMVel: -0.000110000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; IGS00 to ETRF2014 (IGN) 
+	From: IGS00
+	To: ETRF2014
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0007 -0.0012 0.0261 ; m
+	Angle: 0.001785 0.011151 -0.016170 0 ; arc-sec
+	Scale: -0.002120000000 ; ppm
+	RotVel: 0.085000 0.531000 -0.770000  ; mas/y
+	Velocity: -0.0100 -0.0100 0.1900 ; cm/y
+	PPMVel: -0.000110000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF2014 to ETRF2000 (IGN2) 
+	From: ITRF2014
+	To: ETRF2000
+	Info: IGN2
+	Default: 0
+	Type: 14PARAM
+	Offset: 0.0000 0.0000 0.0000 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000000000000 ; ppm
+	RotVel: 0.085000 0.531000 -0.770000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 1989.000
+}
+Convert {        ; IGS14 to ETRF2000 (IGN2) 
+	From: IGS14
+	To: ETRF2000
+	Info: IGN2
+	Default: 0
+	Type: 14PARAM
+	Offset: 0.0000 0.0000 0.0000 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000000000000 ; ppm
+	RotVel: 0.085000 0.531000 -0.770000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 1989.000
+}
+Convert {        ; RGF93 to ETRF2005 (Combo) 
+	From: RGF93
+	To: ETRF2005
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "RGF93 to IGS14 (ETRF2000)"
+	CombTo: "IGS14 to ETRF2005 (IGN)"
+}
+Convert {        ; ETRS89 to ETRF2005 (Combo) 
+	From: ETRS89
+	To: ETRF2005
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ETRS89 to IGS14 (ETRF2000)"
+	CombTo: "IGS14 to ETRF2005 (IGN)"
+}
+Convert {        ; ITRF08 to ETRF2005 (Combo) 
+	From: ITRF08
+	To: ETRF2005
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF08 to IGS14 (IGN)"
+	CombTo: "IGS14 to ETRF2005 (IGN)"
+}
+Convert {        ; IGS08 to ETRF2005 (Combo) 
+	From: IGS08
+	To: ETRF2005
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF08 to IGS14 (IGN)"
+	CombTo: "IGS14 to ETRF2005 (IGN)"
+}
+Convert {        ; IGb08 to ETRF2005 (Combo) 
+	From: IGb08
+	To: ETRF2005
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF08 to IGS14 (IGN)"
+	CombTo: "IGS14 to ETRF2005 (IGN)"
+}
+Convert {        ; WGS84 to ETRF2005 (Combo) 
+	From: WGS84
+	To: ETRF2005
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "WGS84 to IGS14 (IGN)"
+	CombTo: "IGS14 to ETRF2005 (IGN)"
+}
+Convert {        ; WGS84(G1674) to ETRF2005 (Combo) 
+	From: WGS84(G1674)
+	To: ETRF2005
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF08 to IGS14 (IGN)"
+	CombTo: "IGS14 to ETRF2005 (IGN)"
+}
+Convert {        ; ITRF2020 to ITRF2014 (IGN) 
+	From: ITRF2020
+	To: ITRF2014
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0014 -0.0009 0.0014 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: -0.000420000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0000 -0.0100 0.0200 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 2015.000
+}
+Convert {        ; ITRF2020 to ITRF08 (IGN) 
+	From: ITRF2020
+	To: ITRF08
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0002 0.0010 0.0033 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: -0.000290000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0000 -0.0100 0.0100 ; cm/y
+	PPMVel: 0.000030000000 ; ppm/y
+	RefYear: 2015.000
+}
+Convert {        ; ITRF2020 to ITRF05 (IGN) 
+	From: ITRF2020
+	To: ITRF05
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0027 0.0001 -0.0014 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.000650000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0300 -0.0100 0.0100 ; cm/y
+	PPMVel: 0.000030000000 ; ppm/y
+	RefYear: 2015.000
+}
+Convert {        ; ITRF2020 to ITRF00 (IGN) 
+	From: ITRF2020
+	To: ITRF00
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0002 0.0008 -0.0342 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: 0.002250000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0100 0.0000 -0.1700 ; cm/y
+	PPMVel: 0.000110000000 ; ppm/y
+	RefYear: 2015.000
+}
+Convert {        ; ITRF2020 to ITRF97 (IGN) 
+	From: ITRF2020
+	To: ITRF97
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0065 -0.0039 -0.0779 ; m
+	Angle: 0.000000 0.000000 0.000360 0 ; arc-sec
+	Scale: 0.003980000000 ; ppm
+	RotVel: 0.000000 0.000000 0.020000  ; mas/y
+	Velocity: 0.0100 -0.0600 -0.3100 ; cm/y
+	PPMVel: 0.000120000000 ; ppm/y
+	RefYear: 2015.000
+}
+Convert {        ; ITRF2020 to ITRF93 (IGN) 
+	From: ITRF2020
+	To: ITRF93
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: -0.0658 0.0019 -0.0713 ; m
+	Angle: -0.003360 -0.004330 0.000750 0 ; arc-sec
+	Scale: 0.004470000000 ; ppm
+	RotVel: -0.110000 -0.190000 0.070000  ; mas/y
+	Velocity: -0.2800 -0.0200 -0.2300 ; cm/y
+	PPMVel: 0.000120000000 ; ppm/y
+	RefYear: 2015.000
+}
+Convert {        ; ITRF2020 to WGS84 (IGN) 
+	From: ITRF2020
+	To: WGS84
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0002 0.0010 0.0033 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: -0.000290000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0000 -0.0100 0.0100 ; cm/y
+	PPMVel: 0.000030000000 ; ppm/y
+	RefYear: 2015.000
+}
+Convert {        ; ITRF2020 to NAD83 (Combo) 
+	From: ITRF2020
+	To: NAD83
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF2020 to WGS84 (IGN)"
+	CombTo: "WGS84 to NAD83 (850)"
+}
+Convert {        ; ITRF2020 to IGS08 (IGN) 
+	From: ITRF2020
+	To: IGS08
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0002 0.0010 0.0033 ; m
+	Angle: 0.000000 0.000000 0.000000 0 ; arc-sec
+	Scale: -0.000290000000 ; ppm
+	RotVel: 0.000000 0.000000 0.000000  ; mas/y
+	Velocity: 0.0000 -0.0100 0.0100 ; cm/y
+	PPMVel: 0.000030000000 ; ppm/y
+	RefYear: 2015.000
+}
+Convert {        ; ITRF2020 to NAD83(2011) (Combo) 
+	From: ITRF2020
+	To: NAD83(2011)
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF2020 to WGS84 (IGN)"
+	CombTo: "WGS84 to NAD83(2011) (850)"
+}
+Convert {        ; IGS05 to NAD83(2011) (NRCan) 
+	From: IGS05
+	To: NAD83(2011)
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0037 -1.9114 -0.5420 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: -0.000755000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0500 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; IGS05 to NAD83 (NRCan) 
+	From: IGS05
+	To: NAD83
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: 1.0037 -1.9114 -0.5420 ; m
+	Angle: -0.026915 0.001935 -0.010829 0 ; arc-sec
+	Scale: -0.000755000000 ; ppm
+	RotVel: -0.067000 0.757000 0.051000  ; mas/y
+	Velocity: 0.0500 -0.0600 -0.1300 ; cm/y
+	PPMVel: -0.000102000000 ; ppm/y
+	RefYear: 2012.000
+}
+Convert {        ; ITRF2020 to ETRF2000 (Combo) 
+	From: ITRF2020
+	To: ETRF2000
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF2020 to ITRF00 (IGN)"
+	CombTo: "ITRF00 to ETRF2000 (IGN)"
+}
+Convert {        ; ITRF2020 to ETRF2005 (Combo) 
+	From: ITRF2020
+	To: ETRF2005
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF2020 to ITRF05 (IGN)"
+	CombTo: "ITRF05 to ETRF2005 (IGN)"
+}
+Convert {        ; ITRF2020 to ETRF2014 (Combo) 
+	From: ITRF2020
+	To: ETRF2014
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF2020 to ITRF2014 (IGN)"
+	CombTo: "ITRF2014 to ETRF2014 (IGN)"
+}
+Convert {        ; NAD83(CSRS) to ITRF2020 (NRCan) 
+	From: NAD83(CSRS)
+	To: ITRF2020
+	Info: NRCan
+	Default: 1
+	Type: 14PARAM
+	Offset: -1.0039 1.9096 0.5412 ; m
+	Angle: 0.026781 -0.000421 0.010932 0 ; arc-sec
+	Scale: 0.000051000000 ; ppm
+	RotVel: 0.067000 -0.757000 -0.051000  ; mas/y
+	Velocity: -0.0800 0.0700 0.1200 ; cm/y
+	PPMVel: 0.000072000000 ; ppm/y
+	RefYear: 2010.000
+}
+Convert {        ; ITRF2020 to GDA2020 (Combo) 
+	From: ITRF2020
+	To: GDA2020
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF2020 to ITRF2014 (IGN)"
+	CombTo: "ITRF2014 to GDA2020 (ICSM)"
+}
+Convert {        ; NAD83(MA11) to ITRF2020 (Combo) 
+	From: NAD83(MA11)
+	To: ITRF2020
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "NAD83(MA11) to ITRF08 (NGS)"
+	CombTo: "ITRF08 to ITRF2020 (IGN)"
+}
+Convert {        ; NAD83(PA11) to ITRF2020 (Combo) 
+	From: NAD83(PA11)
+	To: ITRF2020
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "NAD83(PA11) to ITRF08 (NGS)"
+	CombTo: "ITRF08 to ITRF2020 (IGN)"
+}
+Convert {        ; GDA94 to ITRF2020 (Combo) 
+	From: GDA94
+	To: ITRF2020
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "GDA94 to GDA2020 (ICSM)"
+	CombTo: "GDA2020 to ITRF2020 (Combo)"
+}
+Convert {        ; ITRF00 to ETRS89 (IGN) 
+	From: ITRF00
+	To: ETRS89
+	Info: IGN
+	Default: 1
+	Type: 14PARAM
+	Offset: 0.0540 0.0510 -0.0480 ; m
+	Angle: 0.000000 0.000000 0.00000 0 ; arc-sec
+	Scale: 0.000000000000 ; ppm
+	RotVel: 0.081000 0.490000 -0.792000  ; mas/y
+	Velocity: 0.0000 0.0000 0.0000 ; cm/y
+	PPMVel: 0.000000000000 ; ppm/y
+	RefYear: 1989.000
+}
+Convert {        ; ETRS89 to ITRF2020 (Combo) 
+	From: ETRS89
+	To: ITRF2020
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ETRS89 to ITRF00 (IGN)"
+	CombTo: "ITRF00 to ITRF2020 (IGN)"
+}
+; ------------------------------- 
+; end-of-file
+; -------------------------------
