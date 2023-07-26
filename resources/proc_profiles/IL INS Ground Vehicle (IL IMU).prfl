@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Profile date="2021-03-11" environment="Ground Vehicle" imu_name="IL IMU" name="IL INS Ground Vehicle (IL IMU)" time="16:15:32">
+
+  <Settings name="GNSS">
+    <Settings name="DIFF">
+      <Settings name="ARTK">
+        <Setting cmd="ARTK_ENABLE" description="" format="OFF/ON" name="enable_artk" type="int" value="1"/>
+        <Setting cmd="ARTK_AMB_LEVEL" description="" format="ALWAYS/STRICT/DEFAULT/LOOSE/ENGAGEONLY/USER" name="artk_amb_level" type="int" value="2"/>
+        <Setting cmd="ARTK_FIX_MAXRMS" cmdindex="0" description="" name="artk_max_rms" type="double" value="0.0300"/>
+        <Setting cmd="ARTK_FIX_MAXRMS" cmdindex="1" description="" format="OFF/ON" name="max_rms_on" type="int" value="1"/>
+        <Setting cmd="ARTK_FIX_MINRELIABILITY" cmdindex="0" description="" name="min_reliability" type="double" value="2.000"/>
+        <Setting cmd="ARTK_FIX_MINRELIABILITY" cmdindex="1" description="" name="min_reliability" type="double" value="2.000"/>
+        <Setting cmd="ARTK_FIX_MINRELIABILITY" cmdindex="2" description="" format="OFF/ON" name="min_reliability_on" type="int" value="1"/>
+        <Setting cmd="ARTK_GLONASS" description="" format="OFF/ON" name="glonass" type="int" value="1"/>
+        <Setting cmd="ARTK_BEIDOU" description="" format="OFF/ON" name="beidou" type="int" value="1"/>
+        <Setting cmd="ARTK_GALILEO" description="" format="OFF/ON" name="galileo" type="int" value="1"/>
+        <Setting cmd="ARTK_QZSS" description="" format="OFF/ON" name="qzss" type="int" value="1"/>
+        <Setting cmd="ARTK_MAX_FIXFIXSEP" cmdindex="0" description="" name="max_fixfixsep" type="double" value="0.600"/>
+        <Setting cmd="ARTK_MAX_FIXFIXSEP" cmdindex="1" description="" format="OFF/ON" name="max_fixfixsep_on" type="int" value="0"/>
+        <Setting cmd="ARTK_MAX_FLOATFIXSEP" cmdindex="0" description="" name="max_floatfixsep" type="double" value="10.000"/>
+        <Setting cmd="ARTK_MAX_FLOATFIXSEP" cmdindex="1" description="" format="OFF/ON" name="max_floatfixsep_on" type="int" value="1"/>
+        <Setting cmd="ARTK_QUALITY" description="" name="quality" type="int" value="4"/>
+        <Setting cmd="ARTK_REWIND" description="" format="OFF/ON" name="rewind" type="int" value="1"/>
+        <Setting cmd="ARTK_DISTANCE" cmdindex="0" description="" name="distance_L1" type="double" value="4.000"/>
+        <Setting cmd="ARTK_DISTANCE" cmdindex="1" description="" name="distance_L2" type="double" value="70.000"/>
+        <Setting cmd="ARTK_SOLUTION_TYPE" description="" format="BESTRMS/BESTREL/AVERAGE/BESTVAR" name="solution_type" type="int" value="2"/>
+        <Setting cmd="ARTK_CLOSEST" description="" format="OFF/ON" name="closest" type="int" value="0"/>
+      </Settings>
+      <Settings name="KAR">
+        <Setting cmd="ISSUE_KAR_TIME" cmdindex="0" description="" format="OFF/ON" name="enable_periodically" type="int" value="0"/>
+        <Setting cmd="ISSUE_KAR_TIME" cmdindex="1" description="" name="issue_time_interval" type="double" value="15.000"/>
+        <Setting cmd="ISSUE_KAR_DIST" cmdindex="0" description="" format="OFF/ON" name="enable_dist" type="int" value="0"/>
+        <Setting cmd="ISSUE_KAR_DIST" cmdindex="1" description="" name="issue_dist1" type="double" value="5.0"/>
+        <Setting cmd="ISSUE_KAR_DIST" cmdindex="2" description="" name="issue_dist2" type="double" value="50.0"/>
+        <Setting cmd="ISSUE_KAR_DOP" cmdindex="0" description="" format="OFF/ON" name="enable_DOP" type="int" value="1"/>
+        <Setting cmd="ISSUE_KAR_DOP" cmdindex="1" description="" name="issue_DOP" type="double" value="25.0"/>
+      </Settings>
+      <Settings name="info">
+        <Setting cmd="PROCDESC" description="" name="description" type="char array" value=""/>
+        <Setting cmd="PROCUSER" description="" name="user" type="char array" value=""/>
+      </Settings>
+      <Settings name="STD">
+        <Setting cmd="STD_LIMIT_DIST" cmdindex="0" description="" format="OFF/ON" name="disable_baseline" type="int" value="0"/>
+        <Setting cmd="STD_LIMIT_DIST" cmdindex="1" description="" name="disable_baseline_tol" type="double" value="250.00"/>
+        <Setting cmd="STD_MODE" description="" format="AUTO/ELEV/CN0/STANDARD/ADAPTIVE" name="mode" type="int" value="1"/>
+        <Setting cmd="STD_DIST" cmdindex="0" description="" format="OFF/VERYLOW/LOW/MEDIUM/HIGH/MANUAL" name="dist_effect" type="int" value="5"/>
+        <Setting cmd="STD_DIST" cmdindex="1" description="" name="hz_ppm" type="double" value="0.05"/>
+        <Setting cmd="STD_DIST" cmdindex="2" description="" name="vt_ppm" type="double" value="1.00"/>
+        <Setting cmd="STD_REJECT" cmdindex="0" description="" format="MANUAL/NORMAL/VERYSTRICTPHASE/STRICTALL/STRICTCODE/STRICTPHASE/LOOSEALL/LOOSECODE/LOOSEPHASE" name="rejec_type" type="int" value="1"/>
+        <Setting cmd="STD_REJECT" cmdindex="1" description="" name="code_reject" type="double" value="3.0"/>
+        <Setting cmd="STD_REJECT" cmdindex="2" description="" name="doppler_reject" type="double" value="2.5"/>
+        <Setting cmd="STD_REJECT" cmdindex="3" description="" name="phase_reject" type="double" value="3.0"/>
+        <Setting cmd="STD_REJECT" cmdindex="4" description="" name="code_reset" type="double" value="6.0"/>
+        <Setting cmd="STD_REJECT" cmdindex="5" description="" name="phase_reset" type="double" value="4.5"/>
+        <Setting cmd="STD_REJECT_CN0" cmdindex="0" description="" format="OFF/ON" name="sv_reject_cn0" type="int" value="0"/>
+        <Setting cmd="STD_REJECT_CN0" cmdindex="1" description="" name="sv_reject_cn0_tol" type="double" value="20.0"/>
+        <Setting cmd="STD_PHASE" cmdindex="0" description="" name="phase" type="double" value="0.0200"/>
+        <Setting cmd="STD_PHASE" cmdindex="1" description="" format="OFF/ON" name="phase_on" type="int" value="1"/>
+        <Setting cmd="STD_CODE" description="" name="code" type="double" value="7.0000"/>
+        <Setting cmd="STD_DOPPLER" cmdindex="0" description="" name="doppler" type="double" value="1.0000"/>
+        <Setting cmd="STD_DOPPLER" cmdindex="1" description="" format="OFF/ON" name="auto_doppler" type="int" value="0"/>
+        <Setting cmd="STD_RELTOL" description="" name="reliability_tol" type="double" value="4.00"/>
+      </Settings>
+    </Settings>
+    <Settings name="L2">
+      <Setting cmd="CORR_L2C" description="" format="OFF/ALL" name="l2c_correction" type="int" value="1"/>
+      <Setting cmd="CORR_L2C_VALUE" description="" name="l2c_correct_value" type="double" value="FILE"/>
+      <Setting cmd="DUAL_FREQUENCY" cmdindex="0" description="" format="OFF/ON" name="use_pcode" type="int" value="0"/>
+      <Setting cmd="DUAL_FREQUENCY" cmdindex="1" description="" format="OFF/ON" name="amb_res" type="int" value="1"/>
+      <Setting cmd="DUAL_FREQUENCY" cmdindex="2" description="" format="OFF/FREE/AUTOMATIC" name="iono" type="int" value="2"/>
+      <Setting cmd="DUAL_FREQUENCY" cmdindex="3" description="" format="OFF/SMOOTHED" name="correct_ca" type="int" value="0"/>
+      <Setting cmd="IONO_DIST" description="" name="iono_dist" type="double" value="7.0"/>
+      <Setting cmd="L2_SLIP_TOL" description="" name="l2_slip_tol" type="double" value="0.400"/>
+      <Setting cmd="L2_LOCKTIME" description="" format="OFF/ON" name="l2_locktime" type="int" value="0"/>
+      <Setting cmd="SF_IONO_MODE" description="" format="OFF/ON" name="iono_mode" type="int" value="1"/>
+    </Settings>
+    <Setting cmd="CYCLE_TEST" description="" format="NONE/LOCKTIME/DOPPLER/BOTH" name="cycle_test" type="int" value="3"/>
+    <Setting cmd="ELEV_MASK" description="" name="elevation_mask" type="double" value="5.0"/>
+    <Setting cmd="GNSS_PROCESS" cmdindex="0" description="" name="process_mode" type="int" value="16"/>
+    <Setting cmd="GNSS_PROCESS" cmdindex="1" description="" name="static_mode" type="int" value="0"/>
+    <Setting cmd="GNSS_PROCESS" cmdindex="2" description="" name="artk_mode" type="int" value="16"/>
+    <Setting cmd="GNSS_PROCESS" cmdindex="3" description="" name="system_mode" type="int" value="16"/>
+    <Setting cmd="GNSS_PROCESS" cmdindex="4" description="" name="process_type" type="int" value="1"/>
+    <Settings name="gnss_profile">
+      <Setting cmd="GNSS_PROFILE" description="" name="profile" type="char array" value=""/>
+    </Settings>
+    <Setting cmd="LOCKTIME_CUTOFF" description="" name="locktime_cutoff" type="double" value="0.0"/>
+    <Setting cmd="OUTPUT_MODE" description="" format="OLD/NORMAL/EXTENDED/GRAFNET/ULTRA" name="output_mode" type="int" value="4"/>
+    <Settings name="PPP">
+      <Setting cmd="PPP_DYN_MODE" description="" format="OFF/AUTO/LOW/MEDIUM/HIGH" name="dynamics" type="int" value="3"/>
+      <Setting cmd="PPP_ELEV_MASK" description="" name="elevation_mask" type="double" value="7.50"/>
+      <Setting cmd="PPP_LOCKTIME" cmdindex="0" description="" format="OFF/ON" name="l1_locktime" type="int" value="1"/>
+      <Setting cmd="PPP_LOCKTIME" cmdindex="1" description="" format="OFF/ON" name="l2_locktime" type="int" value="0"/>
+      <Setting cmd="PPP_MULTIPASS" description="" format="OFF/ON" name="multipass" type="int" value="1"/>
+      <Setting cmd="PPP_OUTPUT" cmdindex="0" description="" format="NORMAL/EXTENDED" name="extended_output" type="int" value="0"/>
+      <Setting cmd="PPP_OUTPUT" cmdindex="1" description="" format="OFF/ON" name="output_if_bad" type="int" value="0"/>
+      <Setting cmd="PPP_PRECISEONLY" description="" format="OFF/ON" name="precise_only" type="int" value="0"/>
+      <Settings name="ppp_info">
+        <Setting cmd="PPP_PROCDESC" description="" name="description" type="char array" value="PPP (1)"/>
+        <Setting cmd="PPP_PROCUSER" description="" name="user" type="char array" value=""/>
+      </Settings>
+      <Setting cmd="PPP_PROCESS_MODE" description="" format="PPP/SFCA/DFCA/AUTO" name="process_mode" type="int" value="3"/>
+      <Setting cmd="PPP_PROCESS_DIR" cmdindex="0" description="" format="FORWARD/REVERSE" name="process_dir" type="int" value="0"/>
+      <Setting cmd="PPP_PROCESS_DIR" cmdindex="1" description="" format="SINGLE/BOTH" name="both_dir" type="int" value="0"/>
+      <Setting cmd="PPP_SAT_RESID" description="" format="OFF/ON" name="sat_residual" type="int" value="1"/>
+      <Setting cmd="PPP_SEPARATECLKS" description="" format="OFF/ON" name="dual_clock" type="int" value="0"/>
+      <Setting cmd="PPP_SLIP_TOL" cmdindex="0" description="" name="cycle_slip_coarse" type="double" value="20.00"/>
+      <Setting cmd="PPP_SLIP_TOL" cmdindex="1" description="" name="cycle_slip_fine" type="double" value="0.500"/>
+      <Setting cmd="PPP_SP3_DATUM" cmdindex="0" description="" name="sp3_datum" type="char array" value="ITRF08"/>
+      <Setting cmd="PPP_SP3_DATUM" cmdindex="1" description="" format="Conversion/AUTOMATIC" name="convert" type="int" value="1"/>
+      <Settings name="PPP_STD">
+        <Setting cmd="PPP_STD_MODE" description="" format="AUTO/ELEV/CN0/STANDARD/ADAPTIVE" name="mode" type="int" value="1"/>
+        <Setting cmd="PPP_STD_REJECT" cmdindex="0" description="" format="MANUAL/NORMAL/VERYSTRICTPHASE/STRICTALL/STRICTCODE/STRICTPHASE/LOOSEALL/LOOSECODE/LOOSEPHASE" name="rejec_type" type="int" value="1"/>
+        <Setting cmd="PPP_STD_REJECT" cmdindex="1" description="" name="code_reject" type="double" value="3.0"/>
+        <Setting cmd="PPP_STD_REJECT" cmdindex="2" description="" name="doppler_reject" type="double" value="2.5"/>
+        <Setting cmd="PPP_STD_REJECT" cmdindex="3" description="" name="phase_reject" type="double" value="3.0"/>
+        <Setting cmd="PPP_STD_REJECT" cmdindex="4" description="" name="code_reset" type="double" value="6.0"/>
+        <Setting cmd="PPP_STD_REJECT" cmdindex="5" description="" name="phase_reset" type="double" value="4.5"/>
+        <Setting cmd="PPP_STD_PHASE" cmdindex="0" description="" name="phase" type="int" value="0.0200"/>
+        <Setting cmd="PPP_STD_PHASE" cmdindex="1" description="" name="phase_on" type="double" value="ON"/>
+        <Setting cmd="PPP_STD_CODE" description="" name="code" type="double" value="7.0000"/>
+        <Setting cmd="PPP_STD_DOPPLER" cmdindex="0" description="" name="doppler" type="double" value="1.0000"/>
+        <Setting cmd="PPP_STD_DOPPLER" cmdindex="1" description="" format="OFF/ON" name="auto_doppler" type="int" value="0"/>
+        <Setting cmd="PPP_STD_RELTOL" description="" name="reliability_tol" type="double" value="4.00"/>
+      </Settings>
+      <Setting cmd="PPP_TROPO" cmdindex="0" description="" format="OFF/ON" name="tropo" type="int" value="1"/>
+      <Setting cmd="PPP_TROPO" cmdindex="1" description="" name="tropo_density" type="double" value="5.000000e-010"/>
+      <Setting cmd="PPP_USEP1OVERCA" description="" format="OFF/ON" name="ca_p1" type="int" value="1"/>
+      <Setting cmd="PPP_USESOLVEDCLOCK" description="" format="OFF/ON" name="solved_clock" type="int" value="1"/>
+      <Setting cmd="PPP_USE_DOPPLER" description="" format="OFF/ON" name="doppler" type="int" value="1"/>
+      <Setting cmd="PPP_USE_GLONASS" description="" format="OFF/ON" name="GLONASS" type="int" value="1"/>
+      <Setting cmd="PPP_USE_BEIDOU" description="" format="OFF/ON" name="BEIDOU" type="int" value="1"/>
+      <Setting cmd="PPP_USE_GALILEO" description="" format="OFF/ON" name="GALILEO" type="int" value="1"/>
+      <Setting cmd="PPP_USE_QZSS" description="" format="OFF/ON" name="QZSS" type="int" value="1"/>
+      <Setting cmd="TROPO_PPP_DUALCLOCK" description="" name="ppp_dualclock" type="int" value="2"/>
+      <Setting cmd="TROPO_PPP_MODE" description="" name="ppp_mode" type="int" value="2"/>
+      <Setting name="use_ppp_ar" type="int" value="2"/>
+    </Settings>
+    <Settings name="Tropo">
+      <Setting cmd="SOLVE_TROPO_STATE" description="" format="OFF/ON/AUTOMATIC" name="solve" type="int" value="0"/>
+      <Setting cmd="TROPO_DENSITY" description="" name="density" type="double" value="5.00000000e-10"/>
+    </Settings>
+    <Setting cmd="SPLIT_SS" cmdindex="0" description="" format="OFF/ON" name="static_session_flag" type="int" value="0"/>
+    <Setting cmd="SPLIT_SS" cmdindex="1" description="" name="static_session_time_gap" type="double" value="120.0"/>
+    <Setting cmd="USE_DOPPLER" cmdindex="0" description="" format="OFF/ON" name="phase_doppler" type="int" value="1"/>
+    <Setting cmd="USE_DOPPLER" cmdindex="1" description="" format="OFF/ON" name="code_doppler" type="int" value="0"/>
+    <Settings name="UserCmds"/>
+  </Settings>
+
+  <Settings name="INS">
+    <Settings name="Biases">
+      <Setting cmd="ACCEL_BIASES" cmdindex="0" description="" name="accel" type="double array" value="0.000e+00,0.000e+00,0.000e+00"/>
+      <Setting cmd="ACCEL_BIASES" cmdindex="1" description="" format="OFF/ON" name="accel_manual" type="int" value="0"/>
+      <Setting cmd="GYRO_BIASES" cmdindex="0" description="" name="gyro" type="double array" value="0.000e+00,0.000e+00,0.000e+00"/>
+      <Setting cmd="GYRO_BIASES" cmdindex="1" description="" format="OFF/ON" name="gyro_manual" type="int" value="0"/>
+    </Settings>
+    <Settings name="Alignment">
+      <Setting cmd="ALIGNMENT_MODE" cmdindex="0" description="" name="align_mode_fwd" type="int" value="4"/>
+      <Setting cmd="ALIGNMENT_MODE" cmdindex="1" description="" name="align_mode_rev" type="int" value="4"/>
+      <Setting cmd="AUTO_ALIGN_PARAMETERS" cmdindex="0" description="" name="vel_tol" type="double" value="5.0"/>
+      <Setting cmd="AUTO_ALIGN_PARAMETERS" cmdindex="1" description="" name="min_scan_time" type="double" value="60.0"/>
+      <Setting cmd="AUTO_ALIGN_PARAMETERS" cmdindex="2" description="" name="min_yaw_tol" type="double" value="15.0"/>
+      <Setting cmd="AUTO_ALIGN_PARAMETERS" cmdindex="3" description="" name="max_turn_rate" type="double" value="30.0"/>
+      <Setting cmd="AUTO_ALIGN_PARAMETERS" cmdindex="4" description="" name="max_scan_time" type="double" value="7200.0"/>
+      <Setting cmd="COARSE_ALIGNMENT_TIME" cmdindex="0" description="" name="coarse_align_time_fwd" type="double" value="60.000"/>
+      <Setting cmd="COARSE_ALIGNMENT_TIME" cmdindex="1" description="" name="coarse_align_time_rev" type="double" value="60.000"/>
+      <Setting cmd="COARSE_ALIGNMENT_MODE" cmdindex="0" description="" name="coarse_align_mode_fwd" type="int" value="4"/>
+      <Setting cmd="COARSE_ALIGNMENT_MODE" cmdindex="1" description="" name="coarse_align_mode_rev" type="int" value="4"/>
+      <Setting cmd="INITIAL_HEADING" cmdindex="0" description="" name="use_init_heading_fwd" type="bool" value="0"/>
+      <Setting cmd="INITIAL_HEADING" cmdindex="1" description="" name="init_heading_fwd" type="double" value="0.000000"/>
+      <Setting cmd="INITIAL_HEADING" cmdindex="2" description="" name="init_heading_sd_fwd" type="double" value="180.000"/>
+      <Setting cmd="INITIAL_HEADING" cmdindex="3" description="" name="use_init_heading_rev" type="bool" value="0"/>
+      <Setting cmd="INITIAL_HEADING" cmdindex="4" description="" name="init_heading_rev" type="double" value="0.000000"/>
+      <Setting cmd="INITIAL_HEADING" cmdindex="5" description="" name="init_heading_sd_rev" type="double" value="180.000"/>
+      <Setting cmd="INITIAL_POSITION_SOURCE" cmdindex="0" description="" name="position_source_fwd" type="int" value="0"/>
+      <Setting cmd="INITIAL_POSITION_SOURCE" cmdindex="1" description="" name="position_source_rev" type="int" value="0"/>
+      <Setting cmd="INITIAL_INS_POSITION" cmdindex="0" description="" name="init_lat_fwd" type="double" value="0.000000000"/>
+      <Setting cmd="INITIAL_INS_POSITION" cmdindex="1" description="" name="init_lon_fwd" type="double" value="0.000000000"/>
+      <Setting cmd="INITIAL_INS_POSITION" cmdindex="2" description="" name="init_hgt_fwd" type="double" value="0.000"/>
+      <Setting cmd="INITIAL_INS_POSITION" cmdindex="3" description="" name="init_lat_rev" type="double" value="0.000000000"/>
+      <Setting cmd="INITIAL_INS_POSITION" cmdindex="4" description="" name="init_lon_rev" type="double" value="0.000000000"/>
+      <Setting cmd="INITIAL_INS_POSITION" cmdindex="5" description="" name="init_hgt_rev" type="double" value="0.000"/>
+      <Setting cmd="INITIAL_INS_POS_SD" cmdindex="0" description="" name="lat_sd_fwd" type="double" value="0.010"/>
+      <Setting cmd="INITIAL_INS_POS_SD" cmdindex="1" description="" name="lon_sd_fwd" type="double" value="0.010"/>
+      <Setting cmd="INITIAL_INS_POS_SD" cmdindex="2" description="" name="hgt_sd_fwd" type="double" value="0.010"/>
+      <Setting cmd="INITIAL_INS_POS_SD" cmdindex="3" description="" name="lat_sd_rev" type="double" value="0.010"/>
+      <Setting cmd="INITIAL_INS_POS_SD" cmdindex="4" description="" name="lon_sd_rev" type="double" value="0.010"/>
+      <Setting cmd="INITIAL_INS_POS_SD" cmdindex="5" description="" name="hgt_sd_rev" type="double" value="0.010"/>
+      <Setting cmd="INITIAL_VELOCITIES" cmdindex="0" description="" name="init_vel_east_fwd" type="double" value="0.000"/>
+      <Setting cmd="INITIAL_VELOCITIES" cmdindex="1" description="" name="init_vel_north_fwd" type="double" value="0.000"/>
+      <Setting cmd="INITIAL_VELOCITIES" cmdindex="2" description="" name="init_vel_up_fwd" type="double" value="0.000"/>
+      <Setting cmd="INITIAL_VELOCITIES" cmdindex="3" description="" name="init_vel_east_rev" type="double" value="0.000"/>
+      <Setting cmd="INITIAL_VELOCITIES" cmdindex="4" description="" name="init_vel_north_rev" type="double" value="0.000"/>
+      <Setting cmd="INITIAL_VELOCITIES" cmdindex="5" description="" name="init_vel_up_rev" type="double" value="0.000"/>
+      <Setting cmd="INITIAL_VELOCITIES" cmdindex="6" description="" name="init_vel_east_sd_fwd" type="double" value="0.030000"/>
+      <Setting cmd="INITIAL_VELOCITIES" cmdindex="7" description="" name="init_vel_north_sd_fwd" type="double" value="0.030000"/>
+      <Setting cmd="INITIAL_VELOCITIES" cmdindex="8" description="" name="init_vel_up_sd_fwd" type="double" value="0.030000"/>
+      <Setting cmd="INITIAL_VELOCITIES" cmdindex="9" description="" name="init_vel_east_sd_rev" type="double" value="0.030000"/>
+      <Setting cmd="INITIAL_VELOCITIES" cmdindex="10" description="" name="init_vel_north_sd_rev" type="double" value="0.030000"/>
+      <Setting cmd="INITIAL_VELOCITIES" cmdindex="11" description="" name="init_vel_up_sd_rev" type="double" value="0.030000"/>
+      <Setting cmd="TOTAL_ALIGNMENT_TIME" cmdindex="0" description="" name="total_align_time_fwd" type="double" value="60.000"/>
+      <Setting cmd="TOTAL_ALIGNMENT_TIME" cmdindex="1" description="" name="total_align_time_rev" type="double" value="60.000"/>
+    </Settings>
+    <Setting cmd="ASCII_OUTPUT_INTERVAL" cmdindex="0" description="" name="output_interval" type="double" value="1.00"/>
+    <Setting cmd="ASCII_OUTPUT_INTERVAL" cmdindex="1" description="" format="OFF/ON" name="GNSS_rate" type="int" value="1"/>
+    <Setting cmd="DATA_RATE" cmdindex="0" description="" name="data_rate" type="double" value="0.0000"/>
+    <Setting cmd="DATA_RATE" cmdindex="1" description="" format="OFF/ON" name="auto_rate" type="int" value="1"/>
+    <Setting cmd="ERROR_MODEL_NAME" description="" name="error_model_name" type="char array" value="IL IMU"/>
+    <Settings name="gnss">
+      <Setting cmd="GPS_TRAJECTORY_SOURCE" cmdindex="0" description="" name="GNSS_trajectory_fwd" type="int" value="0"/>
+      <Setting cmd="GPS_TRAJECTORY_SOURCE" cmdindex="1" description="" name="GNSS_trajectory_rev" type="int" value="0"/>
+      <Setting cmd="GPS_UPDT_INT" cmdindex="0" description="" name="update_interval" type="double" value="1.000000"/>
+      <Setting cmd="GPS_UPDT_INT" cmdindex="1" description="" format="OFF/ON" name="auto_interval" type="int" value="1"/>
+      <Settings name="Tol">
+        <Setting cmd="GPS_INS_UPDATE_TOL" cmdindex="0" description="" format="FLOAT/FIXED" name="fix_float" type="int" value="0"/>
+        <Setting cmd="GPS_INS_UPDATE_TOL" cmdindex="1" description="" name="pos_sd" type="double" value="50.000"/>
+        <Setting cmd="GPS_INS_UPDATE_TOL" cmdindex="2" description="" name="Q_factor" type="int" value="6"/>
+        <Setting cmd="GPS_INS_UPDATE_TOL" cmdindex="3" description="" name="Doppler_rms" type="double" value="2.000"/>
+        <Setting cmd="GPS_INS_UPDATE_TOL" cmdindex="4" description="" name="dd_DOP" type="double" value="50.000"/>
+        <Setting cmd="VELCONSTRAINT" cmdindex="0" description="" format="OFF/ON" name="bUseBodyVelX" type="int" value="0"/>
+        <Setting cmd="VELCONSTRAINT" cmdindex="1" description="" name="stdDevX" type="double" value="0.100"/>
+        <Setting cmd="VELCONSTRAINT" cmdindex="2" description="" format="OFF/ON" name="bUseBodyVelY" type="int" value="0"/>
+        <Setting cmd="VELCONSTRAINT" cmdindex="3" description="" name="stdDevY" type="double" value="3.000"/>
+        <Setting cmd="VELCONSTRAINT" cmdindex="4" description="" format="OFF/ON" name="bUseBodyVelZ" type="int" value="0"/>
+        <Setting cmd="VELCONSTRAINT" cmdindex="5" description="" name="stdDevZ" type="double" value="0.300"/>
+        <Setting cmd="VELCONSTRAINT" cmdindex="6" description="" format="OFF/ON" name="bUseConstraintsAlways" type="int" value="1"/>
+        <Setting cmd="VELCONSTRAINT" cmdindex="7" description="" name="updateInterval" type="double" value="1.000"/>
+      </Settings>
+      <Setting cmd="GPS_VELOCITY_UPDATES" description="" format="OFF/ON" name="velocity_updates" type="int" value="1"/>
+      <Setting cmd="GPS_POSITION_UPDATES" description="" format="OFF/ON" name="position_updates" type="int" value="1"/>
+      <Settings name="external">
+        <Setting cmd="GRAFNAV_FILE_FWD" description="" name="fwd_ext_traj" type="char array" value=""/>
+        <Setting cmd="GRAFNAV_FILE_REV" description="" name="rev_ext_traj" type="char array" value=""/>
+      </Settings>
+    </Settings>
+    <Settings name="Process">
+      <Setting cmd="INS_BOTH_DIR" description="" format="OFF/ON" name="both_dir" type="bool" value="1"/>
+      <Setting cmd="INS_PROCESS_MODE" description="" format="GPS_INS/INSONLY/GPSINS_TC" name="mode" type="int" value="0"/>
+      <Setting cmd="INS_PROCESS_DIR" description="" format="REVERSE/FORWARD" name="dir" type="bool" value="0"/>
+      <Settings name="ins_info">
+        <Setting cmd="INS_PROCDESC" description="" name="description" type="char array" value=""/>
+        <Setting cmd="INS_PROCUSER" description="" name="user" type="char array" value=""/>
+      </Settings>
+      <Setting cmd="INS_TRIPLEPASS" description="" format="OFF/ON" name="triple_pass" type="bool" value="0"/>
+      <Settings name="ins_profile">
+        <Setting cmd="PROFILE_NAME" description="" name="profile" type="char array" value=""/>
+      </Settings>
+      <Setting cmd="SOLVE_LEVERARM" cmdindex="0" description="" format="OFF/ON" name="solve" type="int" value="0"/>
+      <Setting cmd="SOLVE_LEVERARM" cmdindex="1" description="" name="min_velocity_to_solve" type="double" value="2.0"/>
+    </Settings>
+    <Settings name="ExtraStates">
+      <Setting cmd="INS_EXTRA_STATES" cmdindex="0" description="" format="OFF/ON" name="gs" type="int" value="1"/>
+      <Setting cmd="INS_EXTRA_STATES" cmdindex="1" description="" name="gs_sd" type="double" value="300"/>
+      <Setting cmd="INS_EXTRA_STATES" cmdindex="2" description="" name="gs_den" type="double" value="0.000e+00"/>
+      <Setting cmd="INS_EXTRA_STATES" cmdindex="3" description="" format="OFF/ON" name="gor" type="int" value="0"/>
+      <Setting cmd="INS_EXTRA_STATES" cmdindex="4" description="" name="gor_sd" type="double" value="75"/>
+      <Setting cmd="INS_EXTRA_STATES" cmdindex="5" description="" name="gor_den" type="double" value="0.000e+00"/>
+      <Setting cmd="INS_EXTRA_STATES" cmdindex="6" description="" format="OFF/ON" name="as" type="int" value="0"/>
+      <Setting cmd="INS_EXTRA_STATES" cmdindex="7" description="" name="as_sd" type="double" value="300"/>
+      <Setting cmd="INS_EXTRA_STATES" cmdindex="8" description="" name="as_den" type="double" value="0.000e+00"/>
+      <Setting cmd="INS_EXTRA_STATES" cmdindex="9" description="" format="OFF/ON" name="aor" type="int" value="0"/>
+      <Setting cmd="INS_EXTRA_STATES" cmdindex="10" description="" name="aor_sd" type="double" value="75"/>
+      <Setting cmd="INS_EXTRA_STATES" cmdindex="11" description="" name="aor_den" type="double" value="0.000e+00"/>
+      <Setting cmd="INS_EXTRA_STATES" cmdindex="12" description="" format="OFF/ON" name="gsens" type="int" value="0"/>
+      <Setting cmd="INS_EXTRA_STATES" cmdindex="13" description="" name="gsens_sd" type="double" value="0.00000"/>
+      <Setting cmd="INS_EXTRA_STATES" cmdindex="14" description="" name="gsens_den" type="double" value="0.000e+00"/>
+    </Settings>
+    <Setting cmd="INS_HT_SMOOTHING" cmdindex="0" description="" format="OFF/ON" name="heave" type="int" value="0"/>
+    <Setting cmd="INS_HT_SMOOTHING" cmdindex="1" description="" name="heave_window_size" type="double" value="30.0"/>
+    <Setting cmd="INS_USER" description="" format="OFF/ON" name="user_commands" type="int" value="0"/>
+    <Setting cmd="SMOOTHER_OUTPUT" description="" format="OFF/ON" name="smooth" type="int" value="1"/>
+    <Settings name="sigma_tol">
+      <Setting cmd="SIGMA_TOL_DMI" description="" name="dmi" type="double" value="20.000"/>
+      <Setting cmd="SIGMA_TOL_GPSPOS" description="" name="gnss_pos" type="double" value="3.000"/>
+      <Setting cmd="SIGMA_TOL_PHASE" description="" name="phase" type="double" value="10.000"/>
+      <Setting cmd="SIGMA_TOL_ZUPT" description="" name="zupt" type="double" value="20.000"/>
+    </Settings>
+    <Setting cmd="WRITE_BINARY_OUTREC" cmdindex="0" description="" format="OFF/ON" name="binary_output" type="int" value="1"/>
+    <Setting cmd="WRITE_BINARY_OUTREC" cmdindex="1" description="" name="binary_output_hz" type="double" value="0.000"/>
+    <Setting cmd="WRITE_BINARY_OUTREC" cmdindex="2" description="" format="OFF/ON" name="binary_output_on_datarate" type="int" value="1"/>
+    <Settings name="ZUPT">
+      <Setting cmd="ZUPT_VEL_TOL" cmdindex="0" description="" name="vel_tol" type="double" value="0.100"/>
+      <Setting cmd="ZUPT_VEL_TOL" cmdindex="1" description="" name="look_ahead" type="double" value="1.00"/>
+      <Setting cmd="ZUPT_VEL_TOLEX" cmdindex="0" description="" name="gyro_stdDev_tol" type="double" value="1.500"/>
+      <Setting cmd="ZUPT_VEL_TOLEX" cmdindex="1" description="" name="gyro_maxMeas_tol" type="double" value="5.000"/>
+      <Setting cmd="ZUPT_BY_MEAS" cmdindex="0" description="" format="OFF/ON" name="detect_by_meas" type="int" value="1"/>
+      <Setting cmd="ZUPT_BY_MEAS" cmdindex="1" description="" format="OFF/ON" name="detect_by_phase" type="int" value="1"/>
+      <Setting cmd="ZUPT_BY_MEAS" cmdindex="2" description="" name="ang_var_scale" type="double" value="0.100"/>
+      <Setting cmd="ZUPT_BY_MEAS" cmdindex="3" description="" format="OFF/ON" name="detect_by_raw" type="int" value="1"/>
+      <Setting cmd="ZUPT_BY_MEAS" cmdindex="4" description="" name="raw_gyro_tol" type="double" value="0.020"/>
+      <Setting cmd="ZUPT_BY_MEAS" cmdindex="5" description="" name="raw_acc_tol" type="double" value="0.010"/>
+    </Settings>
+    <Settings name="RBV">
+      <Setting name="boresightX" type="double" value="0.0"/>
+      <Setting name="boresightY" type="double" value="0.0"/>
+      <Setting name="boresightZ" type="double" value="0.0"/>
+      <Setting name="apply_boresight_to_process" type="bool" value="0"/>
+      <Setting name="apply_boresight_to_output" type="bool" value="0"/>
+      <Setting name="apply_boresight_auto" type="bool" value="0"/>
+    </Settings>
+  </Settings>
+
+</Profile>
