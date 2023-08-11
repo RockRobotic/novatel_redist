@@ -241,7 +241,7 @@
         <Setting cmd="INS_PROCDESC" description="" name="description" type="char array" value=""/>
         <Setting cmd="INS_PROCUSER" description="" name="user" type="char array" value=""/>
       </Settings>
-      <Setting cmd="INS_TRIPLEPASS" description="" format="OFF/ON" name="triple_pass" type="bool" value="0"/>
+      <Setting cmd="INS_TRIPLEPASS" description="" format="OFF/ON" name="triple_pass" type="bool" value="1"/>
       <Settings name="ins_profile">
         <Setting cmd="PROFILE_NAME" description="" name="profile" type="char array" value=""/>
       </Settings>
