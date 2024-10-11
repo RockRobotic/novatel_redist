@@ -1,0 +1,23 @@
+$MOUNTDEF 8.20         // version used to create file
+
+MountDef {
+          Name: "AsciiDef"
+          DLLName: "MountStandard1.dll"
+          Slot: 0 1 2           ; 0-x, 1-y, 2-z
+          Order: 0 1 2          ; 0-x, 1-y, 2-z
+          Axes:  0              ; 0-xfwd, 1-yfwd, 99-user
+          UserAng: 0.0 0.0 0.0  ; degrees
+          Dir: 0                ;  0-m_to_c, 1-c_to_m          
+	    RevSign: 0
+         }
+
+MountDef {
+          Name: "BinaryDef"
+          DLLName: "MountStandard2.dll"
+          Slot: 0 1 2           ; 0-x, 1-y, 2-z
+          Order: 0 1 2          ; 0-x, 1-y, 2-z
+          Axes:  0              ; 0-xfwd, 1-yfwd, 99-user
+          UserAng: 0.0 0.0 0.0  ; degrees
+          Dir: 0                ; 0-m_to_c, 1-c_to_m          
+	    RevSign: 0
+         }

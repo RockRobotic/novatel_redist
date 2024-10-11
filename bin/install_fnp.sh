@@ -73,14 +73,11 @@ while [ $# -ne 0 ]
 do
 	if [ "$1" = "--help" ]
 	then
-		echo "install_fnp.sh [--help] [--user <name>] [--cert] [--nolsb] [--nodaemon] [ <path to FNLS> ]"
+		echo "install_fnp.sh [--help] [--user <name>] [--cert] [--nodaemon] [ <path to FNLS> ]"
 		exit
 	elif [ "$1" = "--cert" ]
 	then
 		CERT_ONLY="true"
-	elif [ "$1" = "--nolsb" ]
-	then
-		FAKE_LSB="true"
 	elif [ "$1" = "--nodaemon" ]
 	then
 		NO_DAEMON="true"
@@ -137,7 +134,7 @@ fi
 
 case `uname` in
     "Darwin")
-        SERVICE_DEST="/Library/Application Support/FLEXnet Publisher/Service/11.18.2"
+        SERVICE_DEST="/Library/Application Support/FLEXnet Publisher/Service/11.19.5"
         ;;
     "Linux")
 PID_DIR="/var/run/FNP"
@@ -145,10 +142,10 @@ mkdir -p "$PID_DIR"
 setPerm "$PID_DIR" -R
 if file ${service} | grep "ELF 64" > /dev/null
 then
-SERVICE_DEST="/usr/local/share/FNP/service64/11.18.2"
+SERVICE_DEST="/usr/local/share/FNP/service64/11.19.5"
 PID_DEST="$PID_DIR/FNPLicensingService64.pid"
 else
-SERVICE_DEST="/usr/local/share/FNP/service/11.18.2"
+SERVICE_DEST="/usr/local/share/FNP/service/11.19.5"
 PID_DEST="$PID_DIR/FNPLicensingService.pid"
 fi
 #
@@ -170,10 +167,10 @@ else
 ins_val=0
 fi
 
-cur_maj=`echo -n 11.18.2.0 | cut -f1 -d"."`
-cur_min=`echo -n 11.18.2.0 | cut -f2 -d"."`
-cur_mai=`echo -n 11.18.2.0 | cut -f3 -d"."`
-cur_hot=`echo -n 11.18.2.0 | cut -f4 -d"."`
+cur_maj=`echo -n 11.19.5.0 | cut -f1 -d"."`
+cur_min=`echo -n 11.19.5.0 | cut -f2 -d"."`
+cur_mai=`echo -n 11.19.5.0 | cut -f3 -d"."`
+cur_hot=`echo -n 11.19.5.0 | cut -f4 -d"."`
 cur_val=`expr $cur_maj \* 1000000 + $cur_min \* 10000 + $cur_mai \* 100 + $cur_hot`
 
 if [ $cur_val -lt $ins_val ]
@@ -202,31 +199,6 @@ echo "***          Refer to the FlexNet Publisher Documentation for further deta
 fi
 fi
 echo SELinux checks complete
-
-# Check for LSB compatibility
-#
-echo
-echo "Checking LSB compatibility..."
-if [ -e /lib/ld-linux.so.2 -a ! -e /lib/ld-lsb.so.3 ]
-then
-echo "*** WARNING: 32-bit LSB packages not installed"
-if [ -n "$FAKE_LSB" ]
-then
-echo "             Fix attempted by creating symlink for /lib/ld-lsb.so.3"
-ln -s ld-linux.so.2 /lib/ld-lsb.so.3
-fi
-fi
-
-if [ -e /lib64/ld-linux-x86-64.so.2 -a ! -e /lib64/ld-lsb-x86-64.so.3 ]
-then
-echo "*** WARNING: 64-bit LSB packages not installed"
-if [ -n "$FAKE_LSB" ]
-then
-echo "             Fix attempted by creating symlink for /lib64/ld-lsb-x86-64.so.3"
-ln -s ld-linux-x86-64.so.2 /lib64/ld-lsb-x86-64.so.3
-fi
-fi
-echo "LSB compatibility checks complete"
 
 ;;
 esac
@@ -488,7 +460,7 @@ then
 	fi
 	echo "Starting FNPLicensingService daemon as user $FNLS_USER"
 
-	sudo "${SERVICE_DEST}/FNPLicensingService" -r
+	sudo -u $FNLS_USER "${SERVICE_DEST}/FNPLicensingService" -r
 	echo "Checking FNPLicensingService is running"
 	sleep 2
 	svc_pid=`cat ${PID_DEST} 2>/dev/null`
