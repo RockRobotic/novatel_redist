@@ -7874,6 +7874,23 @@ Convert {        ; ETRS89 to ITRF2020 (Combo)
 	CombFrom: "ETRS89 to ITRF00 (IGN)"
 	CombTo: "ITRF00 to ITRF2020 (IGN)"
 }
+Convert {        ; ITRF2020 to RGF93 (Combo) 
+	From: ITRF2020
+	To: RGF93
+	Info: Combo
+	Default: 1
+	Type: COMB
+	CombFrom: "ITRF2020 to ITRF2014 (IGN)"
+	CombTo: "ITRF2014 to RGF93 (ETRF2000)"
+}
+Convert {        ; ETRS89 to CH1903+ (SwissTopo) 
+	From: ETRS89
+	To: CH1903+
+	Info: SwissTopo
+	Default: 1
+	Type: 3PARAM
+	Offset: -674.3740 -15.0560 -405.3460 ; m
+}
 ; ------------------------------- 
 ; end-of-file
 ; -------------------------------

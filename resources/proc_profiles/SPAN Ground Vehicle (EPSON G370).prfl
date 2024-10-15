@@ -40,6 +40,7 @@
         <Setting cmd="PROCUSER" description="" name="user" type="char array" value=""/>
       </Settings>
       <Settings name="STD">
+        <Setting name="max_num_baselines" type="int" value="4"/>
         <Setting cmd="STD_LIMIT_DIST" cmdindex="0" description="" format="OFF/ON" name="disable_baseline" type="int" value="0"/>
         <Setting cmd="STD_LIMIT_DIST" cmdindex="1" description="" name="disable_baseline_tol" type="double" value="250.00"/>
         <Setting cmd="STD_MODE" description="" format="AUTO/ELEV/CN0/STANDARD/ADAPTIVE" name="mode" type="int" value="1"/>
