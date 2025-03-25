@@ -1,0 +1,15 @@
+<Packages>
+    <ApplicationName>NovAtel Convert v2.6.7</ApplicationName>
+    <ApplicationVersion>1.0.0</ApplicationVersion>
+    <Package>
+        <Name>example</Name>
+        <Pixmap></Pixmap>
+        <Title>NovAtel Convert v2.6.7</Title>
+        <Description>NovAtel Convert v2.6.7</Description>
+        <Version>2.6.7</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2025-03-05</InstallDate>
+        <Size>44883941</Size>
+        <Dependencies></Dependencies>
+    </Package>
+</Packages>
